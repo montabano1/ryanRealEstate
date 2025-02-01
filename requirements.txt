@@ -1,0 +1,3 @@
+firecrawl-py
+pydantic
+jinja2
