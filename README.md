@@ -1,42 +1,55 @@
-# NYC Commercial Real Estate Scraper
+# NYC Commercial Real Estate Dashboard
 
-This project uses Firecrawl to scrape commercial real estate listings in New York City and generate a static HTML report that can be hosted on GitHub Pages.
-
-## Setup
-
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-2. Set up your Firecrawl API key in `src/scraper.py`
-
-## Usage
-
-1. Run the scraper:
-```bash
-python src/scraper.py
-```
-
-2. Generate the HTML report:
-```bash
-python src/generate_report.py
-```
-
-3. The report will be generated in the `docs` directory as `index.html`
-
-## GitHub Pages Setup
-
-1. Push this repository to GitHub
-2. Go to repository settings
-3. Under "GitHub Pages", select the "docs" folder as the source
-4. Your report will be available at `https://[username].github.io/[repository-name]`
+A real-time dashboard for NYC commercial real estate listings using Firecrawl API.
 
 ## Project Structure
+```
+.
+├── backend/             # Flask backend
+│   ├── src/            # Python source files
+│   ├── data/           # Data storage
+│   ├── Dockerfile      # Docker configuration
+│   └── requirements.txt # Python dependencies
+└── frontend/           # Static frontend for GitHub Pages
+    ├── static/         # Static assets
+    │   ├── css/       # Stylesheets
+    │   └── js/        # JavaScript files
+    └── index.html     # Main HTML file
+```
 
-- `src/`: Source code
-  - `scraper.py`: Main scraping script
-  - `generate_report.py`: Report generation script
-- `templates/`: HTML templates
-- `data/`: Raw scraped data
-- `docs/`: Generated HTML report
+## Deployment Instructions
+
+### Frontend (GitHub Pages)
+1. Create a new repository on GitHub
+2. Push the `frontend` directory contents to the repository
+3. Enable GitHub Pages in repository settings
+4. Update `API_BASE_URL` in `frontend/static/js/main.js` to point to your DigitalOcean app URL
+
+### Backend (DigitalOcean)
+1. Install DigitalOcean CLI: `brew install doctl`
+2. Authenticate: `doctl auth init`
+3. Create app:
+   ```bash
+   doctl apps create --spec backend/app.yaml
+   ```
+4. Add environment variables in DigitalOcean dashboard:
+   - `FIRECRAWL_API_KEY`: Your Firecrawl API key
+
+## Local Development
+1. Frontend: Serve with any static file server
+   ```bash
+   cd frontend
+   python -m http.server 5000
+   ```
+2. Backend: Run Flask development server
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   python src/app.py
+   ```
+
+## Environment Variables
+Create a `.env` file in the backend directory:
+```
+FIRECRAWL_API_KEY=your_api_key_here
+```

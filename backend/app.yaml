@@ -1,0 +1,17 @@
+name: nyc-real-estate-api
+region: nyc
+services:
+  - name: backend
+    dockerfile_path: Dockerfile
+    source_dir: backend
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: yourusername/your-repo-name
+    health_check:
+      http_path: /api/status
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    routes:
+      - path: /api
