@@ -12,7 +12,7 @@ async def extract_property_urls():
         print(f"\n[{step_name}] Time elapsed: {elapsed}")
     
     browser_config = BrowserConfig(
-        headless=False,
+        headless=True,
         verbose=True,
         ignore_https_errors=True,  # Handle HTTPS errors
         extra_args=['--disable-web-security'],  # Disable CORS checks
@@ -48,7 +48,6 @@ async def extract_property_urls():
             
             session_id = "monte_cushmanwakefield"
             current_url = 'https://www.cushmanwakefield.com/en/united-states/properties/lease/lease-property-search#sort=%40propertylastupdateddate%20descending&f:PropertyType=[Office]&f:Country=[United%20States]'
-
             # Step 2: Extract URLs using BeautifulSoup
             print("Extracting property URLs...")
             all_property_urls = set()  # Using a set to avoid duplicates
@@ -152,108 +151,76 @@ async def extract_property_urls():
                 dispatcher=dispatcher
             )
             async for result in stream:
-                if result.success and result.html:
+                try:
                     soup = BeautifulSoup(result.html, 'html.parser')
                     
                     # Extract property name and address
-                    name_elem = soup.select_one('.cbre-c-pd-header-address-heading')
-                    if name_elem:
-                        full_name = name_elem.text.strip()
-                        # Split on newline if present
-                        name_parts = full_name.split('\n')
-                        if len(name_parts) > 1:
-                            property_name = name_parts[0].strip()
-                            # Use the part after newline as part of address if present
-                            street_address = name_parts[1].strip()
-                        else:
-                            property_name = full_name
-                            street_address = ""
+                    title_div = soup.find('div', {'class': 'updated-page-title'})
+                    if title_div:
+                        property_name = title_div.find('h1', {'class': 'updated-page-title-main'})
+                        property_name = property_name.text.strip() if property_name else "N/A"
+                        
+                        address = title_div.find('h5', {'class': 'updated-page-title-sub'})
+                        address = address.text.strip() if address else "N/A"
                     else:
-                        property_name = ""
-                        street_address = ""
+                        property_name = "N/A"
+                        address = "N/A"
                     
-                    # Extract city/state/zip
-                    addr_elem = soup.select_one('.cbre-c-pd-header-address-subheading')
-                    city_state = addr_elem.text.strip() if addr_elem else ""
+                    # Extract details like price and space
+                    details_div = soup.find('div', {'class': 'mix_propertyStatistics'})
+                    price = "Contact for Details"
+                    space_min = "N/A"
+                    space_max = "N/A"
+                    available_space = None
                     
-                    # Combine street address with city/state if we have both
-                    address = f"{street_address}, {city_state}" if street_address else city_state
-                    
-                    # Extract unit details
-                    units = []
-                    
-                    # Try the standard layout first
-                    rows = soup.select('.cbre-c-pd-spacesAvailable__mainContent')
-                    if rows:
-                        for row in rows:
-                            name_elem = row.select_one('.cbre-c-pd-spacesAvailable__name')
-                            area_items = row.select('.cbre-c-pd-spacesAvailable__areaTypeItem')
+                    if details_div:
+                        # Extract price and space
+                        dt_elements = details_div.find_all('dt')
+                        dd_elements = details_div.find_all('dd')
+                        
+                        for dt, dd in zip(dt_elements, dd_elements):
+                            dt_text = dt.text.strip()
+                            dd_text = dd.text.strip()
                             
-                            if name_elem and area_items:
-                                space_available = area_items[0].text.strip() if len(area_items) > 0 else ""
-                                space_type = area_items[1].text.strip() if len(area_items) > 1 else ""
-                                
-                                # Extract price
-                                price_elem = row.select_one('.cbre-c-pd-spacesAvailable__price')
-                                price = price_elem.text.strip() if price_elem else ""
-                                
-                                unit = {
-                                    "property_name": property_name,
-                                    "address": address,
-                                    "listing_url": result.url,
-                                    "floor_suite": name_elem.text.strip(),
-                                    "space_available": space_available,
-                                    "price": price,
-                                    "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
-                                }
-                                units.append(unit)
+                            if 'Rental Price' in dt_text:
+                                price = dd_text
+                            elif 'Available Space' in dt_text:
+                                available_space = dd_text
+                            elif 'Min Divisible' in dt_text:
+                                space_min = dd_text
+                            elif 'Max Contiguous' in dt_text:
+                                space_max = dd_text
                     
-                    # If no standard layout found, try alternative layout
-                    if not units:
-                        # Extract space information
-                        size_section = soup.select_one('.cbre-c-pd-sizeSection__content')
-                        if size_section:
-                            space_info_sections = size_section.select('.cbre-c-pd-sizeSection__spaceInfo')
-                            space_available = ""
-                            for section in space_info_sections:
-                                heading = section.select_one('.cbre-c-pd-sizeSection__spaceInfoHeading')
-                                if heading and "Total Space Available" in heading.text:
-                                    space_text = section.select_one('.cbre-c-pd-sizeSection__spaceInfoText')
-                                    if space_text:
-                                        space_available = space_text.text.strip()
-                                        break
-                        
-                        # Extract price information
-                        price = ""
-                        # Look specifically for the lease rate section within pricing information content
-                        pricing_content = soup.select_one('.cbre-c-pd-pricingInformation__content')
-                        if pricing_content:
-                            price_sections = pricing_content.select('.cbre-c-pd-pricingInformation__priceInfo')
-                            for section in price_sections:
-                                heading = section.select_one('.cbre-c-pd-pricingInformation__priceInfoHeading')
-                                if heading and heading.text.strip() == "Lease Rate":
-                                    price_text = section.select_one('.cbre-c-pd-pricingInformation__priceInfoText')
-                                    if price_text:
-                                        price = price_text.text.strip()
-                        
-                        unit = {
-                            "property_name": property_name,
-                            "address": address,
-                            "listing_url": result.url,
-                            "floor_suite": "",  # No floor/suite info in alternative layout
-                            "space_available": space_available,
-                            "price": price,
-                            "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
-                        }
-                        units.append(unit)
+                    # Create space available text - prefer range if available, otherwise use single value
+                    if space_min != "N/A" and space_max != "N/A":
+                        space_available = f"{space_min} - {space_max}"
+                    elif available_space:
+                        space_available = available_space
+                    else:
+                        space_available = "Contact for Details"
                     
-                    all_property_details.extend(units)
-                else:
-                    print(f"Failed to process {result.url}: {result.error_message if hasattr(result, 'error_message') else 'Unknown error'}")
+                    # Create property details
+                    property_details = {
+                        "property_name": property_name,
+                        "address": address,
+                        "listing_url": result.url,
+                        "floor_suite": "N/A",  # Cushman doesn't provide floor/suite info on main page
+                        "space_available": space_available,
+                        "price": price,
+                        "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
+                    }
+                    
+                    all_property_details.append(property_details)
+                    print(f"Processed: {property_name}")
+                    
+                except Exception as e:
+                    print(f"Error processing property: {str(e)}")
+                    import traceback
+                    print(traceback.format_exc())
             
             # Save all property details to a JSON file
             timestamp = arrow.now().format('YYYYMMDD_HHmmss')
-            output_file = f"cbre_properties_{timestamp}.json"
+            output_file = f"cushmanwakefield_properties_{timestamp}.json"
             
             with open(output_file, 'w') as f:
                 json.dump(all_property_details, f, indent=2)
