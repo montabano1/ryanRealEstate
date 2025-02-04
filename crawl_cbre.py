@@ -1,27 +1,27 @@
 import asyncio
 import json
-from datetime import datetime
+import arrow
 from bs4 import BeautifulSoup
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode, MemoryAdaptiveDispatcher, CrawlerMonitor, DisplayMode
 
 async def extract_property_urls():
-    start_time = datetime.now()
+    start_time = arrow.now()
     
     def log_time(step_name):
-        elapsed = datetime.now() - start_time
+        elapsed = arrow.now() - start_time
         print(f"\n[{step_name}] Time elapsed: {elapsed}")
     
     browser_config = BrowserConfig(
-        headless=True,
-        verbose=True
+        headless=False,
+        verbose=True,
+        ignore_https_errors=True,  # Handle HTTPS errors
+        extra_args=['--disable-web-security'],  # Disable CORS checks
+        headers={
+            'sec-fetch-site': 'same-origin',  # Only allow same-origin requests
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-dest': 'document'
+        }
     )
-    
-    # Wait for select element and property cards
-    base_wait = """js:() => {
-        const select = document.getElementById("q_type_use_offset_eq_any");
-        const cards = document.querySelectorAll('.property-card');
-        return select !== null || cards.length > 0;
-    }"""
     
     js_wait = """
         await new Promise(r => setTimeout(r, 5000));
@@ -37,7 +37,6 @@ async def extract_property_urls():
             console.log('no button')
             return False    
         };
-        await new Promise(r => setTimeout(r, 5000));
         """
     
 
@@ -58,7 +57,11 @@ async def extract_property_urls():
                 session_id=session_id,
                 js_code=js_wait,
                 css_selector='div.coveo-result-list-container',
-                cache_mode=CacheMode.BYPASS
+                cache_mode=CacheMode.BYPASS,
+                page_timeout=60000,
+                simulate_user=True,
+                override_navigator=True,
+                magic=True
             )
             result1 = await crawler.arun(
                 url=current_url,
@@ -81,7 +84,14 @@ async def extract_property_urls():
                     session_id=session_id,
                     js_code=js_next_page,
                     js_only=True,      
-                    cache_mode=CacheMode.BYPASS
+                    wait_for="""js:() => {
+                        return document.querySelectorAll('div.CoveoResult').length > 1;
+                    }""",
+                    cache_mode=CacheMode.BYPASS,
+                    page_timeout=60000,
+                    simulate_user=True,
+                    override_navigator=True,
+                    magic=True
                 )
                 result2 = await crawler.arun(
                     url=current_url,
@@ -105,7 +115,7 @@ async def extract_property_urls():
                 page_num += 1
             
             # Save URLs to a JSON file
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            timestamp = arrow.now().format('YYYYMMDD_HHmmss')
                         
             # Process all URLs using arun_many with memory adaptive dispatcher
             all_property_details = []
@@ -125,7 +135,7 @@ async def extract_property_urls():
             dispatcher = MemoryAdaptiveDispatcher(
                 memory_threshold_percent=60.0,  # Lower threshold to be more conservative
                 check_interval=0.5,  # Check more frequently
-                max_session_permit=5,  # Reduce concurrent sessions
+                max_session_permit=25,  # Reduce concurrent sessions
                 monitor=CrawlerMonitor(
                     display_mode=DisplayMode.DETAILED
                 )
@@ -194,7 +204,7 @@ async def extract_property_urls():
                                     "floor_suite": name_elem.text.strip(),
                                     "space_available": space_available,
                                     "price": price,
-                                    "updated_at": datetime.now().strftime("%-I:%M:%S%p %-m/%-d/%y").lower().replace("pm", "PM").replace("am", "AM")
+                                    "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
                                 }
                                 units.append(unit)
                     
@@ -233,7 +243,7 @@ async def extract_property_urls():
                             "floor_suite": "",  # No floor/suite info in alternative layout
                             "space_available": space_available,
                             "price": price,
-                            "updated_at": datetime.now().strftime("%-I:%M:%S%p %-m/%-d/%y").lower().replace("pm", "PM").replace("am", "AM")
+                            "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
                         }
                         units.append(unit)
                     
@@ -242,7 +252,7 @@ async def extract_property_urls():
                     print(f"Failed to process {result.url}: {result.error_message if hasattr(result, 'error_message') else 'Unknown error'}")
             
             # Save all property details to a JSON file
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            timestamp = arrow.now().format('YYYYMMDD_HHmmss')
             output_file = f"cbre_properties_{timestamp}.json"
             
             with open(output_file, 'w') as f:
@@ -251,7 +261,7 @@ async def extract_property_urls():
             print(f"\nExtracted {len(all_property_details)} total units from {len(urls_to_process)} properties")
             print(f"Results saved to {output_file}")
             
-            total_time = datetime.now() - start_time
+            total_time = arrow.now() - start_time
             print(f"\n=== Final Statistics ===")
             print(f"Total Properties Found: {len(urls_to_process)}")
             print(f"Total Units Extracted: {len(all_property_details)}")
