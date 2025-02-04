@@ -1,0 +1,4912 @@
+[
+  {
+    "property_name": "1126 N. Blount",
+    "address": "1126 N Blount St",
+    "location": "Raleigh, NC  27604",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1461897-lease&tab=spaces",
+    "floor_suite": "Suite A",
+    "space_available": "1,660 SF",
+    "price": "$3,600 per month",
+    "updated_at": "11:10:54AM 2/4/25"
+  },
+  {
+    "property_name": "3300 Regency",
+    "address": "3300 Regency Pkwy",
+    "location": "Cary, NC  27518",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1322356-lease&tab=spaces",
+    "floor_suite": "Suite 110",
+    "space_available": "4,986 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:10:54AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 4000 Paramount",
+    "address": "4000 Paramount Parkway",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214309-lease&tab=spaces",
+    "floor_suite": "Suite 175",
+    "space_available": "9,212 SF",
+    "price": "$30.00 SF/yr",
+    "updated_at": "11:10:55AM 2/4/25"
+  },
+  {
+    "property_name": "925 Gervais St. & 1217 Park St.",
+    "address": "925 Gervais St. & 1217 Park St.",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1096902-lease&tab=spaces",
+    "floor_suite": "1st Floor",
+    "space_available": "6,085 SF",
+    "price": "Contact Brokers for Pricing",
+    "updated_at": "11:10:55AM 2/4/25"
+  },
+  {
+    "property_name": "925 Gervais St. & 1217 Park St.",
+    "address": "925 Gervais St. & 1217 Park St.",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1096902-lease&tab=spaces",
+    "floor_suite": "2nd Floor",
+    "space_available": "6,085 SF",
+    "price": "Contact Brokers for Pricing",
+    "updated_at": "11:10:55AM 2/4/25"
+  },
+  {
+    "property_name": "1310 Harden Street",
+    "address": "1310 Harden Street",
+    "location": "Columbia, SC  29204",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1446429-lease&tab=spaces",
+    "floor_suite": "1310 Harden St.",
+    "space_available": "1,320 SF",
+    "price": "$15.00 SF/yr",
+    "updated_at": "11:10:55AM 2/4/25"
+  },
+  {
+    "property_name": "1074 Pinnacle Point Drive",
+    "address": "1074 Pinnacle Point Drive",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988905-lease&tab=spaces",
+    "floor_suite": "1074 Pinnacle Point Drive",
+    "space_available": "4,572 SF",
+    "price": "$22.50 SF/yr",
+    "updated_at": "11:10:55AM 2/4/25"
+  },
+  {
+    "property_name": "1074 Pinnacle Point Drive",
+    "address": "1074 Pinnacle Point Drive",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988905-lease&tab=spaces",
+    "floor_suite": "1074 Pinnacle Point Drive",
+    "space_available": "4,716 SF",
+    "price": "$22.50 SF/yr",
+    "updated_at": "11:10:55AM 2/4/25"
+  },
+  {
+    "property_name": "1074 Pinnacle Point Drive",
+    "address": "1074 Pinnacle Point Drive",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988905-lease&tab=spaces",
+    "floor_suite": "1074 Pinnacle Point Drive",
+    "space_available": "3,100 SF",
+    "price": "$22.50 SF/yr",
+    "updated_at": "11:10:55AM 2/4/25"
+  },
+  {
+    "property_name": "101 Research Court",
+    "address": "101 Research Court",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1151340-lease&tab=spaces",
+    "floor_suite": "101 Research Court",
+    "space_available": "42,000 SF",
+    "price": "$20.00 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Trust Building",
+    "address": "212 West Main Street",
+    "location": "Durham, NC  27701",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1265325-lease&tab=spaces",
+    "floor_suite": "Full 4th Floor",
+    "space_available": "7,434 SF",
+    "price": "Call Broker for Pricing",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Trust Building",
+    "address": "212 West Main Street",
+    "location": "Durham, NC  27701",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1265325-lease&tab=spaces",
+    "floor_suite": "Suite A",
+    "space_available": "4,246 SF",
+    "price": "Call Broker for Pricing",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Trust Building",
+    "address": "212 West Main Street",
+    "location": "Durham, NC  27701",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1265325-lease&tab=spaces",
+    "floor_suite": "Suite B",
+    "space_available": "3,188 SF",
+    "price": "Call Broker for Pricing",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Trust Building",
+    "address": "212 West Main Street",
+    "location": "Durham, NC  27701",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1265325-lease&tab=spaces",
+    "floor_suite": "Full 5th Floor",
+    "space_available": "7,638 SF",
+    "price": "Call Broker for Pricing",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "160",
+    "space_available": "2,849 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "170",
+    "space_available": "3,172 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "210",
+    "space_available": "3,501 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "220",
+    "space_available": "3,532 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "240",
+    "space_available": "1,532 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "290",
+    "space_available": "1,608 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "350",
+    "space_available": "10,082 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "630",
+    "space_available": "3,665 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "640/650",
+    "space_available": "7,563 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Overlook I",
+    "address": "2849 Paces Ferry Road",
+    "location": "Atlanta, GA  30339",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388700-lease&tab=spaces",
+    "floor_suite": "710",
+    "space_available": "2,151 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "115 Welborn St",
+    "address": "115 Welborn St",
+    "location": "Greenville, SC  29601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1450601-lease&tab=spaces",
+    "floor_suite": "115 Welborn St (Sublease)",
+    "space_available": "5,000 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:10:56AM 2/4/25"
+  },
+  {
+    "property_name": "Family Court Building",
+    "address": "130 S Main St",
+    "location": "Greenville, SC  29601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1446856-lease&tab=spaces",
+    "floor_suite": "3rd Floor",
+    "space_available": "7,257 SF",
+    "price": "Contact Broker for Pricing",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Family Court Building",
+    "address": "130 S Main St",
+    "location": "Greenville, SC  29601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1446856-lease&tab=spaces",
+    "floor_suite": "7th Floor",
+    "space_available": "2,137 SF",
+    "price": "$28.00 SF/yr",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Atrium at Stoneridge",
+    "address": "140 Stoneridge Dr.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988921-lease&tab=spaces",
+    "floor_suite": "Suite 450-455",
+    "space_available": "2,291 SF",
+    "price": "$18.50 SF/yr",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Atrium at Stoneridge",
+    "address": "140 Stoneridge Dr.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988921-lease&tab=spaces",
+    "floor_suite": "Suite 110",
+    "space_available": "1,359 SF",
+    "price": "$18.50 SF/yr",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Atrium at Stoneridge",
+    "address": "140 Stoneridge Dr.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988921-lease&tab=spaces",
+    "floor_suite": "Suite 510",
+    "space_available": "2,796 SF",
+    "price": "$18.50 SF/yr",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Atrium at Stoneridge",
+    "address": "140 Stoneridge Dr.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988921-lease&tab=spaces",
+    "floor_suite": "Suite 220",
+    "space_available": "1,841 SF",
+    "price": "$18.25 SF/yr",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Atrium at Stoneridge",
+    "address": "140 Stoneridge Dr.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988921-lease&tab=spaces",
+    "floor_suite": "Suite 240",
+    "space_available": "3,822 SF",
+    "price": "$18.25 SF/yr",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Atrium at Stoneridge",
+    "address": "140 Stoneridge Dr.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988921-lease&tab=spaces",
+    "floor_suite": "Suite 620",
+    "space_available": "2,504 SF",
+    "price": "$18.25 SF/yr",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Atrium at Stoneridge",
+    "address": "140 Stoneridge Dr.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988921-lease&tab=spaces",
+    "floor_suite": "Suite 630",
+    "space_available": "2,418 SF",
+    "price": "$18.25 SF/yr",
+    "updated_at": "11:10:57AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 7",
+    "address": "3540 Toringdon Way",
+    "location": "Charlotte, NC  28277-2421",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-7&tab=spaces",
+    "floor_suite": "Suite 110",
+    "space_available": "1,615 SF",
+    "price": "$39.50 SF/yr",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 7",
+    "address": "3540 Toringdon Way",
+    "location": "Charlotte, NC  28277-2421",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-7&tab=spaces",
+    "floor_suite": "Suite 400",
+    "space_available": "25,972 SF",
+    "price": "$39.50 SF/yr",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 7",
+    "address": "3540 Toringdon Way",
+    "location": "Charlotte, NC  28277-2421",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-7&tab=spaces",
+    "floor_suite": "Suite 520",
+    "space_available": "1,663 SF",
+    "price": "$39.50 SF/yr",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 1800 Perimeter",
+    "address": "1800 Perimeter Park Drive",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214307-lease&tab=spaces",
+    "floor_suite": "Suite 100",
+    "space_available": "9,050 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 1800 Perimeter",
+    "address": "1800 Perimeter Park Drive",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214307-lease&tab=spaces",
+    "floor_suite": "Suite 130",
+    "space_available": "4,128 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 1800 Perimeter",
+    "address": "1800 Perimeter Park Drive",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214307-lease&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "27,837 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "1701 St. Julian Place",
+    "address": "1701 St. Julian Place",
+    "location": "Columbia, SC  29204",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1400165-lease&tab=spaces",
+    "floor_suite": "1701 St. Julian Place",
+    "space_available": "14,442 SF",
+    "price": "Contact Brokers",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 5200 W Paramount",
+    "address": "5200 W Paramount Parkway",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214310-lease&tab=spaces",
+    "floor_suite": "Suite 150",
+    "space_available": "18,954 SF",
+    "price": "$27.00 SF/yr",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 5200 W Paramount",
+    "address": "5200 W Paramount Parkway",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214310-lease&tab=spaces",
+    "floor_suite": "Suite 175",
+    "space_available": "18,623 SF",
+    "price": "$27.00 SF/yr",
+    "updated_at": "11:10:58AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "11th Floor",
+    "space_available": "6,565 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "Spec Suite 1200",
+    "space_available": "9,815 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "Spec Suite 1210",
+    "space_available": "12,651 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "Spec Suite 1220",
+    "space_available": "6,565 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "14th Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "15th Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "16th Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "17th Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "18th Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "19th Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "20th Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "21st Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "110 East",
+    "address": "110 East Blvd",
+    "location": "Charlotte, NC  28203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1412565-lease&tab=spaces",
+    "floor_suite": "24th Floor",
+    "space_available": "29,314 SF",
+    "price": "$50.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "4408 Forest Drive",
+    "address": "4408 Forest Drive",
+    "location": "Columbia, SC  29206",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1104584-lease&tab=spaces",
+    "floor_suite": "Suite 202",
+    "space_available": "3,200 SF",
+    "price": "$19.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "4408 Forest Drive",
+    "address": "4408 Forest Drive",
+    "location": "Columbia, SC  29206",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1104584-lease&tab=spaces",
+    "floor_suite": "Suite 203",
+    "space_available": "1,979 SF",
+    "price": "$19.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "Rotunda Building",
+    "address": "4201 Congress St",
+    "location": "Charlotte, NC  28209-4617",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196606-lease&tab=spaces",
+    "floor_suite": "Suite 155",
+    "space_available": "2,601 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "Rotunda Building",
+    "address": "4201 Congress St",
+    "location": "Charlotte, NC  28209-4617",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196606-lease&tab=spaces",
+    "floor_suite": "Suite 170",
+    "space_available": "10,308 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "1190 Druid Chase",
+    "address": "1190 W Druid Hills Dr",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388696-lease&tab=spaces",
+    "floor_suite": "160",
+    "space_available": "1,816 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "1190 Druid Chase",
+    "address": "1190 W Druid Hills Dr",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388696-lease&tab=spaces",
+    "floor_suite": "175",
+    "space_available": "175 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "1190 Druid Chase",
+    "address": "1190 W Druid Hills Dr",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388696-lease&tab=spaces",
+    "floor_suite": "190",
+    "space_available": "1,874 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "1190 Druid Chase",
+    "address": "1190 W Druid Hills Dr",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388696-lease&tab=spaces",
+    "floor_suite": "300",
+    "space_available": "14,810 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "1190 Druid Chase",
+    "address": "1190 W Druid Hills Dr",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388696-lease&tab=spaces",
+    "floor_suite": "305",
+    "space_available": "8,802 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:10:59AM 2/4/25"
+  },
+  {
+    "property_name": "Tower Two",
+    "address": "621 Hillsborough Street",
+    "location": "Raleigh, NC  27603",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214288-lease&tab=spaces",
+    "floor_suite": "Suite 401",
+    "space_available": "7,435 SF",
+    "price": "$45.50 SF/yr",
+    "updated_at": "11:11:00AM 2/4/25"
+  },
+  {
+    "property_name": "1523 Sunset Blvd.",
+    "address": "1523 Sunset Blvd.",
+    "location": "West Columbia, SC  29169",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1353803-lease&tab=spaces",
+    "floor_suite": "Suite E",
+    "space_available": "2,095 SF",
+    "price": "$15.00 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "The Tower",
+    "address": "1301 Gervais Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1230024-lease&tab=spaces",
+    "floor_suite": "18th Floor Sublease (Sublease)",
+    "space_available": "14,315 SF",
+    "price": "$19.95 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "322 W. Main Street",
+    "address": "322 W. Main Street",
+    "location": "Lexington, SC  29072",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1265415-lease&tab=spaces",
+    "floor_suite": "322 W. Main St.",
+    "space_available": "1,380 SF",
+    "price": "$21.00 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "Berkeley Building",
+    "address": "200 Center Point Circle",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988934-lease&tab=spaces",
+    "floor_suite": "Suite 120",
+    "space_available": "3,166 SF",
+    "price": "$21.50 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "Berkeley Building",
+    "address": "200 Center Point Circle",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988934-lease&tab=spaces",
+    "floor_suite": "Suite 150",
+    "space_available": "2,409 SF",
+    "price": "$21.50 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "Berkeley Building",
+    "address": "200 Center Point Circle",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988934-lease&tab=spaces",
+    "floor_suite": "Suite 180",
+    "space_available": "6,156 SF",
+    "price": "$21.50 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "Berkeley Building",
+    "address": "200 Center Point Circle",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988934-lease&tab=spaces",
+    "floor_suite": "Suite 290",
+    "space_available": "2,987 SF",
+    "price": "$21.50 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "Berkeley Building",
+    "address": "200 Center Point Circle",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988934-lease&tab=spaces",
+    "floor_suite": "Suite 240",
+    "space_available": "5,826 SF",
+    "price": "$21.50 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "Berkeley Building",
+    "address": "200 Center Point Circle",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988934-lease&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "16,078 SF",
+    "price": "$21.50 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "Berkeley Building",
+    "address": "200 Center Point Circle",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988934-lease&tab=spaces",
+    "floor_suite": "Suite 340",
+    "space_available": "5,740 SF",
+    "price": "$21.50 SF/yr",
+    "updated_at": "11:11:01AM 2/4/25"
+  },
+  {
+    "property_name": "1501 Main Street",
+    "address": "1501 Main Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988922-lease&tab=spaces",
+    "floor_suite": "Garden Level",
+    "space_available": "2,788 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "1501 Main Street",
+    "address": "1501 Main Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988922-lease&tab=spaces",
+    "floor_suite": "Garden Level",
+    "space_available": "5,493 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "1501 Main Street",
+    "address": "1501 Main Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988922-lease&tab=spaces",
+    "floor_suite": "7th Floor",
+    "space_available": "1,453 SF",
+    "price": "$22.00 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "Camp North End",
+    "address": "Camp North End",
+    "location": "Charlotte, NC  28206-4004",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=201camp&tab=spaces",
+    "floor_suite": "Gama Goat | Suite 210",
+    "space_available": "8,470 SF",
+    "price": "$41.50 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "Camp North End",
+    "address": "Camp North End",
+    "location": "Charlotte, NC  28206-4004",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=201camp&tab=spaces",
+    "floor_suite": "Gama Goat | Suite 230",
+    "space_available": "9,753 SF",
+    "price": "$41.50 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "Camp North End",
+    "address": "Camp North End",
+    "location": "Charlotte, NC  28206-4004",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=201camp&tab=spaces",
+    "floor_suite": "201 Camp | Tenant A Area",
+    "space_available": "52,580 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "Camp North End",
+    "address": "Camp North End",
+    "location": "Charlotte, NC  28206-4004",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=201camp&tab=spaces",
+    "floor_suite": "201 Camp | Tenant B Area",
+    "space_available": "31,084 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "Camp North End",
+    "address": "Camp North End",
+    "location": "Charlotte, NC  28206-4004",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=201camp&tab=spaces",
+    "floor_suite": "201 Camp | Tenant C Area",
+    "space_available": "31,084 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "Camp North End",
+    "address": "Camp North End",
+    "location": "Charlotte, NC  28206-4004",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=201camp&tab=spaces",
+    "floor_suite": "Ford Building",
+    "space_available": "240,000 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:02AM 2/4/25"
+  },
+  {
+    "property_name": "Two Morrocroft Centre Sublease",
+    "address": "4064 Colony Road",
+    "location": "Charlotte, NC  28211",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1297707-lease&tab=spaces",
+    "floor_suite": "3rd Floor",
+    "space_available": "17,520 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:03AM 2/4/25"
+  },
+  {
+    "property_name": "One University Place",
+    "address": "8801 JM Keynes Dr",
+    "location": "Charlotte, NC  28262-8436",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=one-university-place&tab=spaces",
+    "floor_suite": "Spec Suite 125",
+    "space_available": "3,639 SF",
+    "price": "$27.50 SF/yr",
+    "updated_at": "11:11:03AM 2/4/25"
+  },
+  {
+    "property_name": "One University Place",
+    "address": "8801 JM Keynes Dr",
+    "location": "Charlotte, NC  28262-8436",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=one-university-place&tab=spaces",
+    "floor_suite": "Spec Suite 130",
+    "space_available": "2,698 SF",
+    "price": "$27.50 SF/yr",
+    "updated_at": "11:11:03AM 2/4/25"
+  },
+  {
+    "property_name": "One University Place",
+    "address": "8801 JM Keynes Dr",
+    "location": "Charlotte, NC  28262-8436",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=one-university-place&tab=spaces",
+    "floor_suite": "Spec Suite 400",
+    "space_available": "5,715 SF",
+    "price": "$27.50 SF/yr",
+    "updated_at": "11:11:03AM 2/4/25"
+  },
+  {
+    "property_name": "3618 Sunset Blvd.",
+    "address": "3618 Sunset Blvd.",
+    "location": "West Columbia, SC  29169",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1080424-lease&tab=spaces",
+    "floor_suite": "Suite C",
+    "space_available": "1,650 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "822 S White St",
+    "address": "822 S White St",
+    "location": "Wake Forest, NC  27587",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1465257-lease&tab=spaces",
+    "floor_suite": "Suite 100",
+    "space_available": "925 SF",
+    "price": "$1,750 per month",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "T-25",
+    "space_available": "1,643 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "T-30",
+    "space_available": "1,669 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "T-60",
+    "space_available": "1,643 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "180",
+    "space_available": "3,624 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "195",
+    "space_available": "1,745 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "260",
+    "space_available": "1,852 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "280",
+    "space_available": "5,247 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "500",
+    "space_available": "2,435 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "2801 Druid Chase",
+    "address": "2801 Buford Highway",
+    "location": "Atlanta, GA  30329",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388697-lease&tab=spaces",
+    "floor_suite": "520",
+    "space_available": "4,776 SF",
+    "price": "$23.50 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "5500 Six Forks",
+    "address": "5500 Six Forks Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1365700-lease&tab=spaces",
+    "floor_suite": "1st Floor",
+    "space_available": "3,570 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "5500 Six Forks",
+    "address": "5500 Six Forks Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1365700-lease&tab=spaces",
+    "floor_suite": "2nd Floor",
+    "space_available": "2,395 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:04AM 2/4/25"
+  },
+  {
+    "property_name": "Highland Center Professional Park",
+    "address": "120 & 122 Highland Center Dr.",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988908-lease&tab=spaces",
+    "floor_suite": "122 Highland Center Drive",
+    "space_available": "7,000 SF",
+    "price": "$21.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "Highland Center Professional Park",
+    "address": "120 & 122 Highland Center Dr.",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988908-lease&tab=spaces",
+    "floor_suite": "120 Highland Center Drive",
+    "space_available": "5,478 SF",
+    "price": "$21.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "24 Park Woodruff Dr",
+    "address": "24 Park Woodruff Dr",
+    "location": "Greenville, SC  29607",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1403250-lease&tab=spaces",
+    "floor_suite": "Park Woodruff",
+    "space_available": "8,300 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "3020 Sunset Boulevard",
+    "address": "3020 Sunset Boulevard",
+    "location": "West Columbia, SC  29169",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1033621-lease&tab=spaces",
+    "floor_suite": "Suite 101",
+    "space_available": "2,635 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park I",
+    "address": "11111 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-5319",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-I&tab=spaces",
+    "floor_suite": "Suite 112",
+    "space_available": "2,541 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park I",
+    "address": "11111 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-5319",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-I&tab=spaces",
+    "floor_suite": "Suite 240",
+    "space_available": "3,593 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park I",
+    "address": "11111 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-5319",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-I&tab=spaces",
+    "floor_suite": "Suite 325",
+    "space_available": "2,527 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park I",
+    "address": "11111 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-5319",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-I&tab=spaces",
+    "floor_suite": "Suite 360",
+    "space_available": "1,455 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park I",
+    "address": "11111 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-5319",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-I&tab=spaces",
+    "floor_suite": "Suite 435",
+    "space_available": "5,367 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park I",
+    "address": "11111 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-5319",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-I&tab=spaces",
+    "floor_suite": "Suite 450",
+    "space_available": "2,789 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:05AM 2/4/25"
+  },
+  {
+    "property_name": "Sunday Drive",
+    "address": "1500 Sunday Drive",
+    "location": "Raleigh, NC  27607",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214287-lease&tab=spaces",
+    "floor_suite": "Suite 101",
+    "space_available": "2,634 SF",
+    "price": "$27.50 SF/yr",
+    "updated_at": "11:11:06AM 2/4/25"
+  },
+  {
+    "property_name": "Sunday Drive",
+    "address": "1500 Sunday Drive",
+    "location": "Raleigh, NC  27607",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214287-lease&tab=spaces",
+    "floor_suite": "Suite 113",
+    "space_available": "4,567 SF",
+    "price": "$27.50 SF/yr",
+    "updated_at": "11:11:06AM 2/4/25"
+  },
+  {
+    "property_name": "Sunday Drive",
+    "address": "1500 Sunday Drive",
+    "location": "Raleigh, NC  27607",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214287-lease&tab=spaces",
+    "floor_suite": "Suite 212",
+    "space_available": "1,975 SF",
+    "price": "$27.50 SF/yr",
+    "updated_at": "11:11:06AM 2/4/25"
+  },
+  {
+    "property_name": "1350 Browning Road",
+    "address": "1350 Browning Road",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988919-lease&tab=spaces",
+    "floor_suite": "Suite B",
+    "space_available": "1,500 SF",
+    "price": "$1,500 per month",
+    "updated_at": "11:11:06AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 1700 Perimeter",
+    "address": "1700 Perimeter Park Dr",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1268400-lease&tab=spaces",
+    "floor_suite": "Full Building",
+    "space_available": "77,239 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "120 N. Laurens St.",
+    "address": "120 N. Laurens St.",
+    "location": "Greenville, SC  29601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1346147-lease&tab=spaces",
+    "floor_suite": "120 N. Laurens St.",
+    "space_available": "4,200 SF",
+    "price": "$21.00 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners One | Suite 120",
+    "space_available": "6,968 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners One | Suite 150",
+    "space_available": "3,426 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners One | Suite 155",
+    "space_available": "2,415 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners One | Suite 200",
+    "space_available": "12,374 SF",
+    "price": "$29.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners One | Suite 345",
+    "space_available": "1,958 SF",
+    "price": "$29.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners One | Suite 450",
+    "space_available": "10,540 SF",
+    "price": "$29.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners Two | Suite 210",
+    "space_available": "1,423 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners Two | Suite 250",
+    "space_available": "10,570 SF",
+    "price": "$29.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners Two | Suite 510",
+    "space_available": "4,919 SF",
+    "price": "$29.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners Three | Suite 185",
+    "space_available": "2,016 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners Three | Suite 190",
+    "space_available": "1,571 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "Harris Corners",
+    "address": "9300 - 9115 Harris Corners Parkway",
+    "location": "Charlotte, NC  28269-3790",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=harris-corners&tab=spaces",
+    "floor_suite": "Harris Corners Three | Suite 240",
+    "space_available": "7,831 SF",
+    "price": "$29.50 SF/yr",
+    "updated_at": "11:11:07AM 2/4/25"
+  },
+  {
+    "property_name": "3321 Forest Drive",
+    "address": "3321 Forest Drive",
+    "location": "Columbia, SC  29204",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1217959-lease&tab=spaces",
+    "floor_suite": "Suite 9A",
+    "space_available": "2,250 SF",
+    "price": "$20.00 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "NORTH - Suite 200",
+    "space_available": "2,431 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "NORTH - Suite 275",
+    "space_available": "1,760 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "NORTH - Suite 280",
+    "space_available": "1,655 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "NORTH - Suite 300",
+    "space_available": "4,343 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "NORTH - Suite 320/325",
+    "space_available": "4,429 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "NORTH - Suite 340",
+    "space_available": "1,848 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 100",
+    "space_available": "3,051 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 300",
+    "space_available": "2,065 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 380",
+    "space_available": "3,121 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 400",
+    "space_available": "2,555 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 420",
+    "space_available": "6,388 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 440",
+    "space_available": "2,189 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 450",
+    "space_available": "9,348 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 500",
+    "space_available": "1,582 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 510",
+    "space_available": "2,882 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 530",
+    "space_available": "4,291 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 550",
+    "space_available": "1,674 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 600",
+    "space_available": "4,510 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 620",
+    "space_available": "2,241 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 650",
+    "space_available": "5,102 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Somerset",
+    "address": "4505 + 4515 Falls of Neuse Road",
+    "location": "Raleigh, NC  27609",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214286-lease&tab=spaces",
+    "floor_suite": "SOUTH - Suite 652",
+    "space_available": "3,410 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "1620 Willingham Drive",
+    "address": "1620 Willingham Drive",
+    "location": "Columbia, SC  29206",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1013554-lease&tab=spaces",
+    "floor_suite": "1620 Willingham Drive",
+    "space_available": "1,039 SF",
+    "price": "$2,200 per month",
+    "updated_at": "11:11:08AM 2/4/25"
+  },
+  {
+    "property_name": "Eastside Medical Center",
+    "address": "10 Enterprise Blvd.",
+    "location": "Greenville, SC  29615",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1335912-lease&tab=spaces",
+    "floor_suite": "Suite 111",
+    "space_available": "3,230 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "Eastside Medical Center",
+    "address": "10 Enterprise Blvd.",
+    "location": "Greenville, SC  29615",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1335912-lease&tab=spaces",
+    "floor_suite": "Suite 209",
+    "space_available": "2,260 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "First Citizens Center",
+    "address": "1230 Main Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1082471-lease&tab=spaces",
+    "floor_suite": "3rd Floor",
+    "space_available": "3,345 SF",
+    "price": "$28.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "First Citizens Center",
+    "address": "1230 Main Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1082471-lease&tab=spaces",
+    "floor_suite": "4th Floor",
+    "space_available": "20,000 SF",
+    "price": "$28.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "LakePointe 3",
+    "address": "3730 Glen Lake Dr",
+    "location": "Charlotte, NC  28208",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=lakepointe-3&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "30,289 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "LakePointe 3",
+    "address": "3730 Glen Lake Dr",
+    "location": "Charlotte, NC  28208",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=lakepointe-3&tab=spaces",
+    "floor_suite": "Suite 300",
+    "space_available": "15,393 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "LakePointe 3",
+    "address": "3730 Glen Lake Dr",
+    "location": "Charlotte, NC  28208",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=lakepointe-3&tab=spaces",
+    "floor_suite": "Suite 380",
+    "space_available": "2,764 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "LakePointe 3",
+    "address": "3730 Glen Lake Dr",
+    "location": "Charlotte, NC  28208",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=lakepointe-3&tab=spaces",
+    "floor_suite": "Suite 400",
+    "space_available": "28,876 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "120 Brookside Parkway",
+    "address": "120 Brookside Parkway",
+    "location": "Lexington, SC  29072",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1275928-lease&tab=spaces",
+    "floor_suite": "120 Brookside Parkway",
+    "space_available": "3,600 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:09AM 2/4/25"
+  },
+  {
+    "property_name": "917 Chapin Road",
+    "address": "917 Chapin Road",
+    "location": "Chapin, SC  29036",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1444406-lease&tab=spaces",
+    "floor_suite": "917 Chapin Road",
+    "space_available": "68,356 SF",
+    "price": "Contact Brokers for Lease Rate",
+    "updated_at": "11:11:10AM 2/4/25"
+  },
+  {
+    "property_name": "2717 Devine Street",
+    "address": "2717 Devine Street",
+    "location": "Columbia, SC  29205",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388023-lease&tab=spaces",
+    "floor_suite": "2717 Devine Street",
+    "space_available": "3,200 SF",
+    "price": "Contact for Pricing",
+    "updated_at": "11:11:10AM 2/4/25"
+  },
+  {
+    "property_name": "1500 Richland Street",
+    "address": "1500 Richland Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1317998-lease&tab=spaces",
+    "floor_suite": "1500 Richland St.",
+    "space_available": "3,000 SF",
+    "price": "$17.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "136 East Main Street",
+    "address": "136 East Main Street",
+    "location": "Lexington, SC  29072",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1464383-lease&tab=spaces",
+    "floor_suite": "136B E Main St",
+    "space_available": "2,365 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 450",
+    "space_available": "10,961 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 500",
+    "space_available": "2,000 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 800",
+    "space_available": "2,000 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 900",
+    "space_available": "2,000 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 1000",
+    "space_available": "2,000 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 1100",
+    "space_available": "2,000 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 1200",
+    "space_available": "2,000 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 1400",
+    "space_available": "2,000 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 1500",
+    "space_available": "22,645 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 1600",
+    "space_available": "8,299 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 1710",
+    "space_available": "3,478 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Spec Suite 1800",
+    "space_available": "11,662 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 2110",
+    "space_available": "5,866 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Spec Suite 2320",
+    "space_available": "5,189 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Spec Suite 2410",
+    "space_available": "2,252 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Spec Suite 2460",
+    "space_available": "4,365 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 2500",
+    "space_available": "3,175 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 2510",
+    "space_available": "2,025 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Spec Suite 2640",
+    "space_available": "2,043 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 3600",
+    "space_available": "14,539 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 3610",
+    "space_available": "8,537 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 3700",
+    "space_available": "23,340 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 3800",
+    "space_available": "23,393 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 3900",
+    "space_available": "23,387 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 4000",
+    "space_available": "19,423 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "One South",
+    "address": "101 S Tryon St",
+    "location": "Charlotte, NC  28280-0002",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=onesouth&tab=spaces",
+    "floor_suite": "Suite 2560A",
+    "space_available": "544 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "6824 Wilgrove Mint Hill Rd",
+    "address": "6824 Wilgrove Mint Hill Rd",
+    "location": "Mint Hill, NC  28227",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1301792-lease&tab=spaces",
+    "floor_suite": "Suite A",
+    "space_available": "6,809 SF",
+    "price": "$11.50 SF/yr",
+    "updated_at": "11:11:11AM 2/4/25"
+  },
+  {
+    "property_name": "101 Greystone Blvd",
+    "address": "101 Greystone Blvd",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1300213-lease&tab=spaces",
+    "floor_suite": "101 Greystone Blvd.",
+    "space_available": "242,444 SF",
+    "price": "$17.00 SF/yr",
+    "updated_at": "11:11:12AM 2/4/25"
+  },
+  {
+    "property_name": "2825 South",
+    "address": "2825 South Boulevard",
+    "location": "Charlotte, NC  28209-1801",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=2825South&tab=spaces",
+    "floor_suite": "Suite 350",
+    "space_available": "3,234 SF",
+    "price": "$48.00 SF/yr",
+    "updated_at": "11:11:12AM 2/4/25"
+  },
+  {
+    "property_name": "2825 South",
+    "address": "2825 South Boulevard",
+    "location": "Charlotte, NC  28209-1801",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=2825South&tab=spaces",
+    "floor_suite": "Suite 420",
+    "space_available": "2,658 SF",
+    "price": "$49.00 SF/yr",
+    "updated_at": "11:11:12AM 2/4/25"
+  },
+  {
+    "property_name": "2825 South",
+    "address": "2825 South Boulevard",
+    "location": "Charlotte, NC  28209-1801",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=2825South&tab=spaces",
+    "floor_suite": "Suite 440",
+    "space_available": "6,497 SF",
+    "price": "$49.00 SF/yr",
+    "updated_at": "11:11:12AM 2/4/25"
+  },
+  {
+    "property_name": "2825 South",
+    "address": "2825 South Boulevard",
+    "location": "Charlotte, NC  28209-1801",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=2825South&tab=spaces",
+    "floor_suite": "Suite 520",
+    "space_available": "13,711 SF",
+    "price": "$47.00 SF/yr",
+    "updated_at": "11:11:12AM 2/4/25"
+  },
+  {
+    "property_name": "2825 South",
+    "address": "2825 South Boulevard",
+    "location": "Charlotte, NC  28209-1801",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=2825South&tab=spaces",
+    "floor_suite": "6th Floor",
+    "space_available": "34,396 SF",
+    "price": "$48.00 SF/yr",
+    "updated_at": "11:11:12AM 2/4/25"
+  },
+  {
+    "property_name": "1501 Lady Street",
+    "address": "1501 Lady Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1372369-lease&tab=spaces",
+    "floor_suite": "1501 Lady St.",
+    "space_available": "41,389 SF",
+    "price": "Contact Brokers for Lease Rate",
+    "updated_at": "11:11:12AM 2/4/25"
+  },
+  {
+    "property_name": "Capital Club (Office)",
+    "address": "16 W Martin Street",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214284-lease&tab=spaces",
+    "floor_suite": "Suite 204-205",
+    "space_available": "817 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Capital Club (Office)",
+    "address": "16 W Martin Street",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214284-lease&tab=spaces",
+    "floor_suite": "Suite 206-207",
+    "space_available": "686 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Capital Club (Office)",
+    "address": "16 W Martin Street",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214284-lease&tab=spaces",
+    "floor_suite": "Suite 304-305",
+    "space_available": "580 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Capital Club (Office)",
+    "address": "16 W Martin Street",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214284-lease&tab=spaces",
+    "floor_suite": "Suite 308-310",
+    "space_available": "1,076 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Capital Club (Office)",
+    "address": "16 W Martin Street",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214284-lease&tab=spaces",
+    "floor_suite": "Suite 401",
+    "space_available": "2,623 SF",
+    "price": "$27.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Capital Club (Office)",
+    "address": "16 W Martin Street",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214284-lease&tab=spaces",
+    "floor_suite": "Suite 402",
+    "space_available": "1,084 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Capital Club (Office)",
+    "address": "16 W Martin Street",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214284-lease&tab=spaces",
+    "floor_suite": "Suite 500",
+    "space_available": "3,955 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Capital Club (Office)",
+    "address": "16 W Martin Street",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214284-lease&tab=spaces",
+    "floor_suite": "Suite 600",
+    "space_available": "3,955 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 3300 Paramount",
+    "address": "3300 Paramount Pkwy",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1471451-lease&tab=spaces",
+    "floor_suite": "Suite 150",
+    "space_available": "9,572 SF",
+    "price": "$30.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "1072 Wildewood Centre Drive",
+    "address": "1072 Wildewood Centre Drive",
+    "location": "Columbia, SC  29229",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1190642-lease&tab=spaces",
+    "floor_suite": "1072 Wildewood Centre Dr.",
+    "space_available": "3,500 SF",
+    "price": "$22.00 SF/yr",
+    "updated_at": "11:11:13AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building B",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388702-lease&tab=spaces",
+    "floor_suite": "B-275",
+    "space_available": "5,679 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building B",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388702-lease&tab=spaces",
+    "floor_suite": "B-290",
+    "space_available": "4,423 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building B",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388702-lease&tab=spaces",
+    "floor_suite": "B-275/290",
+    "space_available": "10,102 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building B",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388702-lease&tab=spaces",
+    "floor_suite": "B-300",
+    "space_available": "7,622 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building B",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388702-lease&tab=spaces",
+    "floor_suite": "B-350",
+    "space_available": "4,153 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building B",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388702-lease&tab=spaces",
+    "floor_suite": "B-380/390",
+    "space_available": "10,292 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building B",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388702-lease&tab=spaces",
+    "floor_suite": "B-395",
+    "space_available": "2,449 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building B",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388702-lease&tab=spaces",
+    "floor_suite": "B-420",
+    "space_available": "4,496 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "129-B E. Main St.",
+    "address": "129-B E. Main St.",
+    "location": "Lexington, SC  29072",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1354944-lease&tab=spaces",
+    "floor_suite": "Suite B",
+    "space_available": "2,000 SF",
+    "price": "$18.50 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Steel Yard",
+    "address": "1910 South Blvd",
+    "location": "Charlotte, NC  28203-4787",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196581-lease&tab=spaces",
+    "floor_suite": "Suite 225 | 1900 South Boulevard",
+    "space_available": "2,563 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Steel Yard",
+    "address": "1910 South Blvd",
+    "location": "Charlotte, NC  28203-4787",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196581-lease&tab=spaces",
+    "floor_suite": "Suite 300 | 1900 South Boulevard",
+    "space_available": "3,404 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Steel Yard",
+    "address": "1910 South Blvd",
+    "location": "Charlotte, NC  28203-4787",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196581-lease&tab=spaces",
+    "floor_suite": "Suite 302 | 1900 South Boulevard",
+    "space_available": "2,983 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Steel Yard",
+    "address": "1910 South Blvd",
+    "location": "Charlotte, NC  28203-4787",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196581-lease&tab=spaces",
+    "floor_suite": "Suite 308 | 1900 South Boulevard",
+    "space_available": "4,946 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "Steel Yard",
+    "address": "1910 South Blvd",
+    "location": "Charlotte, NC  28203-4787",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196581-lease&tab=spaces",
+    "floor_suite": "Suite 300 | 1928 South Boulevard",
+    "space_available": "6,052 SF",
+    "price": "$44.00 SF/yr",
+    "updated_at": "11:11:14AM 2/4/25"
+  },
+  {
+    "property_name": "392 St. Andrews Road",
+    "address": "392 St. Andrews Road",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1039922-lease&tab=spaces",
+    "floor_suite": "392 St. Andrews Rd.",
+    "space_available": "2,915 SF",
+    "price": "Contact Broker",
+    "updated_at": "11:11:15AM 2/4/25"
+  },
+  {
+    "property_name": "1507 Richland St",
+    "address": "1507 Richland St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1465803-lease&tab=spaces",
+    "floor_suite": "1507 Richland St",
+    "space_available": "1,460 SF",
+    "price": "Contact Brokers for Lease Rate",
+    "updated_at": "11:11:15AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "110",
+    "space_available": "6,746 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "152",
+    "space_available": "893 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "154",
+    "space_available": "1,197 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "155",
+    "space_available": "4,463 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "170",
+    "space_available": "1,630 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "180",
+    "space_available": "4,482 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "191",
+    "space_available": "1,587 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "192",
+    "space_available": "1,788 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "200",
+    "space_available": "25,833 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "262",
+    "space_available": "5,269 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "265",
+    "space_available": "3,574 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "275",
+    "space_available": "6,470 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "280",
+    "space_available": "1,843 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "One Point Royal",
+    "address": "4400 North Point Parkway",
+    "location": "Alpharetta, GA  30022",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388699-lease&tab=spaces",
+    "floor_suite": "275 & 280",
+    "space_available": "8,313 SF",
+    "price": "$24.50 SF/yr",
+    "updated_at": "11:11:16AM 2/4/25"
+  },
+  {
+    "property_name": "6148 St. Andrews Road",
+    "address": "6148 St. Andrews Road",
+    "location": "Columbia, SC  29212",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1330680-lease&tab=spaces",
+    "floor_suite": "6148 St. Andrews Rd.",
+    "space_available": "1,650 SF",
+    "price": "$15.00 SF/yr",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "The Square South",
+    "address": "3710 University Drive",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214297-lease&tab=spaces",
+    "floor_suite": "Suite 135",
+    "space_available": "2,016 SF",
+    "price": "Call for Pricing",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "The Square South",
+    "address": "3710 University Drive",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214297-lease&tab=spaces",
+    "floor_suite": "Suite 201",
+    "space_available": "3,374 SF",
+    "price": "Call for Pricing",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "The Square South",
+    "address": "3710 University Drive",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214297-lease&tab=spaces",
+    "floor_suite": "Suite 260",
+    "space_available": "2,538 SF",
+    "price": "Call for pricing",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "The Square South",
+    "address": "3710 University Drive",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214297-lease&tab=spaces",
+    "floor_suite": "Suite 301",
+    "space_available": "1,912 SF",
+    "price": "Call for Pricing",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "The Square South",
+    "address": "3710 University Drive",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214297-lease&tab=spaces",
+    "floor_suite": "Suite 340",
+    "space_available": "2,137 SF",
+    "price": "Call for Pricing",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 4",
+    "address": "3426 Toringdon Way",
+    "location": "Charlotte, NC  28277",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-4&tab=spaces",
+    "floor_suite": "Suite 104",
+    "space_available": "3,253 SF",
+    "price": "$36.00 SF/yr",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 4",
+    "address": "3426 Toringdon Way",
+    "location": "Charlotte, NC  28277",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-4&tab=spaces",
+    "floor_suite": "Suite 106",
+    "space_available": "2,787 SF",
+    "price": "$36.00 SF/yr",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 4",
+    "address": "3426 Toringdon Way",
+    "location": "Charlotte, NC  28277",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-4&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "28,740 SF",
+    "price": "$36.00 SF/yr",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 4",
+    "address": "3426 Toringdon Way",
+    "location": "Charlotte, NC  28277",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-4&tab=spaces",
+    "floor_suite": "Suite 415",
+    "space_available": "5,851 SF",
+    "price": "$36.00 SF/yr",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "115 Atrium Way",
+    "address": "115 Atrium Way",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988906-lease&tab=spaces",
+    "floor_suite": "Suite 118",
+    "space_available": "2,289 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "115 Atrium Way",
+    "address": "115 Atrium Way",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988906-lease&tab=spaces",
+    "floor_suite": "Suite 126",
+    "space_available": "1,042 SF",
+    "price": "$18.50 SF/yr",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "115 Atrium Way",
+    "address": "115 Atrium Way",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988906-lease&tab=spaces",
+    "floor_suite": "Suite 130",
+    "space_available": "2,294 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "115 Atrium Way",
+    "address": "115 Atrium Way",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988906-lease&tab=spaces",
+    "floor_suite": "Suite 120",
+    "space_available": "3,680 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "115 Atrium Way",
+    "address": "115 Atrium Way",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988906-lease&tab=spaces",
+    "floor_suite": "Suite 204",
+    "space_available": "1,569 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:17AM 2/4/25"
+  },
+  {
+    "property_name": "3245 Platt Springs Road",
+    "address": "3245 Platt Springs Road",
+    "location": "West Columbia, SC  29170",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1255048-lease&tab=spaces",
+    "floor_suite": "3245 Platt Springs Rd.",
+    "space_available": "60,000 SF",
+    "price": "$14.00 SF/yr",
+    "updated_at": "11:11:18AM 2/4/25"
+  },
+  {
+    "property_name": "1777 Saint Julian Pl",
+    "address": "1777 Saint Julian Pl",
+    "location": "Columbia, SC  29204",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1370480-lease&tab=spaces",
+    "floor_suite": "Heritage Building",
+    "space_available": "10,000 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:18AM 2/4/25"
+  },
+  {
+    "property_name": "2113 Adams Grove Rd.",
+    "address": "2113 Adams Grove Rd.",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988888-lease&tab=spaces",
+    "floor_suite": "2nd Floor Medical Space",
+    "space_available": "5,000 SF",
+    "price": "$20.00 - 24.00 SF/yr",
+    "updated_at": "11:11:18AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building A",
+    "address": "5901 Peachtree Dunwoody Rd NE",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388701-lease&tab=spaces",
+    "floor_suite": "A-125",
+    "space_available": "6,031 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:19AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building A",
+    "address": "5901 Peachtree Dunwoody Rd NE",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388701-lease&tab=spaces",
+    "floor_suite": "A-255",
+    "space_available": "6,548 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:19AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building A",
+    "address": "5901 Peachtree Dunwoody Rd NE",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388701-lease&tab=spaces",
+    "floor_suite": "A-375",
+    "space_available": "4,214 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:19AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building A",
+    "address": "5901 Peachtree Dunwoody Rd NE",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388701-lease&tab=spaces",
+    "floor_suite": "A-420",
+    "space_available": "1,824 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:19AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building A",
+    "address": "5901 Peachtree Dunwoody Rd NE",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388701-lease&tab=spaces",
+    "floor_suite": "A-480",
+    "space_available": "829 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:19AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building A",
+    "address": "5901 Peachtree Dunwoody Rd NE",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388701-lease&tab=spaces",
+    "floor_suite": "A-525",
+    "space_available": "12,154 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:19AM 2/4/25"
+  },
+  {
+    "property_name": "7210 Broad River Rd.",
+    "address": "7210 Broad River Rd.",
+    "location": "Irmo, SC  29063",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1164510-lease&tab=spaces",
+    "floor_suite": "7210 Broad RIver Rd.",
+    "space_available": "6,000 SF",
+    "price": "$12.00 SF/yr",
+    "updated_at": "11:11:19AM 2/4/25"
+  },
+  {
+    "property_name": "LakePointe 5",
+    "address": "3735 Glen Lake Dr",
+    "location": "Charlotte, NC  28208",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=lakepointe-5&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "7,305 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:19AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building D",
+    "address": "5909 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388704-lease&tab=spaces",
+    "floor_suite": "D-120**",
+    "space_available": "2,772 SF",
+    "price": "$31.50 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building D",
+    "address": "5909 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388704-lease&tab=spaces",
+    "floor_suite": "D-200",
+    "space_available": "22,038 SF",
+    "price": "$31.50 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building D",
+    "address": "5909 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388704-lease&tab=spaces",
+    "floor_suite": "D-300",
+    "space_available": "25,009 SF",
+    "price": "$31.50 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building D",
+    "address": "5909 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388704-lease&tab=spaces",
+    "floor_suite": "D-450/475",
+    "space_available": "13,592 SF",
+    "price": "$31.50 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building D",
+    "address": "5909 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388704-lease&tab=spaces",
+    "floor_suite": "D-500",
+    "space_available": "25,009 SF",
+    "price": "$31.50 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building D",
+    "address": "5909 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388704-lease&tab=spaces",
+    "floor_suite": "D-850",
+    "space_available": "6,288 SF",
+    "price": "$31.50 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building D",
+    "address": "5909 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388704-lease&tab=spaces",
+    "floor_suite": "D-920",
+    "space_available": "2,987 SF",
+    "price": "$31.50 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building D",
+    "address": "5909 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388704-lease&tab=spaces",
+    "floor_suite": "D-1000",
+    "space_available": "24,245 SF",
+    "price": "$31.50 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Tapp's",
+    "address": "1644 Main St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1288662-lease&tab=spaces",
+    "floor_suite": "1644 Main St.",
+    "space_available": "23,496 SF",
+    "price": "Contact Brokers",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 400",
+    "space_available": "19,932 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 620",
+    "space_available": "7,731 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Spec Suite 720",
+    "space_available": "6,864 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 730",
+    "space_available": "568 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 800",
+    "space_available": "19,698 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 900",
+    "space_available": "19,722 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 1000",
+    "space_available": "19,729 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 1100",
+    "space_available": "63,907 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 1230",
+    "space_available": "15,161 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 1602",
+    "space_available": "13,135 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 1700",
+    "space_available": "21,902 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Spec Suite 2100",
+    "space_available": "6,061 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 2110",
+    "space_available": "16,078 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 2210",
+    "space_available": "3,500 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "200 South College",
+    "address": "200 S College St",
+    "location": "Charlotte, NC  28202-2012",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=200-south-college&tab=spaces",
+    "floor_suite": "Suite 2250",
+    "space_available": "4,678 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:20AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 103",
+    "space_available": "593 SF",
+    "price": "$35.00 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 202",
+    "space_available": "181 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 208",
+    "space_available": "588 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 402",
+    "space_available": "240 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 502",
+    "space_available": "240 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 505",
+    "space_available": "480 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 507",
+    "space_available": "600 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 511",
+    "space_available": "495 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 603",
+    "space_available": "240 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "Snow Building",
+    "address": "331 W Main Street",
+    "location": "Durham, NC  27707",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214294-lease&tab=spaces",
+    "floor_suite": "Suite 608",
+    "space_available": "615 SF",
+    "price": "$32.50 SF/yr",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "The Barringer Building",
+    "address": "1350 Main Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1365233-lease&tab=spaces",
+    "floor_suite": "Suite 201",
+    "space_available": "1,167 SF",
+    "price": "Contact Brokers for Lease Rates",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "The Barringer Building",
+    "address": "1350 Main Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1365233-lease&tab=spaces",
+    "floor_suite": "Suite 202",
+    "space_available": "2,036 SF",
+    "price": "Contact Brokers for Lease Rates",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "The Barringer Building",
+    "address": "1350 Main Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1365233-lease&tab=spaces",
+    "floor_suite": "Suite 203",
+    "space_available": "965 SF",
+    "price": "Contact Brokers for Lease Rates",
+    "updated_at": "11:11:21AM 2/4/25"
+  },
+  {
+    "property_name": "3225 Sunset Blvd.",
+    "address": "3225 Sunset Blvd.",
+    "location": "West Columbia, SC  29169",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1201546-lease&tab=spaces",
+    "floor_suite": "3225 Sunset",
+    "space_available": "12,956 SF",
+    "price": "$15.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Spec Suite 525",
+    "space_available": "2,733 SF",
+    "price": "$39.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Spec Suite 620",
+    "space_available": "7,300 SF",
+    "price": "$39.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Suite 650",
+    "space_available": "2,044 SF",
+    "price": "$39.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Spec Suite 910",
+    "space_available": "8,219 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Suite 1210",
+    "space_available": "2,284 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Suite 1250",
+    "space_available": "6,437 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Suite 1510",
+    "space_available": "11,870 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Spec Suite 1830",
+    "space_available": "7,069 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Suite 2150",
+    "space_available": "4,248 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Carillon",
+    "address": "227 W Trade St",
+    "location": "Charlotte, NC  28202-1675",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=Carillon&tab=spaces",
+    "floor_suite": "Suite 2400/Mezz",
+    "space_available": "22,217 SF",
+    "price": "$43.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Four",
+    "address": "3025 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214304-lease&tab=spaces",
+    "floor_suite": "Suite 100",
+    "space_available": "18,981 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Four",
+    "address": "3025 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214304-lease&tab=spaces",
+    "floor_suite": "Suite 150",
+    "space_available": "6,532 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Four",
+    "address": "3025 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214304-lease&tab=spaces",
+    "floor_suite": "Suite 200 (Full Floor)",
+    "space_available": "39,489 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Four",
+    "address": "3025 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214304-lease&tab=spaces",
+    "floor_suite": "Suite 300",
+    "space_available": "19,364 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Four",
+    "address": "3025 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214304-lease&tab=spaces",
+    "floor_suite": "Suite 400",
+    "space_available": "39,905 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Four",
+    "address": "3025 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214304-lease&tab=spaces",
+    "floor_suite": "Suite 500",
+    "space_available": "40,363 SF",
+    "price": "$33.00 SF/yr",
+    "updated_at": "11:11:22AM 2/4/25"
+  },
+  {
+    "property_name": "Hurricane Builders",
+    "address": "100 Corporate Blvd",
+    "location": "West Columbia, SC  29169",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1425994-lease&tab=spaces",
+    "floor_suite": "4,000 SF",
+    "space_available": "4,000 SF",
+    "price": "$15.00 SF/yr",
+    "updated_at": "11:11:23AM 2/4/25"
+  },
+  {
+    "property_name": "Hurricane Builders",
+    "address": "100 Corporate Blvd",
+    "location": "West Columbia, SC  29169",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1425994-lease&tab=spaces",
+    "floor_suite": "8,000 SF",
+    "space_available": "8,000 SF",
+    "price": "$15.00 SF/yr",
+    "updated_at": "11:11:23AM 2/4/25"
+  },
+  {
+    "property_name": "101 Business Park Blvd",
+    "address": "101 Business Park Blvd",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988896-lease&tab=spaces",
+    "floor_suite": "Suite 101",
+    "space_available": "8,362 SF",
+    "price": "$20.00 SF/yr",
+    "updated_at": "11:11:23AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 2000 Perimeter",
+    "address": "2000 Perimeter Park Dr",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1268374-lease&tab=spaces",
+    "floor_suite": "Suite 140",
+    "space_available": "13,796 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:23AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 2000 Perimeter",
+    "address": "2000 Perimeter Park Dr",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1268374-lease&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "27,754 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:23AM 2/4/25"
+  },
+  {
+    "property_name": "MUSC",
+    "address": "2750 Laurel St., 2601 Laurel St. & 1655 Bernardin Ave.",
+    "location": "Columbia , SC  29206",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1018093-lease&tab=spaces",
+    "floor_suite": "MUSC MOB I 2750 Laurel St. Suite 102",
+    "space_available": "2,589 SF",
+    "price": "$24.50 - 26.50 SF/yr",
+    "updated_at": "11:11:23AM 2/4/25"
+  },
+  {
+    "property_name": "MUSC",
+    "address": "2750 Laurel St., 2601 Laurel St. & 1655 Bernardin Ave.",
+    "location": "Columbia , SC  29206",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1018093-lease&tab=spaces",
+    "floor_suite": "MUSC MOB II 2601 Laurel St. Suite 110",
+    "space_available": "4,830 SF",
+    "price": "$24.50 - 26.50 SF/yr",
+    "updated_at": "11:11:23AM 2/4/25"
+  },
+  {
+    "property_name": "MUSC",
+    "address": "2750 Laurel St., 2601 Laurel St. & 1655 Bernardin Ave.",
+    "location": "Columbia , SC  29206",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1018093-lease&tab=spaces",
+    "floor_suite": "MUSC MOB II 2601 Laurel St. Suite 150",
+    "space_available": "1,797 SF",
+    "price": "$24.50 - 26.50 SF/yr",
+    "updated_at": "11:11:23AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel View",
+    "address": "6303 Carmel Rd",
+    "location": "Charlotte, NC  28226",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1427468-lease&tab=spaces",
+    "floor_suite": "Suite 105",
+    "space_available": "1,335 SF",
+    "price": "$20.67 - 25.37 SF/yr",
+    "updated_at": "11:11:24AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel View",
+    "address": "6303 Carmel Rd",
+    "location": "Charlotte, NC  28226",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1427468-lease&tab=spaces",
+    "floor_suite": "Suite 107",
+    "space_available": "1,184 SF",
+    "price": "$20.67 - 25.37 SF/yr",
+    "updated_at": "11:11:24AM 2/4/25"
+  },
+  {
+    "property_name": "339 Heyward Street",
+    "address": "339 Heyward Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1467747-lease&tab=spaces",
+    "floor_suite": "339 Heyward St.",
+    "space_available": "1,500 SF",
+    "price": "$2,750 per month",
+    "updated_at": "11:11:24AM 2/4/25"
+  },
+  {
+    "property_name": "1005 Gervais & 1200 Park St.",
+    "address": "1005 Gervais & 1200 Park St.",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1284471-lease&tab=spaces",
+    "floor_suite": "1200 Park St.",
+    "space_available": "2,840 SF",
+    "price": "$16.00 SF/yr",
+    "updated_at": "11:11:24AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter One",
+    "address": "3005 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214301-lease&tab=spaces",
+    "floor_suite": "Suite 115",
+    "space_available": "9,148 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter One",
+    "address": "3005 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214301-lease&tab=spaces",
+    "floor_suite": "Suite 150",
+    "space_available": "9,885 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter One",
+    "address": "3005 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214301-lease&tab=spaces",
+    "floor_suite": "Suite 510",
+    "space_available": "3,809 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter One",
+    "address": "3005 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214301-lease&tab=spaces",
+    "floor_suite": "Suite 550",
+    "space_available": "18,245 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 1500 Perimeter",
+    "address": "1500 Perimeter Park Drive",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214306-lease&tab=spaces",
+    "floor_suite": "Suite 100",
+    "space_available": "12,486 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 1500 Perimeter",
+    "address": "1500 Perimeter Park Drive",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214306-lease&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "17,067 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 1500 Perimeter",
+    "address": "1500 Perimeter Park Drive",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214306-lease&tab=spaces",
+    "floor_suite": "Suite 300",
+    "space_available": "28,103 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 2250 Perimeter",
+    "address": "2250 Perimeter Park Dr",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1381875-lease&tab=spaces",
+    "floor_suite": "Suite 140",
+    "space_available": "11,383 SF",
+    "price": "$27.00 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 2250 Perimeter",
+    "address": "2250 Perimeter Park Dr",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1381875-lease&tab=spaces",
+    "floor_suite": "Suite 150",
+    "space_available": "14,649 SF",
+    "price": "$27.00 SF/yr",
+    "updated_at": "11:11:25AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 3",
+    "address": "3440 Toringdon Way",
+    "location": "Charlotte, NC  28277",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-3&tab=spaces",
+    "floor_suite": "Suite 100",
+    "space_available": "7,799 SF",
+    "price": "$34.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 3",
+    "address": "3440 Toringdon Way",
+    "location": "Charlotte, NC  28277",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-3&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "7,479 SF",
+    "price": "$34.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "Toringdon 3",
+    "address": "3440 Toringdon Way",
+    "location": "Charlotte, NC  28277",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=toringdon-3&tab=spaces",
+    "floor_suite": "Suite 203",
+    "space_available": "3,163 SF",
+    "price": "$34.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "South State Bank",
+    "address": "4132 Forest Drive",
+    "location": "Columbia, SC  29206",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1419512-lease&tab=spaces",
+    "floor_suite": "4132 Forest Drive",
+    "space_available": "1,700 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "7 Technology Circle",
+    "address": "7 Technology Circle",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988963-lease&tab=spaces",
+    "floor_suite": "First Floor Ste 101",
+    "space_available": "5,768 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "7 Technology Circle",
+    "address": "7 Technology Circle",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988963-lease&tab=spaces",
+    "floor_suite": "2nd Floor Ste 225",
+    "space_available": "5,726 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "7 Technology Circle",
+    "address": "7 Technology Circle",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988963-lease&tab=spaces",
+    "floor_suite": "2nd Floor Ste 250",
+    "space_available": "10,169 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "7 Technology Circle",
+    "address": "7 Technology Circle",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988963-lease&tab=spaces",
+    "floor_suite": "3rd Floor Ste 300",
+    "space_available": "22,900 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "7 Technology Circle",
+    "address": "7 Technology Circle",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988963-lease&tab=spaces",
+    "floor_suite": "4th Floor Ste 425",
+    "space_available": "4,267 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "7 Technology Circle",
+    "address": "7 Technology Circle",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988963-lease&tab=spaces",
+    "floor_suite": "4th Floor Ste 430",
+    "space_available": "2,676 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "7 Technology Circle",
+    "address": "7 Technology Circle",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988963-lease&tab=spaces",
+    "floor_suite": "4th Floor Ste 435",
+    "space_available": "2,844 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "7 Technology Circle",
+    "address": "7 Technology Circle",
+    "location": "Columbia, SC  29203",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988963-lease&tab=spaces",
+    "floor_suite": "4th Floor Ste 480",
+    "space_available": "1,379 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "1420 Elmwood Ave",
+    "address": "1420 Elmwood Ave",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1432347-lease&tab=spaces",
+    "floor_suite": "1420 Elmwood Ave",
+    "space_available": "2,077 SF",
+    "price": "$12.00 SF/yr",
+    "updated_at": "11:11:26AM 2/4/25"
+  },
+  {
+    "property_name": "Poe West",
+    "address": "556 Perry Ave",
+    "location": "Greenville, SC  29611",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1459593-lease&tab=spaces",
+    "floor_suite": "Suite A106 (Sublease)",
+    "space_available": "3,633 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:27AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 3800 Paramount",
+    "address": "3800 Paramount Parkway",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214308-lease&tab=spaces",
+    "floor_suite": "Suite 100",
+    "space_available": "9,472 SF",
+    "price": "$28.00 SF/yr",
+    "updated_at": "11:11:27AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: 3800 Paramount",
+    "address": "3800 Paramount Parkway",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214308-lease&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "8,566 SF",
+    "price": "$28.00 SF/yr",
+    "updated_at": "11:11:27AM 2/4/25"
+  },
+  {
+    "property_name": "1225 Lady Street",
+    "address": "1225 Lady Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1082674-lease&tab=spaces",
+    "floor_suite": "Basement 1",
+    "space_available": "5,154 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:27AM 2/4/25"
+  },
+  {
+    "property_name": "1225 Lady Street",
+    "address": "1225 Lady Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1082674-lease&tab=spaces",
+    "floor_suite": "Basement 2",
+    "space_available": "5,980 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:27AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 155",
+    "space_available": "1,849 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 300",
+    "space_available": "4,413 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 305",
+    "space_available": "2,297 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 310",
+    "space_available": "3,097 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 340",
+    "space_available": "2,604 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 355",
+    "space_available": "1,186 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 360",
+    "space_available": "1,445 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 405",
+    "space_available": "875 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 410",
+    "space_available": "486 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 430",
+    "space_available": "2,725 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "Carmel Park II",
+    "address": "11121 Carmel Commons Blvd",
+    "location": "Charlotte, NC  28226-4495",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=carmel-park-II&tab=spaces",
+    "floor_suite": "Suite 435",
+    "space_available": "5,367 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "5871 Glenridge",
+    "address": "5871 Glenridge Drive",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388698-lease&tab=spaces",
+    "floor_suite": "110",
+    "space_available": "2,655 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "5871 Glenridge",
+    "address": "5871 Glenridge Drive",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388698-lease&tab=spaces",
+    "floor_suite": "270",
+    "space_available": "1,401 SF",
+    "price": "$25.50 SF/yr",
+    "updated_at": "11:11:28AM 2/4/25"
+  },
+  {
+    "property_name": "10 Memorial Medical Drive",
+    "address": "10 Memorial Medical Drive",
+    "location": "Greenville, SC  29605",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1332469-lease&tab=spaces",
+    "floor_suite": "10 Memorial Medical",
+    "space_available": "7,000 SF",
+    "price": "$13.00 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "100*",
+    "space_available": "5,118 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "125",
+    "space_available": "3,454 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "199",
+    "space_available": "2,775 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "220",
+    "space_available": "3,030 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "235",
+    "space_available": "1,482 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "250",
+    "space_available": "773 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "260",
+    "space_available": "1,341 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "270",
+    "space_available": "2,860 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "300",
+    "space_available": "2,618 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "314",
+    "space_available": "2,094 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "332*",
+    "space_available": "329 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "336",
+    "space_available": "1,020 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "376",
+    "space_available": "5,500 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "380",
+    "space_available": "1,705 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "387",
+    "space_available": "992 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "390",
+    "space_available": "2,003 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "395",
+    "space_available": "1,433 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "405",
+    "space_available": "5,303 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "415",
+    "space_available": "502 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "431",
+    "space_available": "1,951 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "433",
+    "space_available": "1,652 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "450",
+    "space_available": "5,426 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "465",
+    "space_available": "6,370 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "496",
+    "space_available": "2,276 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "500",
+    "space_available": "4,672 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "520",
+    "space_available": "2,228 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "522",
+    "space_available": "385 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "540",
+    "space_available": "1,495 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "550",
+    "space_available": "3,247 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "559",
+    "space_available": "377 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "581",
+    "space_available": "369 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "595",
+    "space_available": "760 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "600",
+    "space_available": "3,436 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "604",
+    "space_available": "693 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "800",
+    "space_available": "21,591 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "850",
+    "space_available": "6,763 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "890",
+    "space_available": "3,441 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "910",
+    "space_available": "9,949 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "920",
+    "space_available": "1,033 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "925",
+    "space_available": "345 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "935",
+    "space_available": "2,286 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "940",
+    "space_available": "1,539 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "970",
+    "space_available": "774 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "985",
+    "space_available": "433 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "995",
+    "space_available": "1,024 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "1005",
+    "space_available": "2,000 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "1028",
+    "space_available": "1,333 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "1037",
+    "space_available": "586 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "1040",
+    "space_available": "2,937 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "1050",
+    "space_available": "4,700 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "1062",
+    "space_available": "6,057 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "1090",
+    "space_available": "3,427 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "Peachtree 25th",
+    "address": "1718 - 1720 Peachtree Street",
+    "location": "Atlanta, GA  30309",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388705-lease&tab=spaces",
+    "floor_suite": "1094",
+    "space_available": "2,601 SF",
+    "price": "$28.50 SF/yr",
+    "updated_at": "11:11:29AM 2/4/25"
+  },
+  {
+    "property_name": "2422 Devine Street",
+    "address": "2422 Devine Street",
+    "location": "Columbia, SC  29205",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1135738-lease&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "6,000 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Three",
+    "address": "3015 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214303-lease&tab=spaces",
+    "floor_suite": "Suite 450",
+    "space_available": "9,588 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "1001 Pinnacle Point Drive",
+    "address": "1001 Pinnacle Point Drive",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988895-lease&tab=spaces",
+    "floor_suite": "Suite 102",
+    "space_available": "3,454 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "1001 Pinnacle Point Drive",
+    "address": "1001 Pinnacle Point Drive",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988895-lease&tab=spaces",
+    "floor_suite": "Suite 104",
+    "space_available": "3,360 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "1001 Pinnacle Point Drive",
+    "address": "1001 Pinnacle Point Drive",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988895-lease&tab=spaces",
+    "floor_suite": "Suite 200",
+    "space_available": "19,090 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "1001 Pinnacle Point Drive",
+    "address": "1001 Pinnacle Point Drive",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988895-lease&tab=spaces",
+    "floor_suite": "Suite 301",
+    "space_available": "5,948 SF",
+    "price": "$20.50 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 332",
+    "space_available": "1,199 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 329",
+    "space_available": "1,168 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 331",
+    "space_available": "1,442 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 337",
+    "space_available": "1,424 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 620",
+    "space_available": "1,392 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 622",
+    "space_available": "1,876 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 1001",
+    "space_available": "1,599 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 1003",
+    "space_available": "2,415 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 1005",
+    "space_available": "3,335 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Sola Station",
+    "address": "325 Taylor St",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1351096-lease&tab=spaces",
+    "floor_suite": "Suite 1015",
+    "space_available": "2,678 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:30AM 2/4/25"
+  },
+  {
+    "property_name": "Fayetteville Street",
+    "address": "333 Fayetteville St",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1404673-lease&tab=spaces",
+    "floor_suite": "Suite 400",
+    "space_available": "10,955 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:31AM 2/4/25"
+  },
+  {
+    "property_name": "Fayetteville Street",
+    "address": "333 Fayetteville St",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1404673-lease&tab=spaces",
+    "floor_suite": "Suite 600",
+    "space_available": "10,955 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:31AM 2/4/25"
+  },
+  {
+    "property_name": "Fayetteville Street",
+    "address": "333 Fayetteville St",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1404673-lease&tab=spaces",
+    "floor_suite": "Suite 900/1000",
+    "space_available": "21,910 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:31AM 2/4/25"
+  },
+  {
+    "property_name": "Fayetteville Street",
+    "address": "333 Fayetteville St",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1404673-lease&tab=spaces",
+    "floor_suite": "Suite 1200",
+    "space_available": "7,084 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:31AM 2/4/25"
+  },
+  {
+    "property_name": "Fayetteville Street",
+    "address": "333 Fayetteville St",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1404673-lease&tab=spaces",
+    "floor_suite": "Suite 1225",
+    "space_available": "2,489 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:31AM 2/4/25"
+  },
+  {
+    "property_name": "Fayetteville Street",
+    "address": "333 Fayetteville St",
+    "location": "Raleigh, NC  27601",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1404673-lease&tab=spaces",
+    "floor_suite": "Suite 1250",
+    "space_available": "325 SF",
+    "price": "$29.00 SF/yr",
+    "updated_at": "11:11:31AM 2/4/25"
+  },
+  {
+    "property_name": "8910 Two Notch Road",
+    "address": "8910 Two Notch Road",
+    "location": "Columbia, SC  29223",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988970-lease&tab=spaces",
+    "floor_suite": "8910 Two Notch Road",
+    "space_available": "7,072 SF",
+    "price": "$17.00 SF/yr",
+    "updated_at": "11:11:31AM 2/4/25"
+  },
+  {
+    "property_name": "1200 Colonial Life Blvd.",
+    "address": "1200 Colonial Life Blvd.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1099075-lease&tab=spaces",
+    "floor_suite": "1200 Colonial Life Blvd. (Sublease)",
+    "space_available": "80,815 SF",
+    "price": "$15.00 SF/yr",
+    "updated_at": "11:11:32AM 2/4/25"
+  },
+  {
+    "property_name": "107 Westpark Blvd.",
+    "address": "107 Westpark Blvd.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1443569-lease&tab=spaces",
+    "floor_suite": "Suite 110",
+    "space_available": "3,239 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:32AM 2/4/25"
+  },
+  {
+    "property_name": "107 Westpark Blvd.",
+    "address": "107 Westpark Blvd.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1443569-lease&tab=spaces",
+    "floor_suite": "Suite 120",
+    "space_available": "3,970 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:32AM 2/4/25"
+  },
+  {
+    "property_name": "107 Westpark Blvd.",
+    "address": "107 Westpark Blvd.",
+    "location": "Columbia, SC  29210",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1443569-lease&tab=spaces",
+    "floor_suite": "Suite 300",
+    "space_available": "9,548 SF",
+    "price": "$18.00 SF/yr",
+    "updated_at": "11:11:32AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Two",
+    "address": "3020 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214302-lease&tab=spaces",
+    "floor_suite": "Suite 100",
+    "space_available": "20,714 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Two",
+    "address": "3020 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214302-lease&tab=spaces",
+    "floor_suite": "Suite 150",
+    "space_available": "11,853 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Two",
+    "address": "3020 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214302-lease&tab=spaces",
+    "floor_suite": "Suite 185",
+    "space_available": "5,545 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Two",
+    "address": "3020 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214302-lease&tab=spaces",
+    "floor_suite": "2nd Floor",
+    "space_available": "42,658 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Two",
+    "address": "3020 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214302-lease&tab=spaces",
+    "floor_suite": "Suite 400",
+    "space_available": "22,050 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Two",
+    "address": "3020 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214302-lease&tab=spaces",
+    "floor_suite": "Suite 450",
+    "space_available": "5,491 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Perimeter Park: Perimeter Two",
+    "address": "3020 Carrington Mill Blvd",
+    "location": "Morrisville, NC  27560",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1214302-lease&tab=spaces",
+    "floor_suite": "5th Floor",
+    "space_available": "43,167 SF",
+    "price": "$32.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "7701 St. Andrews Road",
+    "address": "7701 St. Andrews Road",
+    "location": "Irmo, SC  29063",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1464330-lease&tab=spaces",
+    "floor_suite": "7701 St. Andrews Rd.",
+    "space_available": "6,500 SF",
+    "price": "$10.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Roxborough I & II",
+    "address": "6525 Carnegie Blvd",
+    "location": "Charlotte, NC  28211-3561",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196608-lease&tab=spaces",
+    "floor_suite": "Roxborough II - Suite 215",
+    "space_available": "4,692 SF",
+    "price": "$39.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Roxborough I & II",
+    "address": "6525 Carnegie Blvd",
+    "location": "Charlotte, NC  28211-3561",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196608-lease&tab=spaces",
+    "floor_suite": "Roxborough II - Suite 220",
+    "space_available": "6,019 SF",
+    "price": "$39.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "Roxborough I & II",
+    "address": "6525 Carnegie Blvd",
+    "location": "Charlotte, NC  28211-3561",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196608-lease&tab=spaces",
+    "floor_suite": "Roxborough II - Suite 300",
+    "space_available": "22,594 SF",
+    "price": "$40.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "700 Gervais Street",
+    "address": "700 Gervais Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1227946-lease&tab=spaces",
+    "floor_suite": "Suite 125",
+    "space_available": "7,828 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "700 Gervais Street",
+    "address": "700 Gervais Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1227946-lease&tab=spaces",
+    "floor_suite": "Suite 400",
+    "space_available": "17,477 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "700 Gervais Street",
+    "address": "700 Gervais Street",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1227946-lease&tab=spaces",
+    "floor_suite": "Suite D",
+    "space_available": "15,190 SF",
+    "price": "$23.00 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "2101 Gervais Street",
+    "address": "2101 Gervais Street",
+    "location": "Columbia, SC  29204",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1304200-lease&tab=spaces",
+    "floor_suite": "2101 Gervais",
+    "space_available": "2,650 SF",
+    "price": "$18.50 SF/yr",
+    "updated_at": "11:11:33AM 2/4/25"
+  },
+  {
+    "property_name": "250 S New Hope",
+    "address": "250 S New Hope Rd",
+    "location": "Gastonia, NC  28054-4805",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196579-lease&tab=spaces",
+    "floor_suite": "Suite 114",
+    "space_available": "1,337 SF",
+    "price": "$25.00 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "250 S New Hope",
+    "address": "250 S New Hope Rd",
+    "location": "Gastonia, NC  28054-4805",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1196579-lease&tab=spaces",
+    "floor_suite": "Suite 208",
+    "space_available": "1,080 SF",
+    "price": "Negotiable",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "2442 Devine St.",
+    "address": "2442 Devine St.",
+    "location": "Columbia, SC  29205",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1143063-lease&tab=spaces",
+    "floor_suite": "2442 Devine St.",
+    "space_available": "2,300 SF",
+    "price": "$18.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "1205 D Ave",
+    "address": "1205 D Ave",
+    "location": "West Columbia, SC  29169",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1408842-lease&tab=spaces",
+    "floor_suite": "1205 D Ave",
+    "space_available": "4,000 SF",
+    "price": "$3,500 per month",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "1331 Elmwood Avenue",
+    "address": "1331 Elmwood Avenue",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988917-lease&tab=spaces",
+    "floor_suite": "Suite 150",
+    "space_available": "3,743 SF",
+    "price": "$17.00 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "1331 Elmwood Avenue",
+    "address": "1331 Elmwood Avenue",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988917-lease&tab=spaces",
+    "floor_suite": "Suite 200A",
+    "space_available": "2,847 SF",
+    "price": "$17.00 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "1331 Elmwood Avenue",
+    "address": "1331 Elmwood Avenue",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988917-lease&tab=spaces",
+    "floor_suite": "Suite 210",
+    "space_available": "2,645 SF",
+    "price": "$17.00 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "1331 Elmwood Avenue",
+    "address": "1331 Elmwood Avenue",
+    "location": "Columbia, SC  29201",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=988917-lease&tab=spaces",
+    "floor_suite": "Suite 300A",
+    "space_available": "2,032 SF",
+    "price": "$17.00 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-50",
+    "space_available": "4,126 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-100",
+    "space_available": "8,480 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-125",
+    "space_available": "2,441 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-160",
+    "space_available": "2,378 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-230",
+    "space_available": "6,549 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-345",
+    "space_available": "2,357 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-380",
+    "space_available": "2,735 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-440",
+    "space_available": "1,467 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-450",
+    "space_available": "1,377 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-480",
+    "space_available": "2,580 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-485",
+    "space_available": "862 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-490",
+    "space_available": "1,564 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-505",
+    "space_available": "3,424 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-510",
+    "space_available": "10,501 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  },
+  {
+    "property_name": "Palisades, Building C",
+    "address": "5901 Peachtree Dunwoody Road",
+    "location": "Atlanta, GA  30328",
+    "listing_url": "https://www.lpc.com/properties/properties-search/?propertyId=1388703-lease&tab=spaces",
+    "floor_suite": "C-530",
+    "space_available": "3,018 SF",
+    "price": "$26.50 SF/yr",
+    "updated_at": "11:11:34AM 2/4/25"
+  }
+]

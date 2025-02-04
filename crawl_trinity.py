@@ -8,7 +8,7 @@ from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 async def get_iframe_url(url=None):
     """Get the iframe URL from Lee Associates property page."""
     if url is None:
-        url = "https://www.lpc.com/properties/properties-search/"
+        url = "https://www.trinity-partners.com/listings"
     
     browser_cfg = BrowserConfig(headless=True, verbose=True)
     run_config = CrawlerRunConfig(
@@ -345,7 +345,7 @@ async def extract_property_urls():
             
             # Save all property details to a JSON file
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_file = f"lincoln_properties_{timestamp}.json"
+            output_file = f"trinity_properties_{timestamp}.json"
             
             with open(output_file, 'w') as f:
                 json.dump(all_property_details, f, indent=2)
