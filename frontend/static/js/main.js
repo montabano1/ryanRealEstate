@@ -178,8 +178,12 @@ function initializeDataTable(data) {
     });
 }
 
+// Define API base URL based on environment
+const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+const API_BASE_URL = isDevelopment ? 'http://localhost:5001' : 'https://shark-app-l8hmq.ondigitalocean.app';
+
 function loadLatestData() {
-    fetch('/api/latest-data')
+    fetch(`${API_BASE_URL}/api/latest-data`)
         .then(response => response.json())
         .then(result => {
             if (result.success && result.data && result.data.properties) {
@@ -218,7 +222,7 @@ function generateReport(event) {
     }
 
     $('#generateBtn').prop('disabled', true);
-    $('#progressContainer').show();
+    $('#loadingSpinner').show();
     $('#alertBox').hide();
     $('#tableContainer').removeClass('has-data');
     $('.dataTables_wrapper').hide();
@@ -226,39 +230,7 @@ function generateReport(event) {
     // Send API key with the request
     const requestData = { api_key: apiKey };
     
-    // Start progress updates
-    const eventSource = new EventSource(`${API_BASE_URL}/api/progress`);
-    let lastProgress = 0;
-    
-    eventSource.onmessage = function(event) {
-        const data = JSON.parse(event.data);
-        
-        // Handle errors
-        if (data.error) {
-            eventSource.close();
-            showError('Error: ' + data.message);
-            $('#generateBtn').prop('disabled', false);
-            return;
-        }
-        
-        // Update progress
-        if (data.progress >= lastProgress) {
-            $('.progress-bar-fill').css('width', data.progress + '%');
-            $('.progress-message').text(data.message);
-            lastProgress = data.progress;
-        }
-        
-        // When done, check for data
-        if (data.done) {
-            eventSource.close();
-            checkForData();
-        }
-    };
-    
-    // Start the scraping process with proper headers
-    // Replace with your DigitalOcean API URL
-    const API_BASE_URL = 'https://your-digitalocean-app.ondigitalocean.app';
-
+    // Start the scraping process
     fetch(`${API_BASE_URL}/api/generate-report`, {
         method: 'POST',
         headers: {
@@ -272,18 +244,26 @@ function generateReport(event) {
         if (!result.success) {
             throw new Error(result.error || 'Failed to start scraping');
         }
+        // Wait a few seconds before checking for data
+        setTimeout(checkForData, 5000);
     })
     .catch(error => {
         console.error('Error:', error);
         showError('Error starting report generation: ' + error);
-        eventSource.close();
         $('#generateBtn').prop('disabled', false);
+        $('#loadingSpinner').hide();
     });
+    
+
 }
+
+let retryCount = 0;
+const MAX_RETRIES = 20; // 10 minutes total (30s * 20)
+const RETRY_INTERVAL = 30000; // 30 seconds
 
 function checkForData() {
     // Get the latest data file from the data directory
-    fetch('/api/latest-data')
+    fetch(`${API_BASE_URL}/api/latest-data`)
         .then(response => response.json())
         .then(result => {
             if (result.success && result.data && result.data.properties) {
@@ -291,18 +271,32 @@ function checkForData() {
                 $('#lastUpdate').text(new Date().toLocaleString());
                 $('#tableContainer').addClass('has-data');
                 $('.dataTables_wrapper').show();
-                $('#progressContainer').hide();
+                $('#loadingSpinner').hide();
                 $('#generateBtn').prop('disabled', false);
                 showSuccess('Report generated successfully!');
+                retryCount = 0; // Reset counter
             } else {
-                throw new Error('No data available');
+                handleRetry('No data available yet');
             }
         })
         .catch(error => {
-            console.error('Error:', error);
-            showError('Error loading data: ' + error);
-            $('#generateBtn').prop('disabled', false);
+            handleRetry(error.message);
         });
+}
+
+function handleRetry(message) {
+    retryCount++;
+    if (retryCount < MAX_RETRIES) {
+        const remainingTime = (MAX_RETRIES - retryCount) * (RETRY_INTERVAL / 1000);
+        console.log(`Retry ${retryCount}/${MAX_RETRIES}: ${message}. Will keep trying for ${remainingTime} seconds.`);
+        setTimeout(checkForData, RETRY_INTERVAL);
+    } else {
+        console.error('Max retries reached:', message);
+        $('#loadingSpinner').hide();
+        $('#generateBtn').prop('disabled', false);
+        showError('Failed to generate report. Please try again.');
+        retryCount = 0; // Reset counter
+    }
 }
 
 function initializeEmptyDataTable() {

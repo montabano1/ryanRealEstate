@@ -1,0 +1,3116 @@
+[
+  {
+    "property_name": "227 Meeting Street",
+    "address": "Charleston, SC 29401",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171240/227-meeting-street-charleston-sc-29401",
+    "floor_suite": "",
+    "space_available": "800 sqft",
+    "price": "$27",
+    "updated_at": "6:20:37PM 2/3/25"
+  },
+  {
+    "property_name": "Landmark One",
+    "address": "15727 Anthem Parkway, San Antonio, TX 78249",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-127197/landmark-one-15727-anthem-parkway-san-antonio-tx-78249",
+    "floor_suite": "Suite 305",
+    "space_available": "3,889 sqft",
+    "price": "",
+    "updated_at": "6:20:37PM 2/3/25"
+  },
+  {
+    "property_name": "Landmark One",
+    "address": "15727 Anthem Parkway, San Antonio, TX 78249",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-127197/landmark-one-15727-anthem-parkway-san-antonio-tx-78249",
+    "floor_suite": "Suite 501",
+    "space_available": "9,794 sqft",
+    "price": "",
+    "updated_at": "6:20:37PM 2/3/25"
+  },
+  {
+    "property_name": "Landmark One",
+    "address": "15727 Anthem Parkway, San Antonio, TX 78249",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-127197/landmark-one-15727-anthem-parkway-san-antonio-tx-78249",
+    "floor_suite": "Suite 503",
+    "space_available": "4,608 sqft",
+    "price": "",
+    "updated_at": "6:20:37PM 2/3/25"
+  },
+  {
+    "property_name": "633 West Main Street",
+    "address": "Madison, WI 53703",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171243/633-west-main-street-madison-wi-53703",
+    "floor_suite": "",
+    "space_available": "7,804 sqft",
+    "price": "$24/sqft/yr",
+    "updated_at": "6:20:38PM 2/3/25"
+  },
+  {
+    "property_name": "The Sunkist Building",
+    "address": "612 West Main Street, Madison, WI 53703",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171199/the-sunkist-building-612-west-main-street-madison-wi-53703",
+    "floor_suite": "",
+    "space_available": "",
+    "price": "Contact Broker For Pricing",
+    "updated_at": "6:20:38PM 2/3/25"
+  },
+  {
+    "property_name": "Hampton Oaks",
+    "address": "6655-6665 Southwest Hampton Street, Tigard, OR 97223",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-58291/hampton-oaks-6655-6665-southwest-hampton-street-tigard-or-97223",
+    "floor_suite": "Suite 120",
+    "space_available": "1,790 sqft",
+    "price": "$18.50/sqft/yr",
+    "updated_at": "6:20:39PM 2/3/25"
+  },
+  {
+    "property_name": "Nine Two Nine Office Tower",
+    "address": "929 108th Avenue NE, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31303/nine-two-nine-office-tower-929-108th-avenue-ne-bellevue-wa-98004",
+    "floor_suite": "Suite 250",
+    "space_available": "",
+    "price": "",
+    "updated_at": "6:20:39PM 2/3/25"
+  },
+  {
+    "property_name": "Nine Two Nine Office Tower",
+    "address": "929 108th Avenue NE, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31303/nine-two-nine-office-tower-929-108th-avenue-ne-bellevue-wa-98004",
+    "floor_suite": "Suite 1020",
+    "space_available": "2,943 sqft",
+    "price": "",
+    "updated_at": "6:20:39PM 2/3/25"
+  },
+  {
+    "property_name": "Nine Two Nine Office Tower",
+    "address": "929 108th Avenue NE, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31303/nine-two-nine-office-tower-929-108th-avenue-ne-bellevue-wa-98004",
+    "floor_suite": "Suite 1210",
+    "space_available": "15,687 sqft",
+    "price": "",
+    "updated_at": "6:20:39PM 2/3/25"
+  },
+  {
+    "property_name": "Nine Two Nine Office Tower",
+    "address": "929 108th Avenue NE, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31303/nine-two-nine-office-tower-929-108th-avenue-ne-bellevue-wa-98004",
+    "floor_suite": "Suite 1300",
+    "space_available": "26,067 sqft",
+    "price": "",
+    "updated_at": "6:20:39PM 2/3/25"
+  },
+  {
+    "property_name": "Nine Two Nine Office Tower",
+    "address": "929 108th Avenue NE, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31303/nine-two-nine-office-tower-929-108th-avenue-ne-bellevue-wa-98004",
+    "floor_suite": "Suite 400",
+    "space_available": "25,697 sqft",
+    "price": "",
+    "updated_at": "6:20:39PM 2/3/25"
+  },
+  {
+    "property_name": "Nine Two Nine Office Tower",
+    "address": "929 108th Avenue NE, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31303/nine-two-nine-office-tower-929-108th-avenue-ne-bellevue-wa-98004",
+    "floor_suite": "Suite 500",
+    "space_available": "26,200 sqft",
+    "price": "",
+    "updated_at": "6:20:39PM 2/3/25"
+  },
+  {
+    "property_name": "Nine Two Nine Office Tower",
+    "address": "929 108th Avenue NE, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31303/nine-two-nine-office-tower-929-108th-avenue-ne-bellevue-wa-98004",
+    "floor_suite": "Suite 600",
+    "space_available": "25,691 sqft",
+    "price": "",
+    "updated_at": "6:20:39PM 2/3/25"
+  },
+  {
+    "property_name": "Trademark Business Center",
+    "address": "230 Great Circle Road, Nashville, TN 37228",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-144309/trademark-business-center-230-great-circle-road-nashville-tn-37228",
+    "floor_suite": "Suite 210",
+    "space_available": "5,034 sqft",
+    "price": "$18.50/sqft",
+    "updated_at": "6:20:40PM 2/3/25"
+  },
+  {
+    "property_name": "Trademark Business Center",
+    "address": "230 Great Circle Road, Nashville, TN 37228",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-144309/trademark-business-center-230-great-circle-road-nashville-tn-37228",
+    "floor_suite": "Suite 244",
+    "space_available": "9,203 sqft",
+    "price": "$18.50/sqft",
+    "updated_at": "6:20:40PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center II",
+    "address": "200 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-40002/south-towne-corporate-center-ii-200-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "First Floor - Suite 140",
+    "space_available": "6,175 sqft",
+    "price": "",
+    "updated_at": "6:20:40PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center II",
+    "address": "200 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-40002/south-towne-corporate-center-ii-200-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "First Floor - Suite 190",
+    "space_available": "3,683 sqft",
+    "price": "",
+    "updated_at": "6:20:40PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center II",
+    "address": "200 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-40002/south-towne-corporate-center-ii-200-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "2nd Floor - Suite 200",
+    "space_available": "1,796 sqft",
+    "price": "",
+    "updated_at": "6:20:40PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center II",
+    "address": "200 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-40002/south-towne-corporate-center-ii-200-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "3rd Floor - Suite 350",
+    "space_available": "6,124 sqft",
+    "price": "",
+    "updated_at": "6:20:40PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Entire Ground Floor",
+    "space_available": "15,929 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Entire 4th Floor (400)",
+    "space_available": "15,929 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 5th Floor (501)",
+    "space_available": "14,075 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Entire 6th Floor",
+    "space_available": "31,317 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 11th Floor (1101)",
+    "space_available": "7,231 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 11th Floor (1107)",
+    "space_available": "5,315 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 12th Floor (1200)",
+    "space_available": "7,573 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 14th Floor (1400)",
+    "space_available": "7,830 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Entire 17th Floor",
+    "space_available": "12,850 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 18th Floor",
+    "space_available": "6,225 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 19th Floor",
+    "space_available": "3,445 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 20th Floor",
+    "space_available": "2,929 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Entire 21st Floor",
+    "space_available": "12,850 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 22nd Floor",
+    "space_available": "3,049 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 23rd Floor",
+    "space_available": "4,414 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Partial 27th Floor",
+    "space_available": "6,223 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Entire 30th Floor",
+    "space_available": "12,850 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Entire 31st Floor",
+    "space_available": "12,850 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "Times Square Plaza",
+    "address": "1500 Broadway, New York, NY 10036",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2277/times-square-plaza-1500-broadway-new-york-ny-10036",
+    "floor_suite": "Entire 32nd Floor",
+    "space_available": "12,850 sqft",
+    "price": "",
+    "updated_at": "6:20:42PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "2nd Floor, Suite 200",
+    "space_available": "12,186 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "4th Floor, Suite 425",
+    "space_available": "5,876 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "5th Floor, Suite 500",
+    "space_available": "3,811 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "5th Floor, Suite 550",
+    "space_available": "7,020 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "7th Floor, Suite 700",
+    "space_available": "14,006 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "9th Floor, Suite 900",
+    "space_available": "5,563 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "9th Floor, Suite 950",
+    "space_available": "8,443 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "10th Floor, Suite 1000",
+    "space_available": "14,006 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "11th Floor, Suite 1100",
+    "space_available": "4,957 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "11th Floor, Suite 1125",
+    "space_available": "5,593 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "11th Floor, Suite 1150",
+    "space_available": "3,456 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "13th Floor, Suite 1350",
+    "space_available": "6,973 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "255 California Street",
+    "address": "San Francisco, CA 94111",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39595/255-california-street-san-francisco-ca-94111",
+    "floor_suite": "14th Floor, Suite 1400",
+    "space_available": "14,006 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "14033 Denver West Parkway",
+    "address": "Lakewood, CO 80401",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-162508/14033-denver-west-parkway-lakewood-co-80401",
+    "floor_suite": "Floor 1",
+    "space_available": "19,920 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "14033 Denver West Parkway",
+    "address": "Lakewood, CO 80401",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-162508/14033-denver-west-parkway-lakewood-co-80401",
+    "floor_suite": "Floor 3",
+    "space_available": "22,184 sqft",
+    "price": "",
+    "updated_at": "6:20:43PM 2/3/25"
+  },
+  {
+    "property_name": "Orland Park Executive Towers I",
+    "address": "15255 South 94th Avenue, Orland Park, IL 60462",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-74744/orland-park-executive-towers-i-15255-south-94th-avenue-orland-park-il-60462",
+    "floor_suite": "Suite 100",
+    "space_available": "7,128 sqft",
+    "price": "$17/sqft",
+    "updated_at": "6:20:44PM 2/3/25"
+  },
+  {
+    "property_name": "Orland Park Executive Towers I",
+    "address": "15255 South 94th Avenue, Orland Park, IL 60462",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-74744/orland-park-executive-towers-i-15255-south-94th-avenue-orland-park-il-60462",
+    "floor_suite": "Suite 101",
+    "space_available": "1,569 sqft",
+    "price": "$17/sqft",
+    "updated_at": "6:20:44PM 2/3/25"
+  },
+  {
+    "property_name": "Orland Park Executive Towers I",
+    "address": "15255 South 94th Avenue, Orland Park, IL 60462",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-74744/orland-park-executive-towers-i-15255-south-94th-avenue-orland-park-il-60462",
+    "floor_suite": "Suite 111",
+    "space_available": "1,716 sqft",
+    "price": "$17/sqft",
+    "updated_at": "6:20:44PM 2/3/25"
+  },
+  {
+    "property_name": "Royal Centre IV",
+    "address": "11700 Great Oaks Way, Alpharetta, GA 30022",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171143/royal-centre-iv-11700-great-oaks-way-alpharetta-ga-30022",
+    "floor_suite": "",
+    "space_available": "1,716 sqft",
+    "price": "Contact Broker For Pricing",
+    "updated_at": "6:20:45PM 2/3/25"
+  },
+  {
+    "property_name": "6060 at Eastline",
+    "address": "6060 North Central Expressway, Dallas, TX 75206",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171075/6060-at-eastline-6060-north-central-expressway-dallas-tx-75206",
+    "floor_suite": "",
+    "space_available": "15,350 sqft",
+    "price": "Contact Broker For Pricing",
+    "updated_at": "6:20:45PM 2/3/25"
+  },
+  {
+    "property_name": "11 S Swinton Ave",
+    "address": "11 South Swinton Avenue, Delray Beach, FL 33444",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171270/11-s-swinton-ave-11-south-swinton-avenue-delray-beach-fl-33444",
+    "floor_suite": "",
+    "space_available": "15,350 sqft",
+    "price": "Contact Broker For Pricing",
+    "updated_at": "6:20:45PM 2/3/25"
+  },
+  {
+    "property_name": "450 Mission Street",
+    "address": "450 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171187/450-mission-street-450-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 501",
+    "space_available": "5,782 sqft",
+    "price": "",
+    "updated_at": "6:20:46PM 2/3/25"
+  },
+  {
+    "property_name": "450 Mission Street",
+    "address": "450 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171187/450-mission-street-450-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 400",
+    "space_available": "13,416 sqft",
+    "price": "",
+    "updated_at": "6:20:46PM 2/3/25"
+  },
+  {
+    "property_name": "450 Mission Street",
+    "address": "450 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171187/450-mission-street-450-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 300",
+    "space_available": "15,911 sqft",
+    "price": "",
+    "updated_at": "6:20:46PM 2/3/25"
+  },
+  {
+    "property_name": "450 Mission Street",
+    "address": "450 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171187/450-mission-street-450-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 200",
+    "space_available": "2,763 sqft",
+    "price": "",
+    "updated_at": "6:20:46PM 2/3/25"
+  },
+  {
+    "property_name": "450 Mission Street",
+    "address": "450 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171187/450-mission-street-450-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 204",
+    "space_available": "3,483 sqft",
+    "price": "",
+    "updated_at": "6:20:46PM 2/3/25"
+  },
+  {
+    "property_name": "The Kroger Building",
+    "address": "634 West Main Street, Madison, WI 53703",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171242/the-kroger-building-634-west-main-street-madison-wi-53703",
+    "floor_suite": "",
+    "space_available": "8,126 sqft",
+    "price": "$25.50 - $29.50/sqft/yr",
+    "updated_at": "6:20:46PM 2/3/25"
+  },
+  {
+    "property_name": "City Center",
+    "address": "10681 Foothill Boulevard, Rancho Cucamonga, CA 91730",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31115/city-center-10681-foothill-boulevard-rancho-cucamonga-ca-91730",
+    "floor_suite": "1st Floor, Suite 100",
+    "space_available": "4,988 sqft",
+    "price": "$2.35/sqft/mo",
+    "updated_at": "6:20:47PM 2/3/25"
+  },
+  {
+    "property_name": "City Center",
+    "address": "10681 Foothill Boulevard, Rancho Cucamonga, CA 91730",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31115/city-center-10681-foothill-boulevard-rancho-cucamonga-ca-91730",
+    "floor_suite": "4th Floor, Suite 450",
+    "space_available": "4,248 sqft",
+    "price": "$2.35/sqft/mo",
+    "updated_at": "6:20:47PM 2/3/25"
+  },
+  {
+    "property_name": "City Center",
+    "address": "10681 Foothill Boulevard, Rancho Cucamonga, CA 91730",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31115/city-center-10681-foothill-boulevard-rancho-cucamonga-ca-91730",
+    "floor_suite": "2nd Floor - Suite 297",
+    "space_available": "2,388 sqft",
+    "price": "$2.35/sqft/mo",
+    "updated_at": "6:20:47PM 2/3/25"
+  },
+  {
+    "property_name": "City Center",
+    "address": "10681 Foothill Boulevard, Rancho Cucamonga, CA 91730",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31115/city-center-10681-foothill-boulevard-rancho-cucamonga-ca-91730",
+    "floor_suite": "2nd Floor - Suite 298",
+    "space_available": "1,150 sqft",
+    "price": "$2.35/sqft/mo",
+    "updated_at": "6:20:47PM 2/3/25"
+  },
+  {
+    "property_name": "City Center",
+    "address": "10681 Foothill Boulevard, Rancho Cucamonga, CA 91730",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31115/city-center-10681-foothill-boulevard-rancho-cucamonga-ca-91730",
+    "floor_suite": "2nd Floor - Suite 225",
+    "space_available": "3,689 sqft",
+    "price": "$2.35/sqft/mo",
+    "updated_at": "6:20:47PM 2/3/25"
+  },
+  {
+    "property_name": "City Center",
+    "address": "10681 Foothill Boulevard, Rancho Cucamonga, CA 91730",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31115/city-center-10681-foothill-boulevard-rancho-cucamonga-ca-91730",
+    "floor_suite": "3rd Floor - Suite 300",
+    "space_available": "19,160 sqft",
+    "price": "$2.35/sqft/mo",
+    "updated_at": "6:20:47PM 2/3/25"
+  },
+  {
+    "property_name": "14023 Denver West Parkway",
+    "address": "Lakewood, CO 80401",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-162496/14023-denver-west-parkway-lakewood-co-80401",
+    "floor_suite": "Floor 1",
+    "space_available": "20,570 sqft",
+    "price": "",
+    "updated_at": "6:20:48PM 2/3/25"
+  },
+  {
+    "property_name": "14023 Denver West Parkway",
+    "address": "Lakewood, CO 80401",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-162496/14023-denver-west-parkway-lakewood-co-80401",
+    "floor_suite": "Floor 2",
+    "space_available": "21,863 sqft",
+    "price": "",
+    "updated_at": "6:20:48PM 2/3/25"
+  },
+  {
+    "property_name": "14023 Denver West Parkway",
+    "address": "Lakewood, CO 80401",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-162496/14023-denver-west-parkway-lakewood-co-80401",
+    "floor_suite": "Floor 3",
+    "space_available": "21,849 sqft",
+    "price": "",
+    "updated_at": "6:20:48PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Mezzanine Level",
+    "space_available": "7,053 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 2",
+    "space_available": "4,237 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 4",
+    "space_available": "3,035 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 5",
+    "space_available": "2,706 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 5",
+    "space_available": "8,660 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 8",
+    "space_available": "782 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 8",
+    "space_available": "4,893 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 8",
+    "space_available": "1,652 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 9",
+    "space_available": "6,154 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 9",
+    "space_available": "1,536 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 10",
+    "space_available": "2,549 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 10",
+    "space_available": "856 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 10",
+    "space_available": "6,688 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 10",
+    "space_available": "4,911 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 12",
+    "space_available": "1,508 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 14",
+    "space_available": "18,412 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 15",
+    "space_available": "2,972 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 15",
+    "space_available": "7,202 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 15",
+    "space_available": "1,516 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 15",
+    "space_available": "2,435 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "Floor 18",
+    "space_available": "6,833 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "Frick Building",
+    "address": "437 Grant Street, Pittsburgh, PA 15219",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-19892/frick-building-437-grant-street-pittsburgh-pa-15219",
+    "floor_suite": "TOP FLOOR",
+    "space_available": "13,028 sqft",
+    "price": "",
+    "updated_at": "6:20:49PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Lower Level",
+    "space_available": "20,009 sqft",
+    "price": "$19/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 300",
+    "space_available": "2,863 sqft",
+    "price": "$30.50/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 400",
+    "space_available": "7,176 sqft",
+    "price": "$30.50/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 450",
+    "space_available": "6,512 sqft",
+    "price": "$30.50/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 600",
+    "space_available": "7,607 sqft",
+    "price": "$30.50/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 605",
+    "space_available": "2,780 sqft",
+    "price": "$30.50/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 720",
+    "space_available": "12,590 sqft",
+    "price": "$30.50/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 800",
+    "space_available": "7,008 sqft",
+    "price": "$31/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 808",
+    "space_available": "5,351 sqft",
+    "price": "$31/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1000",
+    "space_available": "6,621 sqft",
+    "price": "$31/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1100",
+    "space_available": "17,386 sqft",
+    "price": "$31/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1331 17th Street",
+    "address": "1331 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78138/lodo-towers-1331-17th-street-1331-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1250",
+    "space_available": "7,337 sqft",
+    "price": "$31/sqft/yr",
+    "updated_at": "6:20:50PM 2/3/25"
+  },
+  {
+    "property_name": "10 Corporate Center",
+    "address": "10201 S 51st St, Phoenix, AZ 85044",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-121589/10-corporate-center-10201-s-51st-st-phoenix-az-85044",
+    "floor_suite": "Suite B195",
+    "space_available": "2,322 sqft",
+    "price": "$18/sqft",
+    "updated_at": "6:20:51PM 2/3/25"
+  },
+  {
+    "property_name": "10 Corporate Center",
+    "address": "10201 S 51st St, Phoenix, AZ 85044",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-121589/10-corporate-center-10201-s-51st-st-phoenix-az-85044",
+    "floor_suite": "Suite A160",
+    "space_available": "2,751 sqft",
+    "price": "$18/sqft",
+    "updated_at": "6:20:51PM 2/3/25"
+  },
+  {
+    "property_name": "90 North",
+    "address": "160th Avenue Southeast, Bellevue, WA 98008",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-98266/90-north-160th-avenue-southeast-bellevue-wa-98008",
+    "floor_suite": "Bldg. 10 / 3255 160th Avenue Southeast",
+    "space_available": "18,628 sqft",
+    "price": "",
+    "updated_at": "6:20:51PM 2/3/25"
+  },
+  {
+    "property_name": "90 North",
+    "address": "160th Avenue Southeast, Bellevue, WA 98008",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-98266/90-north-160th-avenue-southeast-bellevue-wa-98008",
+    "floor_suite": "Bldg. 12 / 3076 160th Avenue Southeast",
+    "space_available": "37,501 sqft",
+    "price": "",
+    "updated_at": "6:20:51PM 2/3/25"
+  },
+  {
+    "property_name": "90 North",
+    "address": "160th Avenue Southeast, Bellevue, WA 98008",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-98266/90-north-160th-avenue-southeast-bellevue-wa-98008",
+    "floor_suite": "Bldg. 13 / 3156 160th Avenue Southeast",
+    "space_available": "37,515 sqft",
+    "price": "",
+    "updated_at": "6:20:51PM 2/3/25"
+  },
+  {
+    "property_name": "Rome Towers",
+    "address": "1760 East Pecos Road, Gilbert, AZ 85295",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-125017/rome-towers-1760-east-pecos-road-gilbert-az-85295",
+    "floor_suite": "Suite 231",
+    "space_available": "2,338 sqft",
+    "price": "",
+    "updated_at": "6:20:52PM 2/3/25"
+  },
+  {
+    "property_name": "Rome Towers",
+    "address": "1760 East Pecos Road, Gilbert, AZ 85295",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-125017/rome-towers-1760-east-pecos-road-gilbert-az-85295",
+    "floor_suite": "Suite 307*",
+    "space_available": "2,821 sqft",
+    "price": "",
+    "updated_at": "6:20:52PM 2/3/25"
+  },
+  {
+    "property_name": "Center Tower Riverside",
+    "address": "3880 Lemon Street, Riverside, CA 92501",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31086/center-tower-riverside-3880-lemon-street-riverside-ca-92501",
+    "floor_suite": "1st Floor - Suite 100",
+    "space_available": "5,098 sqft",
+    "price": "$2.50/sqft/mo",
+    "updated_at": "6:20:52PM 2/3/25"
+  },
+  {
+    "property_name": "Center Tower Riverside",
+    "address": "3880 Lemon Street, Riverside, CA 92501",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31086/center-tower-riverside-3880-lemon-street-riverside-ca-92501",
+    "floor_suite": "4th Floor - Suite 430",
+    "space_available": "3,628 sqft",
+    "price": "$2.50/sqft/mo",
+    "updated_at": "6:20:52PM 2/3/25"
+  },
+  {
+    "property_name": "Center Tower Riverside",
+    "address": "3880 Lemon Street, Riverside, CA 92501",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31086/center-tower-riverside-3880-lemon-street-riverside-ca-92501",
+    "floor_suite": "1st Floor - Suite 110",
+    "space_available": "5,098 sqft",
+    "price": "$2.50/sqft/mo",
+    "updated_at": "6:20:52PM 2/3/25"
+  },
+  {
+    "property_name": "Center Tower Riverside",
+    "address": "3880 Lemon Street, Riverside, CA 92501",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31086/center-tower-riverside-3880-lemon-street-riverside-ca-92501",
+    "floor_suite": "4th Floor - Suite 420",
+    "space_available": "3,697 sqft",
+    "price": "$2.50/sqft/mo",
+    "updated_at": "6:20:52PM 2/3/25"
+  },
+  {
+    "property_name": "Center Tower Riverside",
+    "address": "3880 Lemon Street, Riverside, CA 92501",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31086/center-tower-riverside-3880-lemon-street-riverside-ca-92501",
+    "floor_suite": "2nd Floor - Suite 200",
+    "space_available": "8,465 sqft",
+    "price": "$2.50/sqft/mo",
+    "updated_at": "6:20:52PM 2/3/25"
+  },
+  {
+    "property_name": "Center Tower Riverside",
+    "address": "3880 Lemon Street, Riverside, CA 92501",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-31086/center-tower-riverside-3880-lemon-street-riverside-ca-92501",
+    "floor_suite": "4th Floor - Suite 400",
+    "space_available": "4,673 sqft",
+    "price": "$2.50/sqft/mo",
+    "updated_at": "6:20:52PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 4100",
+    "space_available": "19,621 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3900",
+    "space_available": "19,644 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3800",
+    "space_available": "19,556 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3700",
+    "space_available": "19,644 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3600",
+    "space_available": "19,649 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3400",
+    "space_available": "19,719 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3300",
+    "space_available": "19,796 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3200",
+    "space_available": "19,796 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3100",
+    "space_available": "19,719 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 3000",
+    "space_available": "19,679 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 2900",
+    "space_available": "18,714 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 2800",
+    "space_available": "19,276 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 2700",
+    "space_available": "20,847 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 2600",
+    "space_available": "20,735 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 2500",
+    "space_available": "20,735 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 2400",
+    "space_available": "20,735 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 2300",
+    "space_available": "20,593 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 2000",
+    "space_available": "20,592 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 1900",
+    "space_available": "20,592 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 1800",
+    "space_available": "20,592 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 1600",
+    "space_available": "19,993 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 1500",
+    "space_available": "20,087 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 1400",
+    "space_available": "20,002 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 1200",
+    "space_available": "20,002 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 1100",
+    "space_available": "20,002 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 1000",
+    "space_available": "20,002 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 900",
+    "space_available": "20,127 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 800",
+    "space_available": "20,127 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 700",
+    "space_available": "20,127 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 600",
+    "space_available": "20,127 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "50 Fremont Street",
+    "address": "50 Fremont Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171092/50-fremont-street-50-fremont-street-san-francisco-ca-94105",
+    "floor_suite": "Suite 500",
+    "space_available": "20,127 sqft",
+    "price": "",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "303 Sunnyside Boulevard",
+    "address": "Plainview, NY 11803",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171145/303-sunnyside-boulevard-plainview-ny-11803",
+    "floor_suite": "",
+    "space_available": "30,000 sqft",
+    "price": "Contact Broker For Pricing",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 350",
+    "space_available": "3,888 sqft",
+    "price": "$30.50/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 400",
+    "space_available": "3,143 sqft",
+    "price": "$30.50/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 700",
+    "space_available": "13,895 sqft",
+    "price": "$31/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 900",
+    "space_available": "13,918 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1000",
+    "space_available": "13,895 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1100/1175",
+    "space_available": "11,021 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1250",
+    "space_available": "4,218 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1300",
+    "space_available": "13,895 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1500",
+    "space_available": "13,818 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "LoDo Towers - 1401 17th Street",
+    "address": "1401 17th Street, Denver, CO 80202",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78153/lodo-towers-1401-17th-street-1401-17th-street-denver-co-80202",
+    "floor_suite": "Suite 1600",
+    "space_available": "3,610 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:20:53PM 2/3/25"
+  },
+  {
+    "property_name": "Gateway Two Atlanta",
+    "address": "4130 Skytrain Way, College Park, GA 30337",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171254/gateway-two-atlanta-4130-skytrain-way-college-park-ga-30337",
+    "floor_suite": "Suite 200",
+    "space_available": "24,054 sqft",
+    "price": "",
+    "updated_at": "6:20:55PM 2/3/25"
+  },
+  {
+    "property_name": "Gateway Two Atlanta",
+    "address": "4130 Skytrain Way, College Park, GA 30337",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171254/gateway-two-atlanta-4130-skytrain-way-college-park-ga-30337",
+    "floor_suite": "Suite 300",
+    "space_available": "24,054 sqft",
+    "price": "",
+    "updated_at": "6:20:55PM 2/3/25"
+  },
+  {
+    "property_name": "Crescent Center",
+    "address": "6075 Poplar Avenue, Memphis, TN 38119",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-20683/crescent-center-6075-poplar-avenue-memphis-tn-38119",
+    "floor_suite": "Suite 201",
+    "space_available": "1,515 sqft",
+    "price": "$34/sqft",
+    "updated_at": "6:20:55PM 2/3/25"
+  },
+  {
+    "property_name": "Crescent Center",
+    "address": "6075 Poplar Avenue, Memphis, TN 38119",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-20683/crescent-center-6075-poplar-avenue-memphis-tn-38119",
+    "floor_suite": "Suite 203",
+    "space_available": "2,531 sqft",
+    "price": "$34/sqft",
+    "updated_at": "6:20:55PM 2/3/25"
+  },
+  {
+    "property_name": "Crescent Center",
+    "address": "6075 Poplar Avenue, Memphis, TN 38119",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-20683/crescent-center-6075-poplar-avenue-memphis-tn-38119",
+    "floor_suite": "Suite 750",
+    "space_available": "9,030 sqft",
+    "price": "$34/sqft",
+    "updated_at": "6:20:55PM 2/3/25"
+  },
+  {
+    "property_name": "UFCW & Employers Plaza",
+    "address": "1001 Galaxy Way, Concord, CA 94520",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-42067/ufcw-employers-plaza-1001-galaxy-way-concord-ca-94520",
+    "floor_suite": "",
+    "space_available": "9,030 sqft",
+    "price": "Contact Broker For Pricing",
+    "updated_at": "6:20:56PM 2/3/25"
+  },
+  {
+    "property_name": "BORDEAUX CENTRE",
+    "address": "1380 Bordeaux Drive, Sunnyvale, CA 94089",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-146517/bordeaux-centre-1380-bordeaux-drive-sunnyvale-ca-94089",
+    "floor_suite": "",
+    "space_available": "61,921 sqft",
+    "price": "$4.25/sqft/mo",
+    "updated_at": "6:20:57PM 2/3/25"
+  },
+  {
+    "property_name": "699 Hampshire Road",
+    "address": "Westlake Village, CA 91361",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78761/699-hampshire-road-westlake-village-ca-91361",
+    "floor_suite": "#105",
+    "space_available": "1,585 sqft",
+    "price": "$2.45/sqft/mo",
+    "updated_at": "6:20:57PM 2/3/25"
+  },
+  {
+    "property_name": "699 Hampshire Road",
+    "address": "Westlake Village, CA 91361",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78761/699-hampshire-road-westlake-village-ca-91361",
+    "floor_suite": "#109",
+    "space_available": "1,043 sqft",
+    "price": "$2.45/sqft/mo",
+    "updated_at": "6:20:57PM 2/3/25"
+  },
+  {
+    "property_name": "699 Hampshire Road",
+    "address": "Westlake Village, CA 91361",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-78761/699-hampshire-road-westlake-village-ca-91361",
+    "floor_suite": "#110",
+    "space_available": "1,432 sqft",
+    "price": "$2.45/sqft/mo",
+    "updated_at": "6:20:57PM 2/3/25"
+  },
+  {
+    "property_name": "East View",
+    "address": "14725 Southeast 36th Street, Bellevue, WA 98006",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-33445/east-view-14725-southeast-36th-street-bellevue-wa-98006",
+    "floor_suite": "Suite 420",
+    "space_available": "6,956 sqft",
+    "price": "",
+    "updated_at": "6:20:58PM 2/3/25"
+  },
+  {
+    "property_name": "East View",
+    "address": "14725 Southeast 36th Street, Bellevue, WA 98006",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-33445/east-view-14725-southeast-36th-street-bellevue-wa-98006",
+    "floor_suite": "2nd Floor Suite 200",
+    "space_available": "20,750 sqft",
+    "price": "",
+    "updated_at": "6:20:58PM 2/3/25"
+  },
+  {
+    "property_name": "CODA",
+    "address": "756 West Peachtree Street Northwest, Atlanta, GA 30308",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-97993/coda-756-west-peachtree-street-northwest-atlanta-ga-30308",
+    "floor_suite": "18th Floor Suite 1850",
+    "space_available": "13,000 sqft",
+    "price": "$45/sqft/yr",
+    "updated_at": "6:20:58PM 2/3/25"
+  },
+  {
+    "property_name": "CODA",
+    "address": "756 West Peachtree Street Northwest, Atlanta, GA 30308",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-97993/coda-756-west-peachtree-street-northwest-atlanta-ga-30308",
+    "floor_suite": "19th Floor Suite 1900",
+    "space_available": "37,686 sqft",
+    "price": "$49.50/sqft/yr",
+    "updated_at": "6:20:58PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2100 Franklin Street / Suite 390",
+    "space_available": "3,855 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2100 Franklin Street / Suite 410",
+    "space_available": "9,009 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2100 Franklin Street / Suite 430",
+    "space_available": "4,880 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2101 Webster Street / Suite 510",
+    "space_available": "3,129 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2101 Webster Street / Suite 515",
+    "space_available": "1,266 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2101 Webster Street / Suite 520",
+    "space_available": "7,423 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2100 Franklin-2101 Webster / 5th Floor",
+    "space_available": "43,032 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2100 Franklin Street-2101 Webster / Entire 6th Floor",
+    "space_available": "50,362 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2100 Franklin Street-2101 Webster / Entire 9th Floor",
+    "space_available": "49,794 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2101 Webster Street / Suite 1000",
+    "space_available": "24,441 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2101 Webster Street / Suite 1100",
+    "space_available": "24,293 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2101 Webster Street / Suite 1200",
+    "space_available": "10,352 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2101 Webster Street / Suite 1430",
+    "space_available": "4,997 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "Center Twenty One - 2100 Franklin Street / 2101 Webster Street",
+    "address": "2100 Franklin Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-80937/center-twenty-one-2100-franklin-street-2101-webster-street-2100-franklin-street-oakland-ca-94612",
+    "floor_suite": "2101 Webster Street / Suite 1800",
+    "space_available": "24,506 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "5852 Heritage Landing Drive",
+    "address": "East Syracuse, NY 13057",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171045/5852-heritage-landing-drive-east-syracuse-ny-13057",
+    "floor_suite": "",
+    "space_available": "24,506 sqft",
+    "price": "Contact Broker For Pricing",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "2505 Second",
+    "address": "2505 2nd Avenue, Seattle, WA 98121",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-26310/2505-second-2505-2nd-avenue-seattle-wa-98121",
+    "floor_suite": "Suite 300",
+    "space_available": "10,990 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "2505 Second",
+    "address": "2505 2nd Avenue, Seattle, WA 98121",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-26310/2505-second-2505-2nd-avenue-seattle-wa-98121",
+    "floor_suite": "Suite 400",
+    "space_available": "1,433 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "2505 Second",
+    "address": "2505 2nd Avenue, Seattle, WA 98121",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-26310/2505-second-2505-2nd-avenue-seattle-wa-98121",
+    "floor_suite": "Suite 405",
+    "space_available": "957 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "2505 Second",
+    "address": "2505 2nd Avenue, Seattle, WA 98121",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-26310/2505-second-2505-2nd-avenue-seattle-wa-98121",
+    "floor_suite": "Suite 500",
+    "space_available": "3,492 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "2505 Second",
+    "address": "2505 2nd Avenue, Seattle, WA 98121",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-26310/2505-second-2505-2nd-avenue-seattle-wa-98121",
+    "floor_suite": "Suite 505",
+    "space_available": "3,300 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "2505 Second",
+    "address": "2505 2nd Avenue, Seattle, WA 98121",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-26310/2505-second-2505-2nd-avenue-seattle-wa-98121",
+    "floor_suite": "Suite 605",
+    "space_available": "1,537 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "2505 Second",
+    "address": "2505 2nd Avenue, Seattle, WA 98121",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-26310/2505-second-2505-2nd-avenue-seattle-wa-98121",
+    "floor_suite": "Suite 610",
+    "space_available": "2,940 sqft",
+    "price": "",
+    "updated_at": "6:20:59PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase III",
+    "address": "4011 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-8455/westchase-iii-4011-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 100",
+    "space_available": "3,235 sqft",
+    "price": "",
+    "updated_at": "6:21:01PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase III",
+    "address": "4011 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-8455/westchase-iii-4011-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 160",
+    "space_available": "1,714 sqft",
+    "price": "",
+    "updated_at": "6:21:01PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center I",
+    "address": "150 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39995/south-towne-corporate-center-i-150-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "First Floor - Suite 101",
+    "space_available": "1,863 sqft",
+    "price": "",
+    "updated_at": "6:21:01PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center I",
+    "address": "150 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39995/south-towne-corporate-center-i-150-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "First Floor - Suite 106",
+    "space_available": "6,159 sqft",
+    "price": "",
+    "updated_at": "6:21:01PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center I",
+    "address": "150 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39995/south-towne-corporate-center-i-150-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "Second Floor - Suite 200",
+    "space_available": "21,202 sqft",
+    "price": "",
+    "updated_at": "6:21:01PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center I",
+    "address": "150 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39995/south-towne-corporate-center-i-150-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "Third Floor - Suite 300",
+    "space_available": "23,294 sqft",
+    "price": "",
+    "updated_at": "6:21:01PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center I",
+    "address": "150 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39995/south-towne-corporate-center-i-150-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "6th Floor - Suite 601",
+    "space_available": "2,360 sqft",
+    "price": "",
+    "updated_at": "6:21:01PM 2/3/25"
+  },
+  {
+    "property_name": "South Towne Corporate Center I",
+    "address": "150 Civic Center Drive, Sandy, UT 84070",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-39995/south-towne-corporate-center-i-150-civic-center-drive-sandy-ut-84070",
+    "floor_suite": "6th Floor - Suite 602",
+    "space_available": "2,185 sqft",
+    "price": "",
+    "updated_at": "6:21:01PM 2/3/25"
+  },
+  {
+    "property_name": "One Thorn Run",
+    "address": "1187 Thorn Run Road, Carnot-Moon, PA 15108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85766/one-thorn-run-1187-thorn-run-road-carnot-moon-pa-15108",
+    "floor_suite": "Suite 100",
+    "space_available": "3,288 sqft",
+    "price": "",
+    "updated_at": "6:21:02PM 2/3/25"
+  },
+  {
+    "property_name": "One Thorn Run",
+    "address": "1187 Thorn Run Road, Carnot-Moon, PA 15108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85766/one-thorn-run-1187-thorn-run-road-carnot-moon-pa-15108",
+    "floor_suite": "Suite 140",
+    "space_available": "3,538 sqft",
+    "price": "",
+    "updated_at": "6:21:02PM 2/3/25"
+  },
+  {
+    "property_name": "One Thorn Run",
+    "address": "1187 Thorn Run Road, Carnot-Moon, PA 15108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85766/one-thorn-run-1187-thorn-run-road-carnot-moon-pa-15108",
+    "floor_suite": "Floor 1",
+    "space_available": "2,412 sqft",
+    "price": "",
+    "updated_at": "6:21:02PM 2/3/25"
+  },
+  {
+    "property_name": "One Thorn Run",
+    "address": "1187 Thorn Run Road, Carnot-Moon, PA 15108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85766/one-thorn-run-1187-thorn-run-road-carnot-moon-pa-15108",
+    "floor_suite": "Suite 203",
+    "space_available": "1,096 sqft",
+    "price": "",
+    "updated_at": "6:21:02PM 2/3/25"
+  },
+  {
+    "property_name": "One Thorn Run",
+    "address": "1187 Thorn Run Road, Carnot-Moon, PA 15108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85766/one-thorn-run-1187-thorn-run-road-carnot-moon-pa-15108",
+    "floor_suite": "Suite 300",
+    "space_available": "2,180 sqft",
+    "price": "",
+    "updated_at": "6:21:02PM 2/3/25"
+  },
+  {
+    "property_name": "One Thorn Run",
+    "address": "1187 Thorn Run Road, Carnot-Moon, PA 15108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85766/one-thorn-run-1187-thorn-run-road-carnot-moon-pa-15108",
+    "floor_suite": "Suite 325",
+    "space_available": "5,244 sqft",
+    "price": "",
+    "updated_at": "6:21:02PM 2/3/25"
+  },
+  {
+    "property_name": "One Thorn Run",
+    "address": "1187 Thorn Run Road, Carnot-Moon, PA 15108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85766/one-thorn-run-1187-thorn-run-road-carnot-moon-pa-15108",
+    "floor_suite": "Suite 405",
+    "space_available": "2,252 sqft",
+    "price": "",
+    "updated_at": "6:21:02PM 2/3/25"
+  },
+  {
+    "property_name": "One Thorn Run",
+    "address": "1187 Thorn Run Road, Carnot-Moon, PA 15108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85766/one-thorn-run-1187-thorn-run-road-carnot-moon-pa-15108",
+    "floor_suite": "Suite 500",
+    "space_available": "17,898 sqft",
+    "price": "",
+    "updated_at": "6:21:02PM 2/3/25"
+  },
+  {
+    "property_name": "60\u00bd Salina Street",
+    "address": "Baldwinsville, NY 13027",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171137/60-salina-street-baldwinsville-ny-13027",
+    "floor_suite": "",
+    "space_available": "1,632 sqft",
+    "price": "$30,000/yr",
+    "updated_at": "6:21:03PM 2/3/25"
+  },
+  {
+    "property_name": "1544 Eureka Road",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-27418/1544-eureka-road-roseville-ca-95661",
+    "floor_suite": "Suite 260",
+    "space_available": "1,599 sqft",
+    "price": "$2.10/sqft",
+    "updated_at": "6:21:03PM 2/3/25"
+  },
+  {
+    "property_name": "1544 Eureka Road",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-27418/1544-eureka-road-roseville-ca-95661",
+    "floor_suite": "Suite 280",
+    "space_available": "2,281 sqft",
+    "price": "$2.10/sqft/mo",
+    "updated_at": "6:21:03PM 2/3/25"
+  },
+  {
+    "property_name": "1544 Eureka Road",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-27418/1544-eureka-road-roseville-ca-95661",
+    "floor_suite": "Suite 125",
+    "space_available": "5,693 sqft",
+    "price": "$2.10/sqft/mo",
+    "updated_at": "6:21:03PM 2/3/25"
+  },
+  {
+    "property_name": "1544 Eureka Road",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-27418/1544-eureka-road-roseville-ca-95661",
+    "floor_suite": "Suite 110",
+    "space_available": "1,096 sqft",
+    "price": "$2.10/sqft/mo",
+    "updated_at": "6:21:03PM 2/3/25"
+  },
+  {
+    "property_name": "1544 Eureka Road",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-27418/1544-eureka-road-roseville-ca-95661",
+    "floor_suite": "Suite 120",
+    "space_available": "1,976 sqft",
+    "price": "$2.10/sqft/mo",
+    "updated_at": "6:21:03PM 2/3/25"
+  },
+  {
+    "property_name": "3006 Northup Building",
+    "address": "3006 Northup Way, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-33435/3006-northup-building-3006-northup-way-bellevue-wa-98004",
+    "floor_suite": "Suite 101",
+    "space_available": "1,372 sqft",
+    "price": "",
+    "updated_at": "6:21:04PM 2/3/25"
+  },
+  {
+    "property_name": "3006 Northup Building",
+    "address": "3006 Northup Way, Bellevue, WA 98004",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-33435/3006-northup-building-3006-northup-way-bellevue-wa-98004",
+    "floor_suite": "Suite 301",
+    "space_available": "",
+    "price": "",
+    "updated_at": "6:21:04PM 2/3/25"
+  },
+  {
+    "property_name": "1615 East Cactus Avenue",
+    "address": "Henderson, NV 89052",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-94956/1615-east-cactus-avenue-henderson-nv-89052",
+    "floor_suite": "Second Floor",
+    "space_available": "27,141 sqft",
+    "price": "$2.75/sqft",
+    "updated_at": "6:21:04PM 2/3/25"
+  },
+  {
+    "property_name": "1615 East Cactus Avenue",
+    "address": "Henderson, NV 89052",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-94956/1615-east-cactus-avenue-henderson-nv-89052",
+    "floor_suite": "Third Floor",
+    "space_available": "27,141 sqft",
+    "price": "$2.75/sqft",
+    "updated_at": "6:21:04PM 2/3/25"
+  },
+  {
+    "property_name": "1615 East Cactus Avenue",
+    "address": "Henderson, NV 89052",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-94956/1615-east-cactus-avenue-henderson-nv-89052",
+    "floor_suite": "Fourth Floor",
+    "space_available": "27,141 sqft",
+    "price": "$2.75/sqft",
+    "updated_at": "6:21:04PM 2/3/25"
+  },
+  {
+    "property_name": "31 West 27th Street",
+    "address": "New York, NY 10001",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-145751/31-west-27th-street-new-york-ny-10001",
+    "floor_suite": "Entire 4th Floor",
+    "space_available": "11,578 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "31 West 27th Street",
+    "address": "New York, NY 10001",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-145751/31-west-27th-street-new-york-ny-10001",
+    "floor_suite": "Partial 9th Floor",
+    "space_available": "6,826 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "31 West 27th Street",
+    "address": "New York, NY 10001",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-145751/31-west-27th-street-new-york-ny-10001",
+    "floor_suite": "Partial 10th Floor",
+    "space_available": "6,329 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "31 West 27th Street",
+    "address": "New York, NY 10001",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-145751/31-west-27th-street-new-york-ny-10001",
+    "floor_suite": "Entire 11th Floor",
+    "space_available": "11,578 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase I",
+    "address": "4020 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-11542/westchase-i-4020-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 100",
+    "space_available": "4,244 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase I",
+    "address": "4020 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-11542/westchase-i-4020-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 320",
+    "space_available": "4,942 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase I",
+    "address": "4020 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-11542/westchase-i-4020-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 325 (Spec Suite Available Now)",
+    "space_available": "2,255 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase I",
+    "address": "4020 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-11542/westchase-i-4020-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 370",
+    "space_available": "3,536 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase I",
+    "address": "4020 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-11542/westchase-i-4020-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 400",
+    "space_available": "8,196 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase I",
+    "address": "4020 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-11542/westchase-i-4020-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 530",
+    "space_available": "5,561 sqft",
+    "price": "",
+    "updated_at": "6:21:05PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 240",
+    "space_available": "3,845 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 250",
+    "space_available": "5,907 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 500",
+    "space_available": "16,828 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 700",
+    "space_available": "16,828 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 800",
+    "space_available": "16,822 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 900",
+    "space_available": "16,822 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 1000",
+    "space_available": "16,822 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 1220",
+    "space_available": "6,230 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 1300",
+    "space_available": "7,296 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 1420",
+    "space_available": "5,947 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 1550",
+    "space_available": "3,152 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 1575",
+    "space_available": "2,695 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 1580",
+    "space_available": "2,495 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "1901 Harrison Street",
+    "address": "1901 Harrison Street, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-71371/1901-harrison-street-1901-harrison-street-oakland-ca-94612",
+    "floor_suite": "Suite 1700",
+    "space_available": "16,971 sqft",
+    "price": "",
+    "updated_at": "6:21:06PM 2/3/25"
+  },
+  {
+    "property_name": "6200 Jefferson Street Northeast",
+    "address": "Albuquerque, NM 87109",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-68304/6200-jefferson-street-northeast-albuquerque-nm-87109",
+    "floor_suite": "",
+    "space_available": "7,655 sqft",
+    "price": "$22.66/sqft/yr",
+    "updated_at": "6:21:07PM 2/3/25"
+  },
+  {
+    "property_name": "6838 E. State St, Rockford, IL",
+    "address": "6838 East State Street, Rockford, IL 61108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85944/6838-e-state-st-rockford-il-6838-east-state-street-rockford-il-61108",
+    "floor_suite": "3rd Floor: 855 -12,162 RSF available",
+    "space_available": "12,162 sqft",
+    "price": "",
+    "updated_at": "6:21:07PM 2/3/25"
+  },
+  {
+    "property_name": "6838 E. State St, Rockford, IL",
+    "address": "6838 East State Street, Rockford, IL 61108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85944/6838-e-state-st-rockford-il-6838-east-state-street-rockford-il-61108",
+    "floor_suite": "4,234 RSF",
+    "space_available": "4,234 sqft",
+    "price": "",
+    "updated_at": "6:21:07PM 2/3/25"
+  },
+  {
+    "property_name": "6838 E. State St, Rockford, IL",
+    "address": "6838 East State Street, Rockford, IL 61108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85944/6838-e-state-st-rockford-il-6838-east-state-street-rockford-il-61108",
+    "floor_suite": "855 RSF",
+    "space_available": "855 sqft",
+    "price": "",
+    "updated_at": "6:21:07PM 2/3/25"
+  },
+  {
+    "property_name": "6838 E. State St, Rockford, IL",
+    "address": "6838 East State Street, Rockford, IL 61108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85944/6838-e-state-st-rockford-il-6838-east-state-street-rockford-il-61108",
+    "floor_suite": "1,985 RSF",
+    "space_available": "1,985 sqft",
+    "price": "",
+    "updated_at": "6:21:07PM 2/3/25"
+  },
+  {
+    "property_name": "6838 E. State St, Rockford, IL",
+    "address": "6838 East State Street, Rockford, IL 61108",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-85944/6838-e-state-st-rockford-il-6838-east-state-street-rockford-il-61108",
+    "floor_suite": "5,088 RSF",
+    "space_available": "5,088 sqft",
+    "price": "",
+    "updated_at": "6:21:07PM 2/3/25"
+  },
+  {
+    "property_name": "COLONIAL CENTER 100 AT COLONIAL TOWNPARK",
+    "address": "100 Colonial Center Parkway, Lake Mary, FL 32746",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-32233/colonial-center-100-at-colonial-townpark-100-colonial-center-parkway-lake-mary-fl-32746",
+    "floor_suite": "Suite 140",
+    "space_available": "3,486 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:21:08PM 2/3/25"
+  },
+  {
+    "property_name": "COLONIAL CENTER 100 AT COLONIAL TOWNPARK",
+    "address": "100 Colonial Center Parkway, Lake Mary, FL 32746",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-32233/colonial-center-100-at-colonial-townpark-100-colonial-center-parkway-lake-mary-fl-32746",
+    "floor_suite": "Suite 150",
+    "space_available": "8,049 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:21:08PM 2/3/25"
+  },
+  {
+    "property_name": "COLONIAL CENTER 100 AT COLONIAL TOWNPARK",
+    "address": "100 Colonial Center Parkway, Lake Mary, FL 32746",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-32233/colonial-center-100-at-colonial-townpark-100-colonial-center-parkway-lake-mary-fl-32746",
+    "floor_suite": "Suite 200",
+    "space_available": "19,866 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:21:08PM 2/3/25"
+  },
+  {
+    "property_name": "COLONIAL CENTER 100 AT COLONIAL TOWNPARK",
+    "address": "100 Colonial Center Parkway, Lake Mary, FL 32746",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-32233/colonial-center-100-at-colonial-townpark-100-colonial-center-parkway-lake-mary-fl-32746",
+    "floor_suite": "Suite 300",
+    "space_available": "33,868 sqft",
+    "price": "$32/sqft/yr",
+    "updated_at": "6:21:08PM 2/3/25"
+  },
+  {
+    "property_name": "9440 Double R Blvd",
+    "address": "9440 Double R Boulevard, Reno, NV 89521",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171267/9440-double-r-blvd-9440-double-r-boulevard-reno-nv-89521",
+    "floor_suite": "",
+    "space_available": "5,621 sqft",
+    "price": "$1.23/sqft/yr",
+    "updated_at": "6:21:09PM 2/3/25"
+  },
+  {
+    "property_name": "Lake View Village",
+    "address": "310 North State Street, Lake Oswego, OR 97034",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-59959/lake-view-village-310-north-state-street-lake-oswego-or-97034",
+    "floor_suite": "Suite 218",
+    "space_available": "1,736 sqft",
+    "price": "$35/sqft",
+    "updated_at": "6:21:09PM 2/3/25"
+  },
+  {
+    "property_name": "Liberty Plaza II",
+    "address": "10800 Nuckols Road, Glen Allen, VA 23060",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-170212/liberty-plaza-ii-10800-nuckols-road-glen-allen-va-23060",
+    "floor_suite": "4th Floor",
+    "space_available": "30,000 sqft",
+    "price": "",
+    "updated_at": "6:21:10PM 2/3/25"
+  },
+  {
+    "property_name": "Liberty Plaza II",
+    "address": "10800 Nuckols Road, Glen Allen, VA 23060",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-170212/liberty-plaza-ii-10800-nuckols-road-glen-allen-va-23060",
+    "floor_suite": "5th Floor",
+    "space_available": "30,000 sqft",
+    "price": "",
+    "updated_at": "6:21:10PM 2/3/25"
+  },
+  {
+    "property_name": "BORDEAUX CENTRE",
+    "address": "1376 Bordeaux Drive, Sunnyvale, CA 94089",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-146080/bordeaux-centre-1376-bordeaux-drive-sunnyvale-ca-94089",
+    "floor_suite": "",
+    "space_available": "20,641 sqft",
+    "price": "$4.25/sqft",
+    "updated_at": "6:21:10PM 2/3/25"
+  },
+  {
+    "property_name": "1092 Johnnie Dodds Boulevard",
+    "address": "Mount Pleasant, SC 29464",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-166643/1092-johnnie-dodds-boulevard-mount-pleasant-sc-29464",
+    "floor_suite": "",
+    "space_available": "2,400 sqft",
+    "price": "$25/sqft/yr",
+    "updated_at": "6:21:10PM 2/3/25"
+  },
+  {
+    "property_name": "350 Mission Street",
+    "address": "350 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171193/350-mission-street-350-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Entire 30th Floor",
+    "space_available": "16,666 sqft",
+    "price": "",
+    "updated_at": "6:21:11PM 2/3/25"
+  },
+  {
+    "property_name": "350 Mission Street",
+    "address": "350 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171193/350-mission-street-350-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Entire 29th Floor",
+    "space_available": "16,667 sqft",
+    "price": "",
+    "updated_at": "6:21:11PM 2/3/25"
+  },
+  {
+    "property_name": "350 Mission Street",
+    "address": "350 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171193/350-mission-street-350-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Entire 28th Floor",
+    "space_available": "16,667 sqft",
+    "price": "",
+    "updated_at": "6:21:11PM 2/3/25"
+  },
+  {
+    "property_name": "350 Mission Street",
+    "address": "350 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171193/350-mission-street-350-mission-street-san-francisco-ca-94105",
+    "floor_suite": "Entire 27th Floor",
+    "space_available": "17,984 sqft",
+    "price": "",
+    "updated_at": "6:21:11PM 2/3/25"
+  },
+  {
+    "property_name": "Mesa Commerce Center",
+    "address": "1930 South Alma School Road, Mesa, AZ 85210",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-145909/mesa-commerce-center-1930-south-alma-school-road-mesa-az-85210",
+    "floor_suite": "",
+    "space_available": "17,984 sqft",
+    "price": "$15.50 - $16.50",
+    "updated_at": "6:21:11PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 1.02",
+    "space_available": "7,548 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 1.04",
+    "space_available": "5,126 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 1.05",
+    "space_available": "2,400 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 1.06",
+    "space_available": "980 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 1.11",
+    "space_available": "1,434 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 1.17",
+    "space_available": "6,167 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 1.21",
+    "space_available": "974 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 2.18",
+    "space_available": "1,193 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 2.20",
+    "space_available": "1,230 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 2.30",
+    "space_available": "3,100 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 2.36",
+    "space_available": "1,235 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 2.38/2.40",
+    "space_available": "5,548 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 2.49",
+    "space_available": "2,236 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "Finesilver",
+    "address": "816 Camaron Street, San Antonio, TX 78212",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-25731/finesilver-816-camaron-street-san-antonio-tx-78212",
+    "floor_suite": "Suite 3.01",
+    "space_available": "12,793 sqft",
+    "price": "",
+    "updated_at": "6:21:12PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase II",
+    "address": "4000 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-9589/westchase-ii-4000-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 210",
+    "space_available": "2,230 sqft",
+    "price": "",
+    "updated_at": "6:21:13PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase II",
+    "address": "4000 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-9589/westchase-ii-4000-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 310 (Spec Suite)",
+    "space_available": "2,885 sqft",
+    "price": "",
+    "updated_at": "6:21:13PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase II",
+    "address": "4000 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-9589/westchase-ii-4000-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 500",
+    "space_available": "4,259 sqft",
+    "price": "",
+    "updated_at": "6:21:13PM 2/3/25"
+  },
+  {
+    "property_name": "WestChase II",
+    "address": "4000 Westchase Boulevard, Raleigh, NC 27607",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-9589/westchase-ii-4000-westchase-boulevard-raleigh-nc-27607",
+    "floor_suite": "Suite 530",
+    "space_available": "7,080 sqft",
+    "price": "",
+    "updated_at": "6:21:13PM 2/3/25"
+  },
+  {
+    "property_name": "1333 Broadway, Oakland CA 94612",
+    "address": "1333 Broadway, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-30763/1333-broadway-oakland-ca-94612-1333-broadway-oakland-ca-94612",
+    "floor_suite": "Suite P100",
+    "space_available": "4,010 sqft",
+    "price": "",
+    "updated_at": "6:21:14PM 2/3/25"
+  },
+  {
+    "property_name": "1333 Broadway, Oakland CA 94612",
+    "address": "1333 Broadway, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-30763/1333-broadway-oakland-ca-94612-1333-broadway-oakland-ca-94612",
+    "floor_suite": "Suite P110",
+    "space_available": "6,135 sqft",
+    "price": "",
+    "updated_at": "6:21:14PM 2/3/25"
+  },
+  {
+    "property_name": "1333 Broadway, Oakland CA 94612",
+    "address": "1333 Broadway, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-30763/1333-broadway-oakland-ca-94612-1333-broadway-oakland-ca-94612",
+    "floor_suite": "Suite 210",
+    "space_available": "5,117 sqft",
+    "price": "",
+    "updated_at": "6:21:14PM 2/3/25"
+  },
+  {
+    "property_name": "1333 Broadway, Oakland CA 94612",
+    "address": "1333 Broadway, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-30763/1333-broadway-oakland-ca-94612-1333-broadway-oakland-ca-94612",
+    "floor_suite": "Suite 250",
+    "space_available": "8,274 sqft",
+    "price": "",
+    "updated_at": "6:21:14PM 2/3/25"
+  },
+  {
+    "property_name": "1333 Broadway, Oakland CA 94612",
+    "address": "1333 Broadway, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-30763/1333-broadway-oakland-ca-94612-1333-broadway-oakland-ca-94612",
+    "floor_suite": "Suite 600",
+    "space_available": "24,511 sqft",
+    "price": "",
+    "updated_at": "6:21:14PM 2/3/25"
+  },
+  {
+    "property_name": "1333 Broadway, Oakland CA 94612",
+    "address": "1333 Broadway, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-30763/1333-broadway-oakland-ca-94612-1333-broadway-oakland-ca-94612",
+    "floor_suite": "Suite 1010",
+    "space_available": "6,561 sqft",
+    "price": "",
+    "updated_at": "6:21:14PM 2/3/25"
+  },
+  {
+    "property_name": "1333 Broadway, Oakland CA 94612",
+    "address": "1333 Broadway, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-30763/1333-broadway-oakland-ca-94612-1333-broadway-oakland-ca-94612",
+    "floor_suite": "Suite 1020",
+    "space_available": "2,281 sqft",
+    "price": "",
+    "updated_at": "6:21:14PM 2/3/25"
+  },
+  {
+    "property_name": "1333 Broadway, Oakland CA 94612",
+    "address": "1333 Broadway, Oakland, CA 94612",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-30763/1333-broadway-oakland-ca-94612-1333-broadway-oakland-ca-94612",
+    "floor_suite": "Suite 1016",
+    "space_available": "1,422 sqft",
+    "price": "",
+    "updated_at": "6:21:14PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 121",
+    "space_available": "2,565 sqft",
+    "price": "$25/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 328",
+    "space_available": "1,423 sqft",
+    "price": "$39/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 390",
+    "space_available": "1,843 sqft",
+    "price": "$39/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 480",
+    "space_available": "5,016 sqft",
+    "price": "$39/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 600",
+    "space_available": "14,875 sqft",
+    "price": "",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 700/755",
+    "space_available": "11,894 sqft",
+    "price": "",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 815",
+    "space_available": "1,705 sqft",
+    "price": "$39/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 840",
+    "space_available": "711 sqft",
+    "price": "$39/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 850",
+    "space_available": "1,965 sqft",
+    "price": "$39/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "50 S Steele Street",
+    "address": "50 South Steele Street, Denver, CO 80209",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-46940/50-s-steele-street-50-south-steele-street-denver-co-80209",
+    "floor_suite": "Suite 1000",
+    "space_available": "2,806 sqft",
+    "price": "$40/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "10 Waterside Drive",
+    "address": "Farmington, CT 06032",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171156/10-waterside-drive-farmington-ct-06032",
+    "floor_suite": "10 Waterside Drive",
+    "space_available": "13,951 sqft",
+    "price": "$24.50/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "10 Waterside Drive",
+    "address": "Farmington, CT 06032",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171156/10-waterside-drive-farmington-ct-06032",
+    "floor_suite": "20 Waterside Drive",
+    "space_available": "8,210 sqft",
+    "price": "$24.50/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "10 Waterside Drive",
+    "address": "Farmington, CT 06032",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171156/10-waterside-drive-farmington-ct-06032",
+    "floor_suite": "30 Waterchase Drive",
+    "space_available": "16,554 sqft",
+    "price": "$24.50/sqft/yr",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "535 E First Street",
+    "address": "535 East 1st Street, Tustin, CA 92780",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171093/535-e-first-street-535-east-1st-street-tustin-ca-92780",
+    "floor_suite": "",
+    "space_available": "10,610 sqft",
+    "price": "$1.50/sqft/mo",
+    "updated_at": "6:21:15PM 2/3/25"
+  },
+  {
+    "property_name": "Southern Executive Center",
+    "address": "931 East Southern Avenue, Mesa, AZ 85204",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-167490/southern-executive-center-931-east-southern-avenue-mesa-az-85204",
+    "floor_suite": "Suite 101-102",
+    "space_available": "2,542 sqft",
+    "price": "$23/sqft",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Southern Executive Center",
+    "address": "931 East Southern Avenue, Mesa, AZ 85204",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-167490/southern-executive-center-931-east-southern-avenue-mesa-az-85204",
+    "floor_suite": "Suite 104",
+    "space_available": "744 sqft",
+    "price": "$23/sqft",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Southern Executive Center",
+    "address": "931 East Southern Avenue, Mesa, AZ 85204",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-167490/southern-executive-center-931-east-southern-avenue-mesa-az-85204",
+    "floor_suite": "Suite 108",
+    "space_available": "1,059 sqft",
+    "price": "$23/sqft",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Southern Executive Center",
+    "address": "931 East Southern Avenue, Mesa, AZ 85204",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-167490/southern-executive-center-931-east-southern-avenue-mesa-az-85204",
+    "floor_suite": "Suite 203",
+    "space_available": "1,677 sqft",
+    "price": "$23/sqft",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Salesforce Tower",
+    "address": "415 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171167/salesforce-tower-415-mission-street-san-francisco-ca-94105",
+    "floor_suite": "44th Floor | Suite 4400",
+    "space_available": "24,290 sqft",
+    "price": "",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Salesforce Tower",
+    "address": "415 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171167/salesforce-tower-415-mission-street-san-francisco-ca-94105",
+    "floor_suite": "43rd Floor | Suite 4300",
+    "space_available": "24,525 sqft",
+    "price": "",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Salesforce Tower",
+    "address": "415 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171167/salesforce-tower-415-mission-street-san-francisco-ca-94105",
+    "floor_suite": "42nd Floor | Suite 4200",
+    "space_available": "24,740 sqft",
+    "price": "",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Salesforce Tower",
+    "address": "415 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171167/salesforce-tower-415-mission-street-san-francisco-ca-94105",
+    "floor_suite": "41st Floor | Suite 4100",
+    "space_available": "24,942 sqft",
+    "price": "",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Salesforce Tower",
+    "address": "415 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171167/salesforce-tower-415-mission-street-san-francisco-ca-94105",
+    "floor_suite": "40th Floor | Suite 4000",
+    "space_available": "25,124 sqft",
+    "price": "",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Salesforce Tower",
+    "address": "415 Mission Street, San Francisco, CA 94105",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-171167/salesforce-tower-415-mission-street-san-francisco-ca-94105",
+    "floor_suite": "39th Floor | Suite 3900",
+    "space_available": "25,289 sqft",
+    "price": "",
+    "updated_at": "6:21:16PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 3rd Floor",
+    "space_available": "5,587 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 3rd Floor",
+    "space_available": "3,125 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 3rd Floor",
+    "space_available": "2,344 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 4th Floor",
+    "space_available": "4,418 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 4th Floor",
+    "space_available": "1,304 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 6th Floor",
+    "space_available": "1,797 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Entire 7th Floor",
+    "space_available": "11,046 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 10th Floor (1004)",
+    "space_available": "4,842 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Entire 11th Floor  (1,397 - 11,046)",
+    "space_available": "11,046 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 12th Floor",
+    "space_available": "4,612 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Partial 12th Floor",
+    "space_available": "1,946 ac",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Entire 16th Floor",
+    "space_available": "11,046 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "Continental Tower",
+    "address": "1370 6th Avenue, New York, NY 10019",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-2271/continental-tower-1370-6th-avenue-new-york-ny-10019",
+    "floor_suite": "Entire 33rd Floor",
+    "space_available": "10,776 sqft",
+    "price": "",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "3615 Main Street",
+    "address": "Riverside, CA 92501",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-170961/3615-main-street-riverside-ca-92501",
+    "floor_suite": "1st Floor - Suite 103",
+    "space_available": "4,092 sqft",
+    "price": "$2/sqft/mo",
+    "updated_at": "6:21:17PM 2/3/25"
+  },
+  {
+    "property_name": "5010 Campuswood Drive",
+    "address": "East Syracuse, NY 13057",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-159716/5010-campuswood-drive-east-syracuse-ny-13057",
+    "floor_suite": "2nd Floor - 1,301 SF",
+    "space_available": "1,301 sqft",
+    "price": "$18.50/sqft/yr",
+    "updated_at": "6:21:18PM 2/3/25"
+  },
+  {
+    "property_name": "2270 Douglas Boulevard",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-20699/2270-douglas-boulevard-roseville-ca-95661",
+    "floor_suite": "Suite 205",
+    "space_available": "2,579 sqft",
+    "price": "",
+    "updated_at": "6:21:18PM 2/3/25"
+  },
+  {
+    "property_name": "2270 Douglas Boulevard",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-20699/2270-douglas-boulevard-roseville-ca-95661",
+    "floor_suite": "Suite 212",
+    "space_available": "3,755 sqft",
+    "price": "",
+    "updated_at": "6:21:18PM 2/3/25"
+  },
+  {
+    "property_name": "2270 Douglas Boulevard",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-20699/2270-douglas-boulevard-roseville-ca-95661",
+    "floor_suite": "Suite 219",
+    "space_available": "2,837 sqft",
+    "price": "$2.20/sqft/mo",
+    "updated_at": "6:21:18PM 2/3/25"
+  },
+  {
+    "property_name": "COLONIAL CENTER 300 AT COLONIAL TOWNPARK",
+    "address": "300 Colonial Center Parkway, Lake Mary, FL 32746",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-32231/colonial-center-300-at-colonial-townpark-300-colonial-center-parkway-lake-mary-fl-32746",
+    "floor_suite": "Suite 120",
+    "space_available": "7,047 sqft",
+    "price": "$30.25/sqft/yr",
+    "updated_at": "6:21:18PM 2/3/25"
+  },
+  {
+    "property_name": "2130 Professional Drive",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-21935/2130-professional-drive-roseville-ca-95661",
+    "floor_suite": "Suite 100",
+    "space_available": "3,331 sqft",
+    "price": "$2.10/sqft/mo",
+    "updated_at": "6:21:19PM 2/3/25"
+  },
+  {
+    "property_name": "2130 Professional Drive",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-21935/2130-professional-drive-roseville-ca-95661",
+    "floor_suite": "Suite 140",
+    "space_available": "3,990 sqft",
+    "price": "$2.10/sqft/mo",
+    "updated_at": "6:21:19PM 2/3/25"
+  },
+  {
+    "property_name": "2130 Professional Drive",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-21935/2130-professional-drive-roseville-ca-95661",
+    "floor_suite": "Suite 200",
+    "space_available": "2,045 sqft",
+    "price": "$2.10/sqft/mo",
+    "updated_at": "6:21:19PM 2/3/25"
+  },
+  {
+    "property_name": "2130 Professional Drive",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-21935/2130-professional-drive-roseville-ca-95661",
+    "floor_suite": "Suite 210",
+    "space_available": "1,032 sqft",
+    "price": "$2.20/sqft",
+    "updated_at": "6:21:19PM 2/3/25"
+  },
+  {
+    "property_name": "2130 Professional Drive",
+    "address": "Roseville, CA 95661",
+    "listing_url": "https://www.cbre.com/properties/properties-for-lease/commercial-space/details/US-SMPL-21935/2130-professional-drive-roseville-ca-95661",
+    "floor_suite": "Suite 225",
+    "space_available": "1,263 sqft",
+    "price": "",
+    "updated_at": "6:21:19PM 2/3/25"
+  }
+]

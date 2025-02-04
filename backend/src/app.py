@@ -1,13 +1,20 @@
-from flask import Flask, jsonify, render_template, request, Response
+from flask import Flask, jsonify, request, Response
 from flask_cors import CORS
 from scraper import scrape_real_estate
 import json
 import os
 import time
 import threading
+import logging
 from datetime import datetime
 
-# Global variables to track scraping progress
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
+# Global variables to track scraping status
 scraping_status = {
     'is_scraping': False,
     'current_data': None,
@@ -16,79 +23,29 @@ scraping_status = {
 
 app = Flask(__name__)
 
-# Configure CORS for GitHub Pages
-CORS(app, resources={r"/api/*": {"origins": ["https://yourusername.github.io", "http://localhost:5000"]}}, supports_credentials=True)
-
-# Load environment variables
-from dotenv import load_dotenv
-load_dotenv()
-
-# Ensure the data directory exists
-os.makedirs('data', exist_ok=True)
+# Configure CORS for GitHub Pages and local development
+CORS(app, resources={r"/api/*": {"origins": [
+    "https://montabano1.github.io",
+    "http://localhost:5000",
+    "http://127.0.0.1:5000",
+    "http://localhost:8000",
+    "http://127.0.0.1:8000"
+]}}, supports_credentials=True)
 
 # Ensure the data directory exists
 os.makedirs('data', exist_ok=True)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return jsonify({'status': 'API is running'})
 
-def generate_progress():
-    """Generator function to yield real progress updates"""
-    global scraping_status
-    start_time = time.time()
-    last_progress = 0
-    
-    while True:
-        if scraping_status['error']:
-            error_msg = f"Error: {scraping_status['error']}"
-            yield f'data: {json.dumps({"progress": last_progress, "message": error_msg, "error": True})}\n\n'
-            break
-            
-        elapsed_time = time.time() - start_time
-        
-        if elapsed_time < 2:
-            message = "Initializing scraper..."
-            progress = 5
-        elif elapsed_time < 5:
-            message = "Connecting to websites..."
-            progress = 15
-        elif elapsed_time < 10:
-            message = "Searching for properties..."
-            progress = 30
-        elif elapsed_time < 20:
-            message = "Fetching property listings..."
-            progress = 50
-        else:
-            message = "Processing data..."
-            progress = min(90, int(elapsed_time / 30 * 100))
-        
-        if scraping_status['current_data']:
-            yield f'data: {json.dumps({"progress": 100, "message": "Complete!", "done": True})}\n\n'
-            break
-            
-        if progress > last_progress:
-            yield f'data: {json.dumps({"progress": progress, "message": message})}\n\n'
-            last_progress = progress
-            
-        time.sleep(1)
 
-@app.route('/api/progress')
-def progress():
-    return Response(
-        generate_progress(),
-        mimetype='text/event-stream',
-        headers={
-            'Cache-Control': 'no-cache',
-            'Access-Control-Allow-Origin': '*',
-            'Connection': 'keep-alive'
-        }
-    )
 
 def run_scraper():
     """Run the scraper in a separate thread"""
     global scraping_status
     try:
+        logging.info('Starting scraper with API key: %s', scraping_status.get('api_key')[:8] + '...')
         scraping_status['is_scraping'] = True
         data = scrape_real_estate(scraping_status.get('api_key'))
         
@@ -97,8 +54,10 @@ def run_scraper():
         os.makedirs('data', exist_ok=True)
         filename = f'data/raw_data_{timestamp}.json'
         
+        logging.info('Saving data to %s', filename)
         with open(filename, 'w') as f:
             json.dump(data, f, indent=2)
+        logging.info('Data saved successfully')
             
         scraping_status['current_data'] = True
     except Exception as e:
@@ -188,23 +147,36 @@ def get_latest_data():
     try:
         # Get the latest data file
         data_dir = 'data'
+        logging.info(f'Looking for data files in {data_dir}')
         data_files = [f for f in os.listdir(data_dir) if f.startswith('raw_data_')]
+        logging.info(f'Found data files: {data_files}')
+        
         if not data_files:
+            logging.warning('No data files found')
             return jsonify({
                 'success': False,
                 'error': 'No data available'
             })
         
         latest_file = max(data_files, key=lambda x: os.path.getmtime(os.path.join(data_dir, x)))
+        logging.info(f'Loading latest file: {latest_file}')
+        
         with open(os.path.join(data_dir, latest_file), 'r') as f:
             data = json.load(f)
+            logging.info(f'Loaded data structure: {list(data.keys())}')
         
         # Get listings and convert location to address if needed
         listings = data.get('data', {}).get('listings', [])
+        logging.info(f'Found {len(listings)} listings in data')
+        
         for listing in listings:
             if 'location' in listing and 'address' not in listing:
                 listing['address'] = listing['location']
                 del listing['location']
+                
+        logging.info(f'Processed {len(listings)} listings for response')
+        if listings:
+            logging.info(f'Sample listing: {listings[0]}')
         
         return jsonify({
             'success': True,
@@ -219,4 +191,8 @@ def get_latest_data():
         }), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--port', type=int, default=5001)
+    args = parser.parse_args()
+    app.run(debug=True, port=args.port)
