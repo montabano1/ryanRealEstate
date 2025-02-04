@@ -8,9 +8,9 @@ from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 async def get_iframe_url(url=None):
     """Get the iframe URL from Lee Associates property page."""
     if url is None:
-        url = "https://www.lee-associates.com/properties/"
+        url = "https://www.lpc.com/properties/properties-search/"
     
-    browser_cfg = BrowserConfig(headless=True, verbose=True)
+    browser_cfg = BrowserConfig(headless=False, verbose=True)
     run_config = CrawlerRunConfig(
         cache_mode=CacheMode.BYPASS,
         js_code=
@@ -46,7 +46,7 @@ async def extract_property_urls():
         print(f"\n[{step_name}] Time elapsed: {elapsed}")
     
     browser_config = BrowserConfig(
-        headless=True,
+        headless=False,
         verbose=True
     )
     
@@ -84,17 +84,41 @@ async def extract_property_urls():
                 }
             }
         }
+        await new Promise(r => setTimeout(r, 1500));
+        const select3 = document.getElementById("sortFilter");
+        if (select3) {
+            // First, deselect the currently selected option
+            const selectedOption = select3.querySelector('option[selected="selected"]');
+            if (selectedOption) {
+                selectedOption.removeAttribute('selected');
+            }
+
+            // Then select the Date Updated option
+            for (let i = 0; i < select3.options.length; i++) {
+                if (select3.options[i].value === "") {
+                    select3.options[i].selected = true;
+                    select3.options[i].setAttribute('selected', 'selected');
+                    const event = new Event('change', { bubbles: true });
+                    select3.dispatchEvent(event);
+                    console.log("Date Updated selected");
+                    break;
+                }
+            }
+        }
         await new Promise(r => setTimeout(r, 5000));
     """
     
     js_next_page = """
-        const selector = 'span.js-next';
-        const button = document.querySelector(selector);
-        if (button) {
-            button.click()
+        const activeButton = document.querySelector('.js-paginate-btn.active');
+        if (activeButton) {
+            const nextButton = activeButton.nextElementSibling;
+            if (nextButton && nextButton.classList.contains('js-paginate-btn')) {
+                nextButton.click();
+                console.log("Clicked next page button");
+            }
         } else {
-            return False    
-        };
+            print("No active button found")
+        }
         await new Promise(r => setTimeout(r, 1500));
         """
     
@@ -153,7 +177,7 @@ async def extract_property_urls():
                     js_only=True,      
                     cache_mode=CacheMode.BYPASS,
                     wait_for="""js:() => {
-                        return document.querySelectorAll('div.grid-index-card').length > 1;
+                        return document.querySelectorAll('div.result-list-item').length > 1;
                     }""",
                 )
                 result2 = await crawler.arun(
@@ -173,10 +197,12 @@ async def extract_property_urls():
                 print(f"Total unique URLs so far: {len(all_property_urls)}")
                 page_num += 1
                 # Check if the next button is hidden (display: none)
-                next_button = soup.select_one('span.js-next')
-                if next_button and next_button.get('style') and 'display: none' in next_button.get('style'):
-                    print("Next button is hidden - reached end of pagination")
-                    break
+                paginate_buttons = soup.select('.js-paginate-btn')
+                if paginate_buttons:
+                    last_button = paginate_buttons[-1]
+                    if 'active' in last_button.get('class', []):
+                        print("Last page button is active - reached end of pagination")
+                        break
             
             # Save URLs to a JSON file
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -228,7 +254,7 @@ async def extract_property_urls():
                     soup = BeautifulSoup(result.html, 'html.parser')
                     iframe = soup.select_one('#buildout iframe')
                     if iframe and iframe.get('src'):
-                        iframe_url = iframe['src']
+                        iframe_url = iframe['src'] + '&tab=spaces'
                         iframe_urls.append(iframe_url)
                         print(f"Found iframe URL from {result.url}")
                 else:
@@ -301,22 +327,11 @@ async def extract_property_urls():
                     for row in soup.select('.js-lease-space-row-toggle.spaces'):
                         cells = row.find_all(['th', 'td'])
                         if len(cells) >= 5:
-                            # Extract propertyId, address, and officeId from the URL
-                            url_parts = result.url.split('?')[1].split('&')
-                            params = {}
-                            for part in url_parts:
-                                if '=' in part:
-                                    key, value = part.split('=')
-                                    params[key] = value
-                            
-                            # Construct the new URL format
-                            new_url = f"https://www.lee-associates.com/properties/?propertyId={params.get('propertyId', '')}&address={params.get('address', '')}&officeId={params.get('officeId', '')}&tab=spaces"
-                            
                             unit = {
                                 "property_name": property_name,
                                 "address": address,
                                 "location": location,
-                                "listing_url": new_url,
+                                "listing_url": f"https://www.lpc.com/properties/properties-search/?propertyId={result.url.split('propertyId=')[1].split('&')[0]}&tab=spaces",
                                 "floor_suite": cells[0].text.strip(),
                                 "space_available": cells[2].text.strip(),
                                 "price": cells[3].text.strip(),
@@ -330,7 +345,7 @@ async def extract_property_urls():
             
             # Save all property details to a JSON file
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_file = f"lee_properties_{timestamp}.json"
+            output_file = f"lincoln_properties_{timestamp}.json"
             
             with open(output_file, 'w') as f:
                 json.dump(all_property_details, f, indent=2)

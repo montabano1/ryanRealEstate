@@ -27,6 +27,10 @@ async def extract_property_urls():
         await new Promise(r => setTimeout(r, 5000));
         """
     
+    js_wait1 = """
+        await new Promise(r => setTimeout(r, 500));
+        """
+    
     js_next_page = """
         const selector = 'span.coveo-accessible-button';
         const button = document.querySelector(selector);
@@ -70,7 +74,7 @@ async def extract_property_urls():
                 session_id=session_id
             )
             
-            soup = BeautifulSoup(result1.cleaned_html, 'html.parser')
+            soup = BeautifulSoup(result1.html, 'html.parser')
             property_links = soup.find_all('a', href=lambda x: x and 'properties/for-lease/office' in x)
             current_page_urls = {f'{link["href"]}' for link in property_links}
             all_property_urls.update(current_page_urls)
@@ -81,9 +85,15 @@ async def extract_property_urls():
                 # Store the current page URLs to compare with next page
                 last_page_urls = current_page_urls
                 
+                # Check for next button and if it's disabled
+                next_li = soup.find('li', {'class': 'coveo-pager-next'})
+                if not next_li or 'coveo-pager-list-item-disabled' in next_li.get('class', []):
+                    print("Next button is disabled - reached end of pagination")
+                    break
+                
                 config_next = CrawlerRunConfig(
                     # session_id=session_id,
-                    # js_code=js_wait,
+                    js_code=js_wait1,
                     # js_only=True,      
                     wait_for="""js:() => {
                         return document.querySelectorAll('div.CoveoResult').length > 1;
@@ -108,11 +118,6 @@ async def extract_property_urls():
                 print(f"Found {len(current_page_urls)} property URLs on page {page_num}")
                 print(f"Total unique URLs so far: {len(all_property_urls)}")
                 page_num += 1
-                # Check if the next button is disabled
-                next_button = soup.select_one('span.coveo-accessible-button')
-                if next_button and 'coveo-pager__disabled' in next_button.get('class', []):
-                    print("Next button is disabled - reached end of pagination")
-                    break
             
             # Save URLs to a JSON file
             timestamp = arrow.now().format('YYYYMMDD_HHmmss')
@@ -166,52 +171,104 @@ async def extract_property_urls():
                         property_name = "N/A"
                         address = "N/A"
                     
-                    # Extract details like price and space
-                    details_div = soup.find('div', {'class': 'mix_propertyStatistics'})
-                    price = "Contact for Details"
-                    space_min = "N/A"
-                    space_max = "N/A"
-                    available_space = None
+                    units = []
                     
-                    if details_div:
-                        # Extract price and space
-                        dt_elements = details_div.find_all('dt')
-                        dd_elements = details_div.find_all('dd')
-                        
-                        for dt, dd in zip(dt_elements, dd_elements):
-                            dt_text = dt.text.strip()
-                            dd_text = dd.text.strip()
+                    # Look for multiple availability containers
+                    availability_containers = soup.find_all('div', {'class': 'availabilities-container-parent'})
+                    if availability_containers:
+                        for container in availability_containers:
+                            # Extract floor/suite info
+                            title_div = container.find('div', {'class': 'blue-color-title-div'})
+                            if title_div:
+                                floor = title_div.find('b', {'class': 'font-bold'})
+                                floor = floor.text.strip() if floor else ""
+                                suite = title_div.find('span', string=lambda x: x and 'Suite' in x)
+                                suite = suite.text.strip() if suite else ""
+                                floor_suite = f"{floor} {suite}".strip()
+                            else:
+                                floor_suite = "N/A"
                             
-                            if 'Rental Price' in dt_text:
-                                price = dd_text
-                            elif 'Available Space' in dt_text:
-                                available_space = dd_text
-                            elif 'Min Divisible' in dt_text:
-                                space_min = dd_text
-                            elif 'Max Contiguous' in dt_text:
-                                space_max = dd_text
+                            # Extract space and price
+                            desc_divs = container.find_all('div', {'class': 'availabilities-second-level-description'})
+                            space_available = "Contact for Details"
+                            price = "Contact for Details"
+                            
+                            for div in desc_divs:
+                                label = div.find('p', {'class': 'm-1'})
+                                if not label:
+                                    continue
+                                    
+                                value = div.find('b', {'class': 'bold-font'})
+                                if not value:
+                                    continue
+                                    
+                                label_text = label.text.strip()
+                                value_text = value.text.strip()
+                                
+                                if 'Available Space' in label_text:
+                                    space_available = value_text
+                                elif 'Rental Price' in label_text:
+                                    price = value_text
+                            
+                            unit = {
+                                "property_name": property_name,
+                                "address": address,
+                                "listing_url": result.url,
+                                "floor_suite": floor_suite,
+                                "space_available": space_available,
+                                "price": price,
+                                "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
+                            }
+                            units.append(unit)
                     
-                    # Create space available text - prefer range if available, otherwise use single value
-                    if space_min != "N/A" and space_max != "N/A":
-                        space_available = f"{space_min} - {space_max}"
-                    elif available_space:
-                        space_available = available_space
-                    else:
-                        space_available = "Contact for Details"
+                    # If no availability containers found, try single space info
+                    if not units:
+                        # Extract details like price and space
+                        details_div = soup.find('div', {'class': 'mix_propertyStatistics'})
+                        price = "Contact for Details"
+                        space_min = "N/A"
+                        space_max = "N/A"
+                        available_space = None
+                        
+                        if details_div:
+                            # Extract price and space
+                            dt_elements = details_div.find_all('dt')
+                            dd_elements = details_div.find_all('dd')
+                            
+                            for dt, dd in zip(dt_elements, dd_elements):
+                                dt_text = dt.text.strip()
+                                dd_text = dd.text.strip()
+                                
+                                if 'Rental Price' in dt_text:
+                                    price = dd_text
+                                elif 'Available Space' in dt_text:
+                                    available_space = dd_text
+                                elif 'Min Divisible' in dt_text:
+                                    space_min = dd_text
+                                elif 'Max Contiguous' in dt_text:
+                                    space_max = dd_text
+                        
+                        # Create space available text - prefer range if available, otherwise use single value
+                        if space_min != "N/A" and space_max != "N/A":
+                            space_available = f"{space_min} - {space_max}"
+                        elif available_space:
+                            space_available = available_space
+                        else:
+                            space_available = "Contact for Details"
+                        
+                        unit = {
+                            "property_name": property_name,
+                            "address": address,
+                            "listing_url": result.url,
+                            "floor_suite": "N/A",
+                            "space_available": space_available,
+                            "price": price,
+                            "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
+                        }
+                        units.append(unit)
                     
-                    # Create property details
-                    property_details = {
-                        "property_name": property_name,
-                        "address": address,
-                        "listing_url": result.url,
-                        "floor_suite": "N/A",  # Cushman doesn't provide floor/suite info on main page
-                        "space_available": space_available,
-                        "price": price,
-                        "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
-                    }
-                    
-                    all_property_details.append(property_details)
-                    print(f"Processed: {property_name}")
+                    all_property_details.extend(units)
+                    print(f"Processed: {property_name} - Found {len(units)} units")
                     
                 except Exception as e:
                     print(f"Error processing property: {str(e)}")

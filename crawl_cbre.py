@@ -69,7 +69,7 @@ async def extract_property_urls():
                 session_id=session_id
             )
             
-            soup = BeautifulSoup(result1.cleaned_html, 'html.parser')
+            soup = BeautifulSoup(result1.html, 'html.parser')
             property_links = soup.find_all('a', href=lambda x: x and 'US-SMPL' in x)
             current_page_urls = {f'https://www.cbre.com{link["href"]}' for link in property_links}
             all_property_urls.update(current_page_urls)
