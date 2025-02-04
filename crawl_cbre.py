@@ -103,16 +103,15 @@ async def extract_property_urls():
                 property_links = soup.find_all('a', href=lambda x: x and 'US-SMPL' in x)
                 current_page_urls = {f'https://www.cbre.com{link["href"]}' for link in property_links}
                 
+                all_property_urls.update(current_page_urls)
+                print(f"Found {len(current_page_urls)} property URLs on page {page_num}")
+                print(f"Total unique URLs so far: {len(all_property_urls)}")
+                page_num += 1
                 # Check if the next button is disabled
                 next_button = soup.select_one('li.cbre-c-pl-pager__next')
                 if next_button and 'cbre-c-pl-pager__disabled' in next_button.get('class', []):
                     print("Next button is disabled - reached end of pagination")
                     break
-                
-                all_property_urls.update(current_page_urls)
-                print(f"Found {len(current_page_urls)} property URLs on page {page_num}")
-                print(f"Total unique URLs so far: {len(all_property_urls)}")
-                page_num += 1
             
             # Save URLs to a JSON file
             timestamp = arrow.now().format('YYYYMMDD_HHmmss')

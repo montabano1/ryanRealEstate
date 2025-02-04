@@ -5,7 +5,6 @@ from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
-from crawl4ai.extraction_strategy import LLMExtractionStrategy
 from pydantic import BaseModel, Field
 
 # Load environment variables
@@ -23,36 +22,39 @@ class PropertyUnit(BaseModel):
 async def extract_unit_details(crawler, url, property_info):
     print(f"\nExtracting unit details from {url}")
     
-    unit_extraction_strategy = LLMExtractionStrategy(
-        provider="openai/gpt-4o-mini",
-        api_token=os.getenv('OPENAI_API_KEY'),
-        schema={"type": "array", "items": {"type": "object", "properties": {
-            "floor_suite": {"type": "string"},
-            "space_available": {"type": "string"}
-        }}},
-        extraction_type="schema",
-        instruction="""
-        Extract all available unit details from the data grid on the page.
-        For each row in the grid, provide:
-        - floor_suite: The value from the "Floor" column (e.g. "3rd Floor, Suite 300")
-        - space_available: The value from the "Size" column (e.g. "14,740 SF")
-        Return as a list of objects with these two fields.
-        """,
-        model_kwargs={"stream": False}
-    )
+    # JavaScript to wait for and extract data from the MuiDataGrid
+    js_extract = """
+    async function extractGridData() {
+        // Wait for grid to load
+        await new Promise(r => setTimeout(r, 5000));
+        
+        // Find all grid rows
+        const rows = Array.from(document.querySelectorAll('.MuiDataGrid-row'));
+        
+        return rows.map(row => {
+            // Get floor name cell
+            const floorCell = row.querySelector('.floor-name');
+            const floorName = floorCell ? floorCell.textContent.trim() : '';
+            
+            // Get size cell (it's the second cell)
+            const sizeCell = row.querySelector('.MuiDataGrid-cell[data-field="size"]');
+            const size = sizeCell ? sizeCell.textContent.trim() : '';
+            
+            return {
+                floor_suite: floorName || 'Entire Property',
+                space_available: size || 'Contact for Details'
+            };
+        });
+    }
+    return await extractGridData();
+    """
 
     run_config = CrawlerRunConfig(
         cache_mode=CacheMode.BYPASS,
-        extraction_strategy=unit_extraction_strategy,
-        js_code=[
-            """
-            async function waitForContent() {
-                await new Promise(r => setTimeout(r, 5000));
-                return true;
-            }
-            return await waitForContent();
-            """
-        ]
+        js_code=js_extract,
+        js_only=True,
+        page_timeout=60000,
+        simulate_user=True
     )
 
     result = await crawler.arun(
@@ -62,9 +64,9 @@ async def extract_unit_details(crawler, url, property_info):
     )
 
     units = []
-    if result.extracted_content:
+    if result.js_result:
         try:
-            content = json.loads(result.extracted_content) if isinstance(result.extracted_content, str) else result.extracted_content
+            content = result.js_result
             if isinstance(content, list):
                 for unit in content:
                     unit_obj = property_info.copy()
@@ -72,8 +74,8 @@ async def extract_unit_details(crawler, url, property_info):
                     unit_obj["space_available"] = unit["space_available"]
                     units.append(unit_obj)
             print(f"Extracted {len(units)} units")
-        except json.JSONDecodeError as e:
-            print(f"Error parsing JSON content: {e}")
+        except Exception as e:
+            print(f"Error processing grid data: {e}")
     
     return units
 
@@ -131,7 +133,7 @@ async def extract_properties_paginated():
         try:
             print("\nStarting paginated property extraction...")
             current_page = 1
-            base_url = "https://property.jll.com/search?tenureType=rent&propertyType=office"
+            base_url = "https://property.jll.com/search?tenureType=rent&propertyTypes=office&orderBy=desc&region=Connecticut&page=1&sortBy=dateModified"
             
             while current_page <= MAX_PAGES:
                 current_url = f"{base_url}&page={current_page}" if current_page > 1 else base_url

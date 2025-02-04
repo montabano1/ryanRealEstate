@@ -1,44 +1,49 @@
 import asyncio
 import json
-from datetime import datetime
+import arrow
 from bs4 import BeautifulSoup
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode, MemoryAdaptiveDispatcher, CrawlerMonitor, DisplayMode
 
 async def extract_property_urls():
-    start_time = datetime.now()
+    start_time = arrow.now()
     
     def log_time(step_name):
-        elapsed = datetime.now() - start_time
+        elapsed = arrow.now() - start_time
         print(f"\n[{step_name}] Time elapsed: {elapsed}")
     
     browser_config = BrowserConfig(
-        headless=False,
-        verbose=True
+        headless=True,
+        verbose=True,
+        viewport_height=1080,
+        viewport_width=1920,
+        ignore_https_errors=True,  # Handle HTTPS errors
+        extra_args=['--disable-web-security'],  # Disable CORS checks
+        headers={
+            'sec-fetch-site': 'same-origin',  # Only allow same-origin requests
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-dest': 'document'
+        }
     )
     
-    # Wait for select element and property cards
-    base_wait = """js:() => {
-        const select = document.getElementById("q_type_use_offset_eq_any");
-        const cards = document.querySelectorAll('.property-card');
-        return select !== null || cards.length > 0;
-    }"""
-    
     js_wait = """
-        await new Promise(r => setTimeout(r, 3000));
+        await new Promise(r => setTimeout(r, 5000));
+        """
+    
+    js_wait1 = """
+        await new Promise(r => setTimeout(r, 500));
         """
     
     js_next_page = """
-        const selector = 'li.flex.items-center > button > svg.h-6.text-jllRed';
-        const button = document.querySelector(selector).closest('button');
-        if (button) {
-            console.log('found button')
-            button.click()
-        } else {
-            console.log('no button')
-            return False    
-        };
-        await new Promise(r => setTimeout(r, 5000));
-        """
+        const lastLi = document.querySelector('nav[role="navigation"] ul li:last-child');
+        const svg = lastLi ? lastLi.querySelector('svg.h-6.text-jllRed') : null;
+        if (svg && svg.querySelector('path[d*="8.22"]')) {
+            console.log('found next button')
+            lastLi.querySelector('button').click()
+            return true;
+        }
+        console.log('next button not found')
+        return false;
+    """
     
 
     
@@ -47,7 +52,7 @@ async def extract_property_urls():
             print("\nStarting property URL extraction...")
             
             session_id = "monte"
-
+            current_url = 'https://property.jll.com/search?tenureType=rent&propertyTypes=office&orderBy=desc&sortBy=dateModified'
             # Step 2: Extract URLs using BeautifulSoup
             print("Extracting property URLs...")
             all_property_urls = set()  # Using a set to avoid duplicates
@@ -57,22 +62,26 @@ async def extract_property_urls():
                 session_id=session_id,
                 js_code=js_wait,
                 css_selector='div.grid',
-                cache_mode=CacheMode.BYPASS
+                cache_mode=CacheMode.BYPASS,
+                page_timeout=60000,
+                simulate_user=True,
+                override_navigator=True,
+                magic=True
             )
             result1 = await crawler.arun(
-                url='https://property.jll.com/search?tenureType=rent&propertyTypes=office&orderBy=desc&sortBy=dateModified',
+                url=current_url,
                 config=config_first,
                 session_id=session_id
             )
-            # Get URLs from first page
-
-            property_links = result1.links["internal"]
-            current_page_urls = {link['href'] for link in property_links}  # No need to add base URL, it's already there
+            
+            soup = BeautifulSoup(result1.cleaned_html, 'html.parser')
+            property_links = soup.find_all('a', href=lambda x: x and 'listings/' in x)
+            current_page_urls = {f'https://property.jll.com{link["href"]}' for link in property_links}
             all_property_urls.update(current_page_urls)
             print(f"Found {len(current_page_urls)} property URLs on page 1")
             
             page_num = 2
-            for page in range(1):
+            while True:
                 # Store the current page URLs to compare with next page
                 last_page_urls = current_page_urls
                 
@@ -80,94 +89,227 @@ async def extract_property_urls():
                     session_id=session_id,
                     js_code=js_next_page,
                     js_only=True,      
-                    cache_mode=CacheMode.BYPASS
+                    wait_for="""js:() => {
+                        return document.querySelectorAll('div[data-cy="property-card"].relative').length > 1;
+                    }""",
+                    cache_mode=CacheMode.BYPASS,
+                    page_timeout=60000,
+                    simulate_user=True,
+                    override_navigator=True,
+                    magic=True
                 )
                 result2 = await crawler.arun(
-                    url='https://property.jll.com/search?tenureType=rent&propertyTypes=office&orderBy=desc&sortBy=dateModified',
+                    url=current_url,
                     config=config_next,
                     session_id=session_id
                 )
                 
-                property_links = result2.links["internal"]
-                current_page_urls = {link['href'] for link in property_links}
+                soup = BeautifulSoup(result2.html, 'html.parser')
+                property_links = soup.find_all('a', href=lambda x: x and 'listings/' in x)
+                current_page_urls = {f'https://property.jll.com{link["href"]}' for link in property_links}
                 
-                # If we got the same URLs as the last page, we've reached the end
-                if current_page_urls == last_page_urls:
-                    print("No new URLs found - reached end of pagination")
-                    break
+                # Check if the next button exists - it should be the last li with an SVG inside
+                
                 
                 all_property_urls.update(current_page_urls)
                 print(f"Found {len(current_page_urls)} property URLs on page {page_num}")
                 print(f"Total unique URLs so far: {len(all_property_urls)}")
                 page_num += 1
+                last_li = soup.select_one('nav[role="navigation"] ul li:last-child')
+                next_button = last_li and last_li.find('svg', class_='h-6 text-jllRed')
+                if not (next_button and next_button.find('path', {'d': lambda x: x and '8.22' in x})):
+                    print("Next button not found - reached end of pagination")
+                    break
             
             # Save URLs to a JSON file
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            timestamp = arrow.now().format('YYYYMMDD_HHmmss')
                         
             # Process all URLs using arun_many with memory adaptive dispatcher
             all_property_details = []
             urls_to_process = list(all_property_urls)
             
             log_time("URL Collection Complete")
+            for link in all_property_urls:
+                print(link)
             
-            # Create a run config for property details extraction
+            # Create a run config for property details extraction with streaming enabled
             run_config = CrawlerRunConfig(
                 cache_mode=CacheMode.BYPASS,
-                stream=False  # Get all results at once
+                page_timeout=60000,
+                js_code=js_wait1,
+                stream=True  # Process results as they come in
             )
             
-            # Set up the memory adaptive dispatcher
+            print("\nStarting streaming processing of URLs...")
+            print(f"Processing {len(all_property_urls)} URLs...")
+            
+            # Set up the memory adaptive dispatcher with more conservative memory settings
             dispatcher = MemoryAdaptiveDispatcher(
-                memory_threshold_percent=70.0,
-                check_interval=1.0,
-                max_session_permit=10,
+                memory_threshold_percent=60.0,  # Lower threshold to be more conservative
+                check_interval=0.5,  # Check more frequently
+                max_session_permit=10,  # Reduce concurrent sessions
                 monitor=CrawlerMonitor(
                     display_mode=DisplayMode.DETAILED
                 )
             )
             
-            print("\nStarting batch processing of URLs...")
-            
-            log_time("Iframe Collection Complete")
-            
-            # Get all results at once using memory adaptive dispatcher
-            results = await crawler.arun_many(
+            # Process results as they stream in
+            stream = await crawler.arun_many(
                 urls=all_property_urls,
                 config=run_config,
                 dispatcher=dispatcher
             )
-            
-            # Process all results after completion
-            for result in results:
+            async for result in stream:
                 if result.success and result.html:
                     soup = BeautifulSoup(result.html, 'html.parser')
-                    print(soup.select_one('h1').text)
+                    print(f"\nProcessing {result.url}")
                     
-                    
-                    # Extract unit details from table
-                    # units = []
-                    # for row in soup.select('.js-lease-space-row-toggle.spaces'):
-                    #     cells = row.find_all(['th', 'td'])
-                    #     if len(cells) >= 5:
-                    #         unit = {
-                    #             "property_name": property_name,
-                    #             "address": address,
-                    #             "location": location,
-                    #             "listing_url": result.url,
-                    #             "error": False,
-                    #             "floor_suite": cells[0].text.strip(),
-                    #             "space_available": cells[2].text.strip(),
-                    #             "price": cells[3].text.strip()
-                    #         }
-                    #         units.append(unit)
-                    
-                    # all_property_details.extend(units)
+                    try:
+                        # Extract property name and price from header
+                        header_div = soup.select_one('div.mb-6.flex.flex-col')
+                        
+                        name_elem = header_div.select_one('h1.MuiTypography-root.jss6') if header_div else None
+                        property_name = name_elem.text.strip() if name_elem else ""
+                        
+                        # Extract price from header (more reliable location)
+                        price = "Contact for pricing"
+                        price_elem = header_div.select_one('div.flex.items-center.justify-end.text-bronze p.text-lg') if header_div else None
+                        if price_elem:
+                            price = price_elem.text.strip()
+                        
+                        # Extract address components
+                        address_div = soup.select_one('div.flex-col.text-doveGrey')
+                        street_address = ""
+                        city_state = ""
+                        if address_div:
+                            address_parts = [p.text.strip() for p in address_div.find_all('p', class_='text-lg')]
+                            if len(address_parts) >= 1:
+                                street_address = address_parts[0]
+                            if len(address_parts) >= 2:
+                                city_state = address_parts[1]
+                        
+                        address = f"{street_address}, {city_state}" if street_address else city_state
+                        
+                        # First get the top-level space info
+                        space_text = None
+                        space_li = soup.select_one('ul.flex.flex-wrap li span.text-lg.text-neutral-700 span')
+                        if space_li:
+                            space_text = space_li.text.strip()
+                            print(f"[DEBUG] Found top-level space: {space_text}")
+
+                        units = []  # Initialize units list at the top
+                        availability_div = soup.find('div', id='availability')
+                        if availability_div:
+                            print("[DEBUG] Found availability div")
+                            
+                            # Try to find rows through multiple paths
+                            rows = []
+                            
+                            # Find all action arrow cells with the specific SVG pattern
+                            action_cells = availability_div.find_all('div', {'class': 'action-arrow'})
+                            if action_cells:
+                                print(f"[DEBUG] Found {len(action_cells)} potential action arrows")
+                                for cell in action_cells:
+                                    # Check for SVG with specific path pattern
+                                    svg = cell.find('svg', {'class': 'MuiSvgIcon-root MuiSvgIcon-colorPrimary'})
+                                    if svg:
+                                        # Look for the path with the specific coordinates
+                                        paths = svg.find_all('path')
+                                        print(f"[DEBUG] Found {len(paths)} paths in SVG")
+                                        for path in paths:
+                                            d_attr = path.get('d', '')
+                                            print(f"[DEBUG] Checking path with d={d_attr}")
+                                            if any(coord in d_attr for coord in ['14.9848 6.84933', 'M14.9848 6.84933']):
+                                                print("[DEBUG] Found matching path!")
+                                                parent_row = cell.find_parent('div', {'role': 'row', 'class': lambda x: x and 'MuiDataGrid-row' in x})
+                                                if parent_row:
+                                                    print("[DEBUG] Found parent row")
+                                                    if parent_row not in rows:
+                                                        rows.append(parent_row)
+                                                        print(f"[DEBUG] Added row {len(rows)}")
+                                                    else:
+                                                        print("[DEBUG] Row already added")
+                                                else:
+                                                    print("[DEBUG] No parent row found")
+                                print(f"[DEBUG] Found {len(rows)} valid rows with red arrows")
+                            
+                            if rows:
+                                for row in rows:
+                                    # Find floor cell - try both class and data-field attributes
+                                    floor_cell = row.find('div', {'class': 'floor-name'}) or row.find('div', {'data-field': 'floorName'})
+                                    floor_text = None
+                                    if floor_cell:
+                                        # First try the span inside group div
+                                        span = floor_cell.select_one('div.max-w-full.overflow-hidden span')
+                                        if span:
+                                            floor_text = span.text.strip()
+                                        else:
+                                            # Fallback to any text content in the cell
+                                            floor_text = floor_cell.get_text(strip=True)
+                                        print(f"[DEBUG] Found floor cell: {floor_text}")
+                                    
+                                    # Find space cell using data-field="size"
+                                    space_cell = row.find('div', {'data-field': 'size'})
+                                    row_space_text = space_cell.get_text(strip=True) if space_cell else None
+                                    print(f"[DEBUG] Found space cell: {row_space_text}")
+                                    
+                                    if floor_text and row_space_text:
+                                        unit = {
+                                            "property_name": property_name,
+                                            "address": address,
+                                            "listing_url": result.url,
+                                            "floor_suite": floor_text,
+                                            "space_available": row_space_text,
+                                            "price": price,
+                                            "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
+                                        }
+                                        units.append(unit)
+                                        print(f"[DEBUG] Added unit: {floor_text} - {row_space_text}")
+                            else:
+                                print("[DEBUG] No rows with red arrows found, using top-level space info")
+                                # Create a single entry with N/A for floor_suite
+                                unit = {
+                                    "property_name": property_name,
+                                    "address": address,
+                                    "listing_url": result.url,
+                                    "floor_suite": "N/A",
+                                    "space_available": space_text or "Contact for Details",
+                                    "price": price,
+                                    "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
+                                }
+                                units.append(unit)
+                                print(f"[DEBUG] Added single unit with space: {space_text}")
+                        else:
+                            print("[DEBUG] No availability div found, using top-level space info")
+                            # Create a single entry with N/A for floor_suite
+                            unit = {
+                                "property_name": property_name,
+                                "address": address,
+                                "listing_url": result.url,
+                                "floor_suite": "N/A",
+                                "space_available": space_text or "Contact for Details",
+                                "price": price,
+                                "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
+                            }
+                            units.append(unit)
+                            print(f"[DEBUG] Added single unit with space: {space_text}")
+                        
+                        # Add all extracted units to the main list
+                        if units:
+                            print(f"Successfully extracted {len(units)} units")
+                            all_property_details.extend(units)
+                        else:
+                            print("WARNING: No units extracted from this property")
+                    except Exception as e:
+                        print(f"Error processing property: {str(e)}")
+                        import traceback
+                        print(traceback.format_exc())
                 else:
                     print(f"Failed to process {result.url}: {result.error_message if hasattr(result, 'error_message') else 'Unknown error'}")
             
             # Save all property details to a JSON file
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_file = f"lee_properties_{timestamp}.json"
+            timestamp = arrow.now().format('YYYYMMDD_HHmmss')
+            output_file = f"jll_properties_{timestamp}.json"
             
             with open(output_file, 'w') as f:
                 json.dump(all_property_details, f, indent=2)
@@ -175,10 +317,9 @@ async def extract_property_urls():
             print(f"\nExtracted {len(all_property_details)} total units from {len(urls_to_process)} properties")
             print(f"Results saved to {output_file}")
             
-            total_time = datetime.now() - start_time
+            total_time = arrow.now() - start_time
             print(f"\n=== Final Statistics ===")
             print(f"Total Properties Found: {len(urls_to_process)}")
-            print(f"Total Iframe URLs: {len(iframe_urls)}")
             print(f"Total Units Extracted: {len(all_property_details)}")
             print(f"Total Time: {total_time}")
             print(f"Average Time per Property: {total_time / len(urls_to_process) if urls_to_process else 0}")
@@ -189,89 +330,6 @@ async def extract_property_urls():
         except Exception as e:
             print(f"Error during extraction: {e}")
 
-async def extract_property_details(url):
-    """Extract property details from a Lee Associates property page"""
-    print(f"Extracting details from {url}")
-    
-    browser_cfg = BrowserConfig(headless=False, verbose=True)
-    run_config = CrawlerRunConfig(
-        cache_mode=CacheMode.BYPASS,
-        wait_for="css:.pdt-header1, .pdt-header2, .js-lease-space-row-toggle"
-    )
-    
-    units = []
-    try:
-        async with AsyncWebCrawler(config=browser_cfg) as crawler:
-            # First get the iframe URL
-            iframe_url = await get_iframe_url(url)
-            if not iframe_url:
-                print("Could not find iframe URL")
-                return None
-                
-            iframe_url = iframe_url + '&tab=spaces'
-            print(f"Found iframe: {iframe_url}")
-            
-            # Now get the content from the iframe
-            result = await crawler.arun(url=iframe_url, config=run_config)
-            if not result.success:
-                print("Failed to load iframe content")
-                return None
-                
-            soup = BeautifulSoup(result.html, 'html.parser')
-            
-            # Extract property name
-            name_elem = soup.select_one('.pdt-header1 h1')
-            property_name = name_elem.text.strip() if name_elem else ""
-            
-            # Extract address and location
-            addr_elem = soup.select_one('.pdt-header2 h2')
-            if addr_elem:
-                addr_parts = addr_elem.text.strip().split('|')
-                address = addr_parts[0].strip()
-                location = addr_parts[1].strip() if len(addr_parts) > 1 else ""
-            else:
-                address = property_name  # If no separate address, use property name
-                location = ""
-                
-            # Extract unit details from table
-            for row in soup.select('.js-lease-space-row-toggle.spaces'):
-                cells = row.find_all(['th', 'td'])
-                if len(cells) >= 5:  # Ensure we have enough cells
-                    unit = {
-                        "property_name": property_name,
-                        "address": address,
-                        "location": location,
-                        "listing_url": url,
-                        "error": False,
-                        "floor_suite": cells[0].text.strip(),
-                        "space_available": cells[2].text.strip(),
-                        "price": cells[3].text.strip()
-                    }
-                    units.append(unit)
-            
-            print(f"Found {len(units)} units")
-            return units
-                
-    except Exception as e:
-        print(f"Error extracting property details: {e}")
-        return None
-
-async def test_single_property():
-    """Test property details extraction"""
-    test_url = "https://www.lee-associates.com/properties/?propertyId=1115269-lease&address=2250-S-Barrington-Ave&officeId=2429"
-    print(f"Testing URL: {test_url}")
-    
-    units = await extract_property_details(test_url)
-    if units:
-        print("\nExtracted Units:")
-        for unit in units:
-            print(json.dumps(unit, indent=2))
-    else:
-        print("No units found")
-    
-    return units
-
 if __name__ == "__main__":
     # Run the full extraction
-    # asyncio.run(test_single_property())
     asyncio.run(extract_property_urls())

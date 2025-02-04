@@ -1,5 +1,6 @@
 import asyncio
 import json
+import arrow
 from datetime import datetime
 from bs4 import BeautifulSoup
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode, MemoryAdaptiveDispatcher, CrawlerMonitor, DisplayMode
@@ -94,7 +95,6 @@ async def extract_property_urls():
         } else {
             return False    
         };
-        await new Promise(r => setTimeout(r, 1000));
         """
     
 
@@ -150,7 +150,10 @@ async def extract_property_urls():
                     session_id=session_id,
                     js_code=js_next_page,
                     js_only=True,      
-                    cache_mode=CacheMode.BYPASS
+                    cache_mode=CacheMode.BYPASS,
+                    wait_for="""js:() => {
+                        return document.querySelectorAll('div.grid-index-card').length > 1;
+                    }""",
                 )
                 result2 = await crawler.arun(
                     url=iframe_url,
@@ -162,16 +165,17 @@ async def extract_property_urls():
                 property_links = soup.find_all('a', href=lambda x: x and 'propertyId' in x)
                 current_page_urls = {link['href'] for link in property_links}
                 
-                # Check if the next button is hidden (display: none)
-                next_button = soup.select_one('span.js-next')
-                if next_button and next_button.get('style') and 'display: none' in next_button.get('style'):
-                    print("Next button is hidden - reached end of pagination")
-                    break
+                
                 
                 all_property_urls.update(current_page_urls)
                 print(f"Found {len(current_page_urls)} property URLs on page {page_num}")
                 print(f"Total unique URLs so far: {len(all_property_urls)}")
                 page_num += 1
+                # Check if the next button is hidden (display: none)
+                next_button = soup.select_one('span.js-next')
+                if next_button and next_button.get('style') and 'display: none' in next_button.get('style'):
+                    print("Next button is hidden - reached end of pagination")
+                    break
             
             # Save URLs to a JSON file
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -286,10 +290,10 @@ async def extract_property_urls():
                                 "address": address,
                                 "location": location,
                                 "listing_url": result.url,
-                                "error": False,
                                 "floor_suite": cells[0].text.strip(),
                                 "space_available": cells[2].text.strip(),
-                                "price": cells[3].text.strip()
+                                "price": cells[3].text.strip(),
+                                "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
                             }
                             units.append(unit)
                     
@@ -321,89 +325,6 @@ async def extract_property_urls():
         except Exception as e:
             print(f"Error during extraction: {e}")
 
-async def extract_property_details(url):
-    """Extract property details from a Lee Associates property page"""
-    print(f"Extracting details from {url}")
-    
-    browser_cfg = BrowserConfig(headless=True, verbose=True)
-    run_config = CrawlerRunConfig(
-        cache_mode=CacheMode.BYPASS,
-        wait_for="css:.pdt-header1, .pdt-header2, .js-lease-space-row-toggle"
-    )
-    
-    units = []
-    try:
-        async with AsyncWebCrawler(config=browser_cfg) as crawler:
-            # First get the iframe URL
-            iframe_url = await get_iframe_url(url)
-            if not iframe_url:
-                print("Could not find iframe URL")
-                return None
-                
-            iframe_url = iframe_url + '&tab=spaces'
-            print(f"Found iframe: {iframe_url}")
-            
-            # Now get the content from the iframe
-            result = await crawler.arun(url=iframe_url, config=run_config)
-            if not result.success:
-                print("Failed to load iframe content")
-                return None
-                
-            soup = BeautifulSoup(result.html, 'html.parser')
-            
-            # Extract property name
-            name_elem = soup.select_one('.pdt-header1 h1')
-            property_name = name_elem.text.strip() if name_elem else ""
-            
-            # Extract address and location
-            addr_elem = soup.select_one('.pdt-header2 h2')
-            if addr_elem:
-                addr_parts = addr_elem.text.strip().split('|')
-                address = addr_parts[0].strip()
-                location = addr_parts[1].strip() if len(addr_parts) > 1 else ""
-            else:
-                address = property_name  # If no separate address, use property name
-                location = ""
-                
-            # Extract unit details from table
-            for row in soup.select('.js-lease-space-row-toggle.spaces'):
-                cells = row.find_all(['th', 'td'])
-                if len(cells) >= 5:  # Ensure we have enough cells
-                    unit = {
-                        "property_name": property_name,
-                        "address": address,
-                        "location": location,
-                        "listing_url": url,
-                        "error": False,
-                        "floor_suite": cells[0].text.strip(),
-                        "space_available": cells[2].text.strip(),
-                        "price": cells[3].text.strip()
-                    }
-                    units.append(unit)
-            
-            print(f"Found {len(units)} units")
-            return units
-                
-    except Exception as e:
-        print(f"Error extracting property details: {e}")
-        return None
-
-async def test_single_property():
-    """Test property details extraction"""
-    test_url = "https://www.lee-associates.com/properties/?propertyId=1115269-lease&address=2250-S-Barrington-Ave&officeId=2429"
-    print(f"Testing URL: {test_url}")
-    
-    units = await extract_property_details(test_url)
-    if units:
-        print("\nExtracted Units:")
-        for unit in units:
-            print(json.dumps(unit, indent=2))
-    else:
-        print("No units found")
-    
-    return units
-
 if __name__ == "__main__":
     # Run the full extraction
-    # asyncio.run(test_single_property())
     asyncio.run(extract_property_urls())
