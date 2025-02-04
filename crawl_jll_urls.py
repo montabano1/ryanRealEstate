@@ -195,12 +195,10 @@ async def extract_property_urls():
                         space_li = soup.select_one('ul.flex.flex-wrap li span.text-lg.text-neutral-700 span')
                         if space_li:
                             space_text = space_li.text.strip()
-                            print(f"[DEBUG] Found top-level space: {space_text}")
 
                         units = []  # Initialize units list at the top
                         availability_div = soup.find('div', id='availability')
                         if availability_div:
-                            print("[DEBUG] Found availability div")
                             
                             # Try to find rows through multiple paths
                             rows = []
@@ -208,30 +206,20 @@ async def extract_property_urls():
                             # Find all action arrow cells with the specific SVG pattern
                             action_cells = availability_div.find_all('div', {'class': 'action-arrow'})
                             if action_cells:
-                                print(f"[DEBUG] Found {len(action_cells)} potential action arrows")
                                 for cell in action_cells:
                                     # Check for SVG with specific path pattern
                                     svg = cell.find('svg', {'class': 'MuiSvgIcon-root MuiSvgIcon-colorPrimary'})
                                     if svg:
                                         # Look for the path with the specific coordinates
                                         paths = svg.find_all('path')
-                                        print(f"[DEBUG] Found {len(paths)} paths in SVG")
                                         for path in paths:
                                             d_attr = path.get('d', '')
-                                            print(f"[DEBUG] Checking path with d={d_attr}")
                                             if any(coord in d_attr for coord in ['14.9848 6.84933', 'M14.9848 6.84933']):
-                                                print("[DEBUG] Found matching path!")
                                                 parent_row = cell.find_parent('div', {'role': 'row', 'class': lambda x: x and 'MuiDataGrid-row' in x})
                                                 if parent_row:
-                                                    print("[DEBUG] Found parent row")
                                                     if parent_row not in rows:
                                                         rows.append(parent_row)
-                                                        print(f"[DEBUG] Added row {len(rows)}")
-                                                    else:
-                                                        print("[DEBUG] Row already added")
-                                                else:
-                                                    print("[DEBUG] No parent row found")
-                                print(f"[DEBUG] Found {len(rows)} valid rows with red arrows")
+                                                    
                             
                             if rows:
                                 for row in rows:
@@ -246,12 +234,10 @@ async def extract_property_urls():
                                         else:
                                             # Fallback to any text content in the cell
                                             floor_text = floor_cell.get_text(strip=True)
-                                        print(f"[DEBUG] Found floor cell: {floor_text}")
                                     
                                     # Find space cell using data-field="size"
                                     space_cell = row.find('div', {'data-field': 'size'})
                                     row_space_text = space_cell.get_text(strip=True) if space_cell else None
-                                    print(f"[DEBUG] Found space cell: {row_space_text}")
                                     
                                     if floor_text and row_space_text:
                                         unit = {
@@ -264,9 +250,7 @@ async def extract_property_urls():
                                             "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
                                         }
                                         units.append(unit)
-                                        print(f"[DEBUG] Added unit: {floor_text} - {row_space_text}")
                             else:
-                                print("[DEBUG] No rows with red arrows found, using top-level space info")
                                 # Create a single entry with N/A for floor_suite
                                 unit = {
                                     "property_name": property_name,
@@ -278,9 +262,7 @@ async def extract_property_urls():
                                     "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
                                 }
                                 units.append(unit)
-                                print(f"[DEBUG] Added single unit with space: {space_text}")
                         else:
-                            print("[DEBUG] No availability div found, using top-level space info")
                             # Create a single entry with N/A for floor_suite
                             unit = {
                                 "property_name": property_name,
@@ -292,7 +274,6 @@ async def extract_property_urls():
                                 "updated_at": arrow.now().format('h:mm:ssA M/D/YY')
                             }
                             units.append(unit)
-                            print(f"[DEBUG] Added single unit with space: {space_text}")
                         
                         # Add all extracted units to the main list
                         if units:
