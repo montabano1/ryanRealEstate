@@ -12,7 +12,7 @@ async def extract_property_urls():
         print(f"\n[{step_name}] Time elapsed: {elapsed}")
     
     browser_config = BrowserConfig(
-        headless=True,
+        headless=False,
         verbose=True,
         ignore_https_errors=True,  # Handle HTTPS errors
         extra_args=['--disable-web-security'],  # Disable CORS checks
@@ -28,7 +28,7 @@ async def extract_property_urls():
         """
     
     js_next_page = """
-        const selector = 'li.cbre-c-pl-pager__next';
+        const selector = 'span.coveo-accessible-button';
         const button = document.querySelector(selector);
         if (button) {
             console.log('found button')
@@ -37,6 +37,7 @@ async def extract_property_urls():
             console.log('no button')
             return False    
         };
+        await new Promise(r => setTimeout(r, 3000));
         """
     
 
@@ -45,8 +46,8 @@ async def extract_property_urls():
         try:
             print("\nStarting property URL extraction...")
             
-            session_id = "monte"
-            current_url = 'https://www.cbre.com/properties/properties-for-lease/commercial-space?sort=lastupdated%2Bdescending&propertytype=Office&transactiontype=isLetting&initialpolygon=%5B%5B67.12117833969766%2C-28.993985994685787%5D%2C%5B-26.464978515643416%2C-141.84554849468577%5D%5D'
+            session_id = "monte_cushmanwakefield"
+            current_url = 'https://www.cushmanwakefield.com/en/united-states/properties/lease/lease-property-search#sort=%40propertylastupdateddate%20descending&f:PropertyType=[Office]&f:Country=[United%20States]'
 
             # Step 2: Extract URLs using BeautifulSoup
             print("Extracting property URLs...")
@@ -61,6 +62,7 @@ async def extract_property_urls():
                 page_timeout=60000,
                 simulate_user=True,
                 override_navigator=True,
+                remove_overlay_elements=True,
                 magic=True
             )
             result1 = await crawler.arun(
@@ -70,20 +72,20 @@ async def extract_property_urls():
             )
             
             soup = BeautifulSoup(result1.cleaned_html, 'html.parser')
-            property_links = soup.find_all('a', href=lambda x: x and 'US-SMPL' in x)
-            current_page_urls = {f'https://www.cbre.com{link["href"]}' for link in property_links}
+            property_links = soup.find_all('a', href=lambda x: x and 'properties/for-lease/office' in x)
+            current_page_urls = {f'{link["href"]}' for link in property_links}
             all_property_urls.update(current_page_urls)
             print(f"Found {len(current_page_urls)} property URLs on page 1")
             
-            page_num = 2
+            page_num = 1
             while True:
                 # Store the current page URLs to compare with next page
                 last_page_urls = current_page_urls
                 
                 config_next = CrawlerRunConfig(
-                    session_id=session_id,
-                    js_code=js_next_page,
-                    js_only=True,      
+                    # session_id=session_id,
+                    # js_code=js_wait,
+                    # js_only=True,      
                     wait_for="""js:() => {
                         return document.querySelectorAll('div.CoveoResult').length > 1;
                     }""",
@@ -94,22 +96,22 @@ async def extract_property_urls():
                     magic=True
                 )
                 result2 = await crawler.arun(
-                    url=current_url,
+                    url=f'https://www.cushmanwakefield.com/en/united-states/properties/lease/lease-property-search#first={page_num * 12}&sort=%40propertylastupdateddate%20ascending&f:PropertyType=[Office]&f:Country=[United%20States]',
                     config=config_next,
-                    session_id=session_id
+                    # session_id=session_id
                 )
                 
                 soup = BeautifulSoup(result2.html, 'html.parser')
-                property_links = soup.find_all('a', href=lambda x: x and 'US-SMPL' in x)
-                current_page_urls = {f'https://www.cbre.com{link["href"]}' for link in property_links}
+                property_links = soup.find_all('a', href=lambda x: x and 'properties/for-lease/office' in x)
+                current_page_urls = {f'{link["href"]}' for link in property_links}
                 
                 all_property_urls.update(current_page_urls)
                 print(f"Found {len(current_page_urls)} property URLs on page {page_num}")
                 print(f"Total unique URLs so far: {len(all_property_urls)}")
                 page_num += 1
                 # Check if the next button is disabled
-                next_button = soup.select_one('li.cbre-c-pl-pager__next')
-                if next_button and 'cbre-c-pl-pager__disabled' in next_button.get('class', []):
+                next_button = soup.select_one('span.coveo-accessible-button')
+                if next_button and 'coveo-pager__disabled' in next_button.get('class', []):
                     print("Next button is disabled - reached end of pagination")
                     break
             
@@ -123,7 +125,6 @@ async def extract_property_urls():
             log_time("URL Collection Complete")
             for link in all_property_urls:
                 print(link)
-            
             # Create a run config for property details extraction with streaming enabled
             run_config = CrawlerRunConfig(
                 cache_mode=CacheMode.BYPASS,
